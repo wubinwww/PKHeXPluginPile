@@ -5,20 +5,21 @@ namespace PluginPile.Unmaintained.SwShEventEditor;
 public partial class RegiForm : Form {
 
   private readonly SAV8SWSH SAV;
-  public RegiForm(SAV8SWSH sav) {
+  public RegiForm(SAV8SWSH sav)
+  {
     SAV = sav;
     InitializeComponent();
   }
 
   private void RegiForm_Load(object sender, EventArgs e) {
     //Check Regi values
-    for (int i = 0; i < Definitions.RegisKeys.Count - 2; i++) { //-2 so we do all of them except for Regieleki and regidrago
-      regi_clistbox.SetItemChecked(i, SAV.Blocks.GetBlock(Definitions.RegisKeys.ElementAt(i).Value).GetBooleanValue());
+    for (int i = 0; i < Definitions.memkeys_Regis.Count - 2; i++) { //-2 so we do all of them except for Regieleki and regidrago
+      regi_clistbox.SetItemChecked(i, SAV.Blocks.GetBlock(Definitions.memkeys_Regis.ElementAt(i).Value).GetBooleanValue());
     }
     legailty_CB.Checked = true;
 
-    SCBlock eleki = SAV.Blocks.GetBlock(Definitions.RegisKeys[Species.Regieleki]);
-    SCBlock drago = SAV.Blocks.GetBlock(Definitions.RegisKeys[Species.Regidrago]);
+    SCBlock eleki = SAV.Blocks.GetBlock(Definitions.memkeys_Regis[Species.Regieleki]);
+    SCBlock drago = SAV.Blocks.GetBlock(Definitions.memkeys_Regis[Species.Regidrago]);
     SCBlock pattern = SAV.Blocks.GetBlock(Definitions.KRegielekiOrRegidragoPattern);
 
     if (eleki.GetBooleanValue()) {
@@ -45,8 +46,8 @@ public partial class RegiForm : Form {
 
   void CheckLegality() {
     if (CheckElekiLegal() || CheckDragoLegal() || CheckNeitherLegal())
-      legalLBL.Text = "Legal Status: Legal";
-    else legalLBL.Text = "Legal Status: Potentially Illegal";
+      legalLBL.Text = "合法性:合法";
+    else legalLBL.Text = "合法性:可能非法";
   }
 
   bool CheckNeitherLegal() {
@@ -84,7 +85,7 @@ public partial class RegiForm : Form {
   }
 
   DialogResult ShowPatternMisMatchMSG() {
-    return MessageBox.Show($"Discrepancy detected with the Regi received and the pattern required for it.\nDo you wish to autocorrect this?", "Error", MessageBoxButtons.YesNo);
+    return MessageBox.Show($"检测到与收到的雷吉及其所需模式的差异.\n你想自动更正吗?", "错误", MessageBoxButtons.YesNo);
   }
 
   private void regiother_patrBTN_CheckedChanged(object sender, EventArgs e) {
@@ -132,12 +133,12 @@ public partial class RegiForm : Form {
   }
 
   private void applyBTN_Click(object sender, EventArgs e) {
-    for (int i = 0; i < Definitions.RegisKeys.Count - 2; i++) { //do all except for eleki and drago
-      SAV.Blocks.GetBlock(Definitions.RegisKeys.ElementAt(i).Value).ChangeBooleanValue(regi_clistbox.GetItemChecked(i));
+    for (int i = 0; i < Definitions.memkeys_Regis.Count - 2; i++) { //do all except for eleki and drago
+      SAV.Blocks.GetBlock(Definitions.memkeys_Regis.ElementAt(i).Value).ChangeBooleanValue(regi_clistbox.GetItemChecked(i));
     }
 
-    SAV.Blocks.GetBlock(Definitions.RegisKeys[Species.Regieleki]).ChangeBooleanValue(regieleki_RBTN.Checked);
-    SAV.Blocks.GetBlock(Definitions.RegisKeys[Species.Regidrago]).ChangeBooleanValue(regidrago_RBTN.Checked);
+    SAV.Blocks.GetBlock(Definitions.memkeys_Regis[Species.Regieleki]).ChangeBooleanValue(regieleki_RBTN.Checked);
+    SAV.Blocks.GetBlock(Definitions.memkeys_Regis[Species.Regidrago]).ChangeBooleanValue(regidrago_RBTN.Checked);
 
     if (regieleki_patrBTN.Checked) SAV.Blocks.GetBlock(Definitions.KRegielekiOrRegidragoPattern).SetValue((uint)1);
     else if (regidrago_patrBTN.Checked) SAV.Blocks.GetBlock(Definitions.KRegielekiOrRegidragoPattern).SetValue((uint)2);

@@ -48,7 +48,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor.Controls {
             this.open_wondercard_BTN.Name = "open_wondercard_BTN";
             this.open_wondercard_BTN.Size = new System.Drawing.Size(136, 32);
             this.open_wondercard_BTN.TabIndex = 1;
-            this.open_wondercard_BTN.Text = "Open Wondercard(s) File";
+            this.open_wondercard_BTN.Text = "打开 Wondercard(s) 文件";
             this.open_wondercard_BTN.UseVisualStyleBackColor = true;
             this.open_wondercard_BTN.Click += new System.EventHandler(this.open_wondercard_BTN_Click);
             //
@@ -60,7 +60,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor.Controls {
             this.clearlist_BTN.Name = "clearlist_BTN";
             this.clearlist_BTN.Size = new System.Drawing.Size(136, 32);
             this.clearlist_BTN.TabIndex = 2;
-            this.clearlist_BTN.Text = "Clear List";
+            this.clearlist_BTN.Text = "清除列表";
             this.clearlist_BTN.UseVisualStyleBackColor = true;
             this.clearlist_BTN.Click += new System.EventHandler(this.clearlist_BTN_Click);
             //
@@ -72,7 +72,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor.Controls {
             this.delete_BTN.Name = "delete_BTN";
             this.delete_BTN.Size = new System.Drawing.Size(136, 32);
             this.delete_BTN.TabIndex = 3;
-            this.delete_BTN.Text = "Delete Selected";
+            this.delete_BTN.Text = "删除所选";
             this.delete_BTN.UseVisualStyleBackColor = true;
             this.delete_BTN.Click += new System.EventHandler(this.delete_BTN_Click);
             //

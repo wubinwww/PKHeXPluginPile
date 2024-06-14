@@ -47,10 +47,10 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       tableDisappeared = new CheckBox();
       ioaWattDonationProgress = new ComboBox();
       ioaWattDonationProgressLabel = new Label();
-      pokemonBaseUC7 = new Controls.PokemonBaseUC();
+      armor_gift_squirtle_PB = new Controls.PokemonBaseUC();
       ioaWattDonationTotalLabel = new Label();
       ioaWattDonationTotal = new NumericUpDown();
-      pokemonBaseUC8 = new Controls.PokemonBaseUC();
+      armor_gift_bulbasaur_PB = new Controls.PokemonBaseUC();
       ctPage = new TabPage();
       ct_gift_poipole_PB = new Controls.PokemonBaseUC();
       spiritombGroup = new GroupBox();
@@ -107,7 +107,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       mainPage.Padding = new Padding(4, 3, 4, 3);
       mainPage.Size = new Size(925, 466);
       mainPage.TabIndex = 0;
-      mainPage.Text = "Main Game";
+      mainPage.Text = "主游戏";
       //
       // championGiftsGroup
       //
@@ -120,7 +120,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       championGiftsGroup.Size = new Size(186, 231);
       championGiftsGroup.TabIndex = 25;
       championGiftsGroup.TabStop = false;
-      championGiftsGroup.Text = "Champion Gifts";
+      championGiftsGroup.Text = "冠军礼物";
       //
       // main_gift_gcharmander_PB
       //
@@ -133,11 +133,11 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       main_gift_gcharmander_PB.MinimumSize = new Size(158, 83);
       main_gift_gcharmander_PB.Name = "main_gift_gcharmander_PB";
       main_gift_gcharmander_PB.Pokemon = 4;
-      main_gift_gcharmander_PB.PokemonName = "Gigantmax Charmander Gift";
+      main_gift_gcharmander_PB.PokemonName = "超极巨小火龙 礼物";
       main_gift_gcharmander_PB.PokemonSubform = "";
       main_gift_gcharmander_PB.Size = new Size(158, 83);
       main_gift_gcharmander_PB.TabIndex = 21;
-      main_gift_gcharmander_PB.ToolTip = "Player must be champion";
+      main_gift_gcharmander_PB.ToolTip = "玩家必须是冠军";
       //
       // main_gift_typenull_PB
       //
@@ -150,11 +150,11 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       main_gift_typenull_PB.MinimumSize = new Size(152, 83);
       main_gift_typenull_PB.Name = "main_gift_typenull_PB";
       main_gift_typenull_PB.Pokemon = 772;
-      main_gift_typenull_PB.PokemonName = "Type:Null Gift";
+      main_gift_typenull_PB.PokemonName = "属性：空 礼物";
       main_gift_typenull_PB.PokemonSubform = "";
       main_gift_typenull_PB.Size = new Size(152, 83);
       main_gift_typenull_PB.TabIndex = 23;
-      main_gift_typenull_PB.ToolTip = "Player must be champion";
+      main_gift_typenull_PB.ToolTip = "玩家必须是冠军";
       //
       // main_gift_toxel_PB
       //
@@ -167,7 +167,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       main_gift_toxel_PB.MinimumSize = new Size(152, 83);
       main_gift_toxel_PB.Name = "main_gift_toxel_PB";
       main_gift_toxel_PB.Pokemon = 848;
-      main_gift_toxel_PB.PokemonName = "Toxel Gift";
+      main_gift_toxel_PB.PokemonName = "毒电婴 礼物";
       main_gift_toxel_PB.PokemonSubform = "";
       main_gift_toxel_PB.Size = new Size(152, 83);
       main_gift_toxel_PB.TabIndex = 24;
@@ -187,7 +187,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       letsGoGroup.Size = new Size(280, 231);
       letsGoGroup.TabIndex = 19;
       letsGoGroup.TabStop = false;
-      letsGoGroup.Text = "Let's Go Gifts";
+      letsGoGroup.Text = "Let\'s Go 礼物";
       //
       // main_eevee_save_data_CB
       //
@@ -197,7 +197,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       main_eevee_save_data_CB.Name = "main_eevee_save_data_CB";
       main_eevee_save_data_CB.Size = new Size(155, 19);
       main_eevee_save_data_CB.TabIndex = 17;
-      main_eevee_save_data_CB.Text = "Let's Go Eevee Save Data";
+      main_eevee_save_data_CB.Text = "Let's Go 伊布保存数据";
       main_eevee_save_data_CB.UseVisualStyleBackColor = true;
       main_eevee_save_data_CB.CheckedChanged += main_eevee_save_data_CB_CheckedChanged;
       //
@@ -209,7 +209,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       main_letsgo_forcelegal_CB.Name = "main_letsgo_forcelegal_CB";
       main_letsgo_forcelegal_CB.Size = new Size(169, 19);
       main_letsgo_forcelegal_CB.TabIndex = 18;
-      main_letsgo_forcelegal_CB.Text = "Show Legalility Corrections";
+      main_letsgo_forcelegal_CB.Text = "显示合法性纠正";
       main_letsgo_forcelegal_CB.UseVisualStyleBackColor = true;
       main_letsgo_forcelegal_CB.CheckedChanged += main_letsgo_forcelegal_CB_CheckedChanged;
       //
@@ -224,7 +224,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       main_geevee_PB.MinimumSize = new Size(152, 83);
       main_geevee_PB.Name = "main_geevee_PB";
       main_geevee_PB.Pokemon = 133;
-      main_geevee_PB.PokemonName = "Gigantmax Eevee Gift";
+      main_geevee_PB.PokemonName = "超极巨伊布 礼物";
       main_geevee_PB.PokemonSubform = "gmax";
       main_geevee_PB.Size = new Size(152, 83);
       main_geevee_PB.TabIndex = 15;
@@ -240,7 +240,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       main_pikachu_save_data_CB.Name = "main_pikachu_save_data_CB";
       main_pikachu_save_data_CB.Size = new Size(167, 19);
       main_pikachu_save_data_CB.TabIndex = 16;
-      main_pikachu_save_data_CB.Text = "Let's Go Pikachu Save Data";
+      main_pikachu_save_data_CB.Text = "Let's Go皮卡丘保存数据";
       main_pikachu_save_data_CB.UseVisualStyleBackColor = true;
       main_pikachu_save_data_CB.CheckedChanged += main_pikachu_save_data_CB_CheckedChanged;
       //
@@ -255,7 +255,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       main_gpikachu_PB.MinimumSize = new Size(152, 83);
       main_gpikachu_PB.Name = "main_gpikachu_PB";
       main_gpikachu_PB.Pokemon = 25;
-      main_gpikachu_PB.PokemonName = "Gigantmax Pikachu Gift";
+      main_gpikachu_PB.PokemonName = "超极巨皮卡丘 礼物";
       main_gpikachu_PB.PokemonSubform = "gmax";
       main_gpikachu_PB.Size = new Size(152, 83);
       main_gpikachu_PB.TabIndex = 14;
@@ -273,7 +273,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ioaPage.Padding = new Padding(4, 3, 4, 3);
       ioaPage.Size = new Size(925, 466);
       ioaPage.TabIndex = 1;
-      ioaPage.Text = "Isle of Armor";
+      ioaPage.Text = "铠之孤岛";
       //
       // dojoGroup
       //
@@ -287,10 +287,10 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       dojoGroup.Controls.Add(tableDisappeared);
       dojoGroup.Controls.Add(ioaWattDonationProgress);
       dojoGroup.Controls.Add(ioaWattDonationProgressLabel);
-      dojoGroup.Controls.Add(pokemonBaseUC7);
+      dojoGroup.Controls.Add(armor_gift_squirtle_PB);
       dojoGroup.Controls.Add(ioaWattDonationTotalLabel);
       dojoGroup.Controls.Add(ioaWattDonationTotal);
-      dojoGroup.Controls.Add(pokemonBaseUC8);
+      dojoGroup.Controls.Add(armor_gift_bulbasaur_PB);
       dojoGroup.Location = new Point(9, 7);
       dojoGroup.Margin = new Padding(4, 3, 4, 3);
       dojoGroup.Name = "dojoGroup";
@@ -298,7 +298,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       dojoGroup.Size = new Size(571, 336);
       dojoGroup.TabIndex = 13;
       dojoGroup.TabStop = false;
-      dojoGroup.Text = "Dojo";
+      dojoGroup.Text = "武馆";
       //
       // battledHoneyToday
       //
@@ -307,7 +307,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       battledHoneyToday.Name = "battledHoneyToday";
       battledHoneyToday.Size = new Size(135, 19);
       battledHoneyToday.TabIndex = 14;
-      battledHoneyToday.Text = "Battled Honey Today";
+      battledHoneyToday.Text = "今天已与蜜叶对战";
       battledHoneyToday.UseVisualStyleBackColor = true;
       //
       // canBattleHoney
@@ -317,7 +317,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       canBattleHoney.Name = "canBattleHoney";
       canBattleHoney.Size = new Size(118, 19);
       canBattleHoney.TabIndex = 32;
-      canBattleHoney.Text = "Can Battle Honey";
+      canBattleHoney.Text = "可与蜜叶对战";
       canBattleHoney.UseVisualStyleBackColor = true;
       //
       // vitaminsVendingMachineDisppeared
@@ -327,7 +327,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       vitaminsVendingMachineDisappeared.Name = "vitaminsVendingMachineDisppeared";
       vitaminsVendingMachineDisappeared.Size = new Size(241, 19);
       vitaminsVendingMachineDisappeared.TabIndex = 31;
-      vitaminsVendingMachineDisappeared.Text = "Vitamins Vending Machine Disappaeared";
+      vitaminsVendingMachineDisappeared.Text = "自动贩卖机未收纳增强剂";
       vitaminsVendingMachineDisappeared.UseVisualStyleBackColor = true;
       //
       // drinksVendingMachineDisppeared
@@ -337,7 +337,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       drinksVendingMachineDisappeared.Name = "drinksVendingMachineDisppeared";
       drinksVendingMachineDisappeared.Size = new Size(228, 19);
       drinksVendingMachineDisappeared.TabIndex = 30;
-      drinksVendingMachineDisappeared.Text = "Drinks Vending Machine Disappaeared";
+      drinksVendingMachineDisappeared.Text = "未安装自动贩卖机";
       drinksVendingMachineDisappeared.UseVisualStyleBackColor = true;
       //
       // fixedRotomiDisappeared
@@ -347,7 +347,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       fixedRotomiDisappeared.Name = "fixedRotomiDisappeared";
       fixedRotomiDisappeared.Size = new Size(133, 19);
       fixedRotomiDisappeared.TabIndex = 28;
-      fixedRotomiDisappeared.Text = "Rotomi Disappeared";
+      fixedRotomiDisappeared.Text = "未安装洛托米功能";
       fixedRotomiDisappeared.UseVisualStyleBackColor = true;
       //
       // brokenRotomiDisappared
@@ -357,7 +357,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       brokenRotomiDisappared.Name = "brokenRotomiDisappared";
       brokenRotomiDisappared.Size = new Size(173, 19);
       brokenRotomiDisappared.TabIndex = 27;
-      brokenRotomiDisappared.Text = "Broken Rotomi Disappeared";
+      brokenRotomiDisappared.Text = "未安装损坏的洛托米";
       brokenRotomiDisappared.UseVisualStyleBackColor = true;
       //
       // hairStylistAvailable
@@ -367,7 +367,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       hairStylistAvailable.Name = "hairStylistAvailable";
       hairStylistAvailable.Size = new Size(133, 19);
       hairStylistAvailable.TabIndex = 26;
-      hairStylistAvailable.Text = "Hair Stylist Available";
+      hairStylistAvailable.Text = "可改变发型";
       hairStylistAvailable.UseVisualStyleBackColor = true;
       //
       // tableDisappeared
@@ -377,7 +377,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       tableDisappeared.Name = "tableDisappeared";
       tableDisappeared.Size = new Size(121, 19);
       tableDisappeared.TabIndex = 29;
-      tableDisappeared.Text = "Table Disappeared";
+      tableDisappeared.Text = "桌子消失了";
       tableDisappeared.UseVisualStyleBackColor = true;
       //
       // ioaWattDonationProgress
@@ -395,24 +395,24 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ioaWattDonationProgressLabel.Name = "ioaWattDonationProgressLabel";
       ioaWattDonationProgressLabel.Size = new Size(132, 15);
       ioaWattDonationProgressLabel.TabIndex = 14;
-      ioaWattDonationProgressLabel.Text = "Watt Donation Progress";
+      ioaWattDonationProgressLabel.Text = "瓦特捐赠进度";
       //
-      // pokemonBaseUC7
+      // armor_gift_squirtle_PB
       //
-      pokemonBaseUC7.Caught = false;
-      pokemonBaseUC7.DrawDynaxMaxIcon = true;
-      pokemonBaseUC7.Legalility = SwShEventEditor.Controls.PokemonRenderUC.LegalStatus.Illegal;
-      pokemonBaseUC7.Location = new Point(7, 112);
-      pokemonBaseUC7.Margin = new Padding(5, 3, 5, 3);
-      pokemonBaseUC7.MaximumSize = new Size(152, 83);
-      pokemonBaseUC7.MinimumSize = new Size(152, 83);
-      pokemonBaseUC7.Name = "pokemonBaseUC7";
-      pokemonBaseUC7.Pokemon = 7;
-      pokemonBaseUC7.PokemonName = "Gigantmax Bulbasaur Gift";
-      pokemonBaseUC7.PokemonSubform = "";
-      pokemonBaseUC7.Size = new Size(152, 83);
-      pokemonBaseUC7.TabIndex = 24;
-      pokemonBaseUC7.ToolTip = "";
+      armor_gift_squirtle_PB.Caught = false;
+      armor_gift_squirtle_PB.DrawDynaxMaxIcon = true;
+      armor_gift_squirtle_PB.Legalility = SwShEventEditor.Controls.PokemonRenderUC.LegalStatus.Legal;
+      armor_gift_squirtle_PB.Location = new Point(7, 112);
+      armor_gift_squirtle_PB.Margin = new Padding(5, 3, 5, 3);
+      armor_gift_squirtle_PB.MaximumSize = new Size(152, 83);
+      armor_gift_squirtle_PB.MinimumSize = new Size(152, 83);
+      armor_gift_squirtle_PB.Name = "armor_gift_squirtle_PB";
+      armor_gift_squirtle_PB.Pokemon = 7;
+      armor_gift_squirtle_PB.PokemonName = "超极巨杰尼龟 礼物";
+      armor_gift_squirtle_PB.PokemonSubform = "";
+      armor_gift_squirtle_PB.Size = new Size(152, 83);
+      armor_gift_squirtle_PB.TabIndex = 24;
+      armor_gift_squirtle_PB.ToolTip = "";
       //
       // ioaWattDonationTotalLabel
       //
@@ -422,7 +422,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ioaWattDonationTotalLabel.Name = "ioaWattDonationTotalLabel";
       ioaWattDonationTotalLabel.Size = new Size(84, 15);
       ioaWattDonationTotalLabel.TabIndex = 11;
-      ioaWattDonationTotalLabel.Text = "Watt Donation";
+      ioaWattDonationTotalLabel.Text = "瓦特捐赠数量";
       //
       // ioaWattDonationTotal
       //
@@ -433,22 +433,22 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ioaWattDonationTotal.Size = new Size(130, 23);
       ioaWattDonationTotal.TabIndex = 12;
       //
-      // pokemonBaseUC8
+      // armor_gift_bulbasaur_PB
       //
-      pokemonBaseUC8.Caught = false;
-      pokemonBaseUC8.DrawDynaxMaxIcon = true;
-      pokemonBaseUC8.Legalility = SwShEventEditor.Controls.PokemonRenderUC.LegalStatus.Illegal;
-      pokemonBaseUC8.Location = new Point(7, 22);
-      pokemonBaseUC8.Margin = new Padding(5, 3, 5, 3);
-      pokemonBaseUC8.MaximumSize = new Size(152, 83);
-      pokemonBaseUC8.MinimumSize = new Size(152, 83);
-      pokemonBaseUC8.Name = "pokemonBaseUC8";
-      pokemonBaseUC8.Pokemon = 1;
-      pokemonBaseUC8.PokemonName = "Gigantmax Bulbasaur Gift";
-      pokemonBaseUC8.PokemonSubform = "";
-      pokemonBaseUC8.Size = new Size(152, 83);
-      pokemonBaseUC8.TabIndex = 23;
-      pokemonBaseUC8.ToolTip = "";
+      armor_gift_bulbasaur_PB.Caught = false;
+      armor_gift_bulbasaur_PB.DrawDynaxMaxIcon = true;
+      armor_gift_bulbasaur_PB.Legalility = SwShEventEditor.Controls.PokemonRenderUC.LegalStatus.Legal;
+      armor_gift_bulbasaur_PB.Location = new Point(7, 22);
+      armor_gift_bulbasaur_PB.Margin = new Padding(5, 3, 5, 3);
+      armor_gift_bulbasaur_PB.MaximumSize = new Size(152, 83);
+      armor_gift_bulbasaur_PB.MinimumSize = new Size(152, 83);
+      armor_gift_bulbasaur_PB.Name = "armor_gift_bulbasaur_PB";
+      armor_gift_bulbasaur_PB.Pokemon = 1;
+      armor_gift_bulbasaur_PB.PokemonName = "超极巨妙蛙种子 礼物";
+      armor_gift_bulbasaur_PB.PokemonSubform = "";
+      armor_gift_bulbasaur_PB.Size = new Size(152, 83);
+      armor_gift_bulbasaur_PB.TabIndex = 23;
+      armor_gift_bulbasaur_PB.ToolTip = "";
       //
       // ctPage
       //
@@ -463,7 +463,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ctPage.Padding = new Padding(4, 3, 4, 3);
       ctPage.Size = new Size(925, 466);
       ctPage.TabIndex = 2;
-      ctPage.Text = "Crown Tundra";
+      ctPage.Text = "王冠雪原";
       //
       // ct_gift_poipole_PB
       //
@@ -476,7 +476,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_gift_poipole_PB.MinimumSize = new Size(152, 83);
       ct_gift_poipole_PB.Name = "ct_gift_poipole_PB";
       ct_gift_poipole_PB.Pokemon = 803;
-      ct_gift_poipole_PB.PokemonName = "Poipole Gift";
+      ct_gift_poipole_PB.PokemonName = "毒贝比 礼物";
       ct_gift_poipole_PB.PokemonSubform = "";
       ct_gift_poipole_PB.Size = new Size(152, 83);
       ct_gift_poipole_PB.TabIndex = 10;
@@ -496,7 +496,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       spiritombGroup.Size = new Size(233, 190);
       spiritombGroup.TabIndex = 9;
       spiritombGroup.TabStop = false;
-      spiritombGroup.Text = "Spiritomb Values";
+      spiritombGroup.Text = "花岩怪标准";
       //
       // ct_spiritomb_forcelegal_CB
       //
@@ -506,7 +506,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_spiritomb_forcelegal_CB.Name = "ct_spiritomb_forcelegal_CB";
       ct_spiritomb_forcelegal_CB.Size = new Size(169, 19);
       ct_spiritomb_forcelegal_CB.TabIndex = 10;
-      ct_spiritomb_forcelegal_CB.Text = "Show Legalility Corrections";
+      ct_spiritomb_forcelegal_CB.Text = "显示合法性纠正";
       ct_spiritomb_forcelegal_CB.UseVisualStyleBackColor = true;
       ct_spiritomb_forcelegal_CB.CheckedChanged += ct_spiritomb_forcelegal_CB_CheckedChanged;
       //
@@ -518,7 +518,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       playersInteractedLabel.Name = "playersInteractedLabel";
       playersInteractedLabel.Size = new Size(126, 15);
       playersInteractedLabel.TabIndex = 10;
-      playersInteractedLabel.Text = "Players Interacted with";
+      playersInteractedLabel.Text = "互动过的玩家";
       //
       // ct_spiritomb_players_NUD
       //
@@ -538,7 +538,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_spiritomb_visible_CB.Name = "ct_spiritomb_visible_CB";
       ct_spiritomb_visible_CB.Size = new Size(60, 19);
       ct_spiritomb_visible_CB.TabIndex = 9;
-      ct_spiritomb_visible_CB.Text = "Visible";
+      ct_spiritomb_visible_CB.Text = "可见";
       ct_spiritomb_visible_CB.UseVisualStyleBackColor = true;
       ct_spiritomb_visible_CB.CheckedChanged += ct_spiritomb_visible_CB_CheckedChanged;
       //
@@ -553,7 +553,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_spiritomb_PB.MinimumSize = new Size(152, 83);
       ct_spiritomb_PB.Name = "ct_spiritomb_PB";
       ct_spiritomb_PB.Pokemon = 442;
-      ct_spiritomb_PB.PokemonName = "Spiritomb";
+      ct_spiritomb_PB.PokemonName = "花岩怪";
       ct_spiritomb_PB.PokemonSubform = "";
       ct_spiritomb_PB.Size = new Size(152, 83);
       ct_spiritomb_PB.TabIndex = 8;
@@ -575,7 +575,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       galarianBirdsGroup.Size = new Size(288, 295);
       galarianBirdsGroup.TabIndex = 4;
       galarianBirdsGroup.TabStop = false;
-      galarianBirdsGroup.Text = "Galarian Birds";
+      galarianBirdsGroup.Text = "伽勒尔形态";
       //
       // ct_gmoltres_PB
       //
@@ -588,7 +588,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_gmoltres_PB.MinimumSize = new Size(152, 83);
       ct_gmoltres_PB.Name = "ct_gmoltres_PB";
       ct_gmoltres_PB.Pokemon = 146;
-      ct_gmoltres_PB.PokemonName = "Galarian Moltres";
+      ct_gmoltres_PB.PokemonName = "伽勒尔火焰鸟";
       ct_gmoltres_PB.PokemonSubform = "1";
       ct_gmoltres_PB.Size = new Size(152, 83);
       ct_gmoltres_PB.TabIndex = 7;
@@ -601,7 +601,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_birds_uncaughtBTN.Name = "ct_birds_uncaughtBTN";
       ct_birds_uncaughtBTN.Size = new Size(115, 37);
       ct_birds_uncaughtBTN.TabIndex = 6;
-      ct_birds_uncaughtBTN.Text = "Un-Caught All";
+      ct_birds_uncaughtBTN.Text = "未全部捕获";
       ct_birds_uncaughtBTN.UseVisualStyleBackColor = true;
       ct_birds_uncaughtBTN.Click += ct_birds_uncaughtBTN_Click;
       //
@@ -612,7 +612,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_birds_caughtBTN.Name = "ct_birds_caughtBTN";
       ct_birds_caughtBTN.Size = new Size(115, 37);
       ct_birds_caughtBTN.TabIndex = 5;
-      ct_birds_caughtBTN.Text = "Caught All";
+      ct_birds_caughtBTN.Text = "全部捕获";
       ct_birds_caughtBTN.UseVisualStyleBackColor = true;
       ct_birds_caughtBTN.Click += ct_birds_caughtBTN_Click;
       //
@@ -627,7 +627,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_gzapdos_PB.MinimumSize = new Size(152, 83);
       ct_gzapdos_PB.Name = "ct_gzapdos_PB";
       ct_gzapdos_PB.Pokemon = 145;
-      ct_gzapdos_PB.PokemonName = "Galarian Zapdos";
+      ct_gzapdos_PB.PokemonName = "伽勒尔闪电鸟";
       ct_gzapdos_PB.PokemonSubform = "1";
       ct_gzapdos_PB.Size = new Size(152, 83);
       ct_gzapdos_PB.TabIndex = 6;
@@ -644,7 +644,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_garticuno_PB.MinimumSize = new Size(152, 83);
       ct_garticuno_PB.Name = "ct_garticuno_PB";
       ct_garticuno_PB.Pokemon = 144;
-      ct_garticuno_PB.PokemonName = "Galarian Articuno";
+      ct_garticuno_PB.PokemonName = "伽勒尔急冻鸟";
       ct_garticuno_PB.PokemonSubform = "1";
       ct_garticuno_PB.Size = new Size(152, 83);
       ct_garticuno_PB.TabIndex = 5;
@@ -661,7 +661,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ct_giftcosmog_PB.MinimumSize = new Size(152, 83);
       ct_giftcosmog_PB.Name = "ct_giftcosmog_PB";
       ct_giftcosmog_PB.Pokemon = 789;
-      ct_giftcosmog_PB.PokemonName = "Cosmog (Fwoofy) Gift";
+      ct_giftcosmog_PB.PokemonName = "科斯莫古 礼物";
       ct_giftcosmog_PB.PokemonSubform = "";
       ct_giftcosmog_PB.Size = new Size(152, 83);
       ct_giftcosmog_PB.TabIndex = 6;
@@ -674,7 +674,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       toolStrip1.Name = "toolStrip1";
       toolStrip1.Size = new Size(933, 25);
       toolStrip1.TabIndex = 1;
-      toolStrip1.Text = "toolStrip1";
+      toolStrip1.Text = "工具栏1";
       //
       // ts_applyBTN
       //
@@ -682,7 +682,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       ts_applyBTN.ImageTransparentColor = Color.Magenta;
       ts_applyBTN.Name = "ts_applyBTN";
       ts_applyBTN.Size = new Size(93, 22);
-      ts_applyBTN.Text = "Apply Selection";
+      ts_applyBTN.Text = "应用所选内容";
       ts_applyBTN.Click += ts_applyBTN_Click;
       //
       // WorldEventsForm
@@ -696,7 +696,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       FormBorderStyle = FormBorderStyle.FixedToolWindow;
       Margin = new Padding(4, 3, 4, 3);
       Name = "WorldEventsForm";
-      Text = "World Events";
+      Text = "世界事件";
       Load += WorldEvents_Load;
       tabControl.ResumeLayout(false);
       mainPage.ResumeLayout(false);
@@ -753,8 +753,8 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
     private Controls.PokemonBaseUC ct_gift_poipole_PB;
     private Controls.PokemonBaseUC main_gift_toxel_PB;
     private GroupBox championGiftsGroup;
-    private Controls.PokemonBaseUC pokemonBaseUC7;
-    private Controls.PokemonBaseUC pokemonBaseUC8;
+    private Controls.PokemonBaseUC armor_gift_squirtle_PB;
+    private Controls.PokemonBaseUC armor_gift_bulbasaur_PB;
     private ComboBox ioaWattDonationProgress;
     private Label ioaWattDonationProgressLabel;
     private CheckBox tableDisappeared;

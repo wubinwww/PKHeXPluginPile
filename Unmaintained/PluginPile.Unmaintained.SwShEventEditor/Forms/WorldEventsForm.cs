@@ -46,7 +46,7 @@ public partial class WorldEventsForm : Form {
   string[] main_checklegal_Eevee() {
     List<string> Issues = [];
     if (main_geevee_PB.Caught && !main_eevee_save_data_CB.Checked) {
-      Issues.Add("Gift Eevee cannot be had while the player has no \"Let's Go: Eevee!\" save data!");
+      Issues.Add("当玩家没有收到礼物时，无法获得伊布 \"Let's Go: 伊布!\" 保存数据!");
     }
     if (Issues.Count == 0)
       main_geevee_PB.Legalility = PokemonRenderUC.LegalStatus.Legal;
@@ -58,7 +58,7 @@ public partial class WorldEventsForm : Form {
   string[] main_checklegal_Pikachu() {
     List<string> Issues = [];
     if (main_gpikachu_PB.Caught && !main_pikachu_save_data_CB.Checked) {
-      Issues.Add("Gift Pikachu cannot be had while the player has no \"Let's Go: Pikachu!\" save data!");
+      Issues.Add("当玩家没有收到礼物时，无法获得皮卡丘 \"Let's Go: 皮卡丘!\" 保存数据!");
     }
     if (Issues.Count == 0)
       main_gpikachu_PB.Legalility = PokemonRenderUC.LegalStatus.Legal;
@@ -99,27 +99,27 @@ public partial class WorldEventsForm : Form {
 
   void SetupMain() {
 
-    main_eevee_save_data_CB.Checked = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FSYS_PLAY_LETSGO_EEVEE"]).GetBooleanValue();
-    main_pikachu_save_data_CB.Checked = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FSYS_PLAY_LETSGO_PIKACHU"]).GetBooleanValue();
+    main_eevee_save_data_CB.Checked = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FSYS_PLAY_LETSGO_EEVEE"]).GetBooleanValue();
+    main_pikachu_save_data_CB.Checked = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FSYS_PLAY_LETSGO_PIKACHU"]).GetBooleanValue();
 
-    main_geevee_PB.Caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FE_SUB_037_EEVEE_CLEAR"]).GetBooleanValue();
-    main_gpikachu_PB.Caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FE_SUB_037_PIKACHU_CLEAR"]).GetBooleanValue();
+    main_geevee_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_SUB_037_EEVEE_CLEAR"]).GetBooleanValue();
+    main_gpikachu_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_SUB_037_PIKACHU_CLEAR"]).GetBooleanValue();
 
-    main_gift_gcharmander_PB.Caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["z_t0101_i0202_MONSBALL"]).GetBooleanValue();
-    main_gift_typenull_PB.Caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["z_bt0101_POKE_NUL"]).GetBooleanValue();
-    main_gift_toxel_PB.Caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FE_SUB_005_CLEAR"]).GetBooleanValue();
+    main_gift_gcharmander_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["z_t0101_i0202_MONSBALL"]).GetBooleanValue();
+    main_gift_typenull_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["z_bt0101_POKE_NUL"]).GetBooleanValue();
+    main_gift_toxel_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_SUB_005_CLEAR"]).GetBooleanValue();
   }
 
   void SaveMain() {
-    SCBlock b_pikachu_save_data = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FSYS_PLAY_LETSGO_PIKACHU"]);
-    SCBlock b_eevee_save_data = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FSYS_PLAY_LETSGO_EEVEE"]);
+    SCBlock b_pikachu_save_data = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FSYS_PLAY_LETSGO_PIKACHU"]);
+    SCBlock b_eevee_save_data = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FSYS_PLAY_LETSGO_EEVEE"]);
 
-    SCBlock b_geevee_caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FE_SUB_037_EEVEE_CLEAR"]);
-    SCBlock b_gpikachu_caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FE_SUB_037_PIKACHU_CLEAR"]);
+    SCBlock b_geevee_caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_SUB_037_EEVEE_CLEAR"]);
+    SCBlock b_gpikachu_caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_SUB_037_PIKACHU_CLEAR"]);
 
-    SCBlock b_gift_gcharmander_caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["z_t0101_i0202_MONSBALL"]);
-    SCBlock b_gift_typenull_caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["z_bt0101_POKE_NUL"]);
-    SCBlock b_gift_toxel_caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["FE_SUB_005_CLEAR"]);
+    SCBlock b_gift_gcharmander_caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["z_t0101_i0202_MONSBALL"]);
+    SCBlock b_gift_typenull_caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["z_bt0101_POKE_NUL"]);
+    SCBlock b_gift_toxel_caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_SUB_005_CLEAR"]);
 
 
     b_pikachu_save_data.ChangeBooleanValue(main_pikachu_save_data_CB.Checked);
@@ -137,11 +137,15 @@ public partial class WorldEventsForm : Form {
 
   #region Isle Of Armor
 
+
   void SetupIsleOfArmor() {
     if (SAV.SaveRevision < 1) {
       tabControl.Controls[1].Enabled = false;
       return;
     }
+    //Setup Birds
+    armor_gift_bulbasaur_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_R1_HUSHIGIDANE_GET"]).GetBooleanValue();
+    armor_gift_squirtle_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_R1_ZENIGAME_GET"]).GetBooleanValue();
 
     ioaWattDonationProgress.Items.AddRange(Language.DojoWattDonationQuestProgress);
     ioaWattDonationProgress.SelectedIndex = (int)SAV.Blocks.GetBlockValue<uint>(Definitions.DojoWattDonationProgress);
@@ -185,6 +189,12 @@ public partial class WorldEventsForm : Form {
     canBattleHoneyBlock.ChangeBooleanValue(canBattleHoney.Checked);
     SCBlock battledHoneyTodayBlock = SAV.Blocks.GetBlock(Definitions.BattledHoneyToday);
     battledHoneyTodayBlock.ChangeBooleanValue(battledHoneyToday.Checked);
+
+    SCBlock b_gift_bulbasaur_caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_R1_HUSHIGIDANE_GET"]);
+    SCBlock b_gift_squirtle_caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["FE_R1_ZENIGAME_GET"]);
+
+    b_gift_bulbasaur_caught.ChangeBooleanValue(armor_gift_bulbasaur_PB.Caught);
+    b_gift_squirtle_caught.ChangeBooleanValue(armor_gift_squirtle_PB.Caught);
   }
 
   #endregion
@@ -198,36 +208,36 @@ public partial class WorldEventsForm : Form {
     }
 
     //Setup Birds
-    ct_garticuno_PB.Caught = SAV.Blocks.GetBlock(Definitions.BirdsKeys[Species.Articuno]).GetBooleanValue();
-    ct_gzapdos_PB.Caught = SAV.Blocks.GetBlock(Definitions.BirdsKeys[Species.Zapdos]).GetBooleanValue();
-    ct_gmoltres_PB.Caught = SAV.Blocks.GetBlock(Definitions.BirdsKeys[Species.Moltres]).GetBooleanValue();
+    ct_garticuno_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Birds[Species.Articuno]).GetBooleanValue();
+    ct_gzapdos_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Birds[Species.Zapdos]).GetBooleanValue();
+    ct_gmoltres_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Birds[Species.Moltres]).GetBooleanValue();
 
     //Setup Cosmog
-    ct_giftcosmog_PB.Caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["z_wr0301_i0401_COSMOG"]).GetBooleanValue();
+    ct_giftcosmog_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["z_wr0301_i0401_COSMOG"]).GetBooleanValue();
 
-    ct_gift_poipole_PB.Caught = SAV.Blocks.GetBlock(Definitions.GiftsKeys["z_d0901_BEBENOM"]).GetBooleanValue();
+    ct_gift_poipole_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["z_d0901_BEBENOM"]).GetBooleanValue();
 
     //Setup Spiritomb
-    ct_spiritomb_PB.Caught = SAV.Blocks.GetBlock(Definitions.CrownTundraMiscKeys["FE_CAPTURE_MIKARUGE"]).GetBooleanValue();
-    ct_spiritomb_visible_CB.Checked = !SAV.Blocks.GetBlock(Definitions.CrownTundraMiscKeys["z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Mikaruge"]).GetBooleanValue();
-    ct_spiritomb_players_NUD.Value = (uint)SAV.Blocks.GetBlock(Definitions.CrownTundraMiscKeys["KPlayersInteractedOnline"]).GetValue()!;
+    ct_spiritomb_PB.Caught = SAV.Blocks.GetBlock(Definitions.memkeys_CrownTundra_Misc["FE_CAPTURE_MIKARUGE"]).GetBooleanValue();
+    ct_spiritomb_visible_CB.Checked = !SAV.Blocks.GetBlock(Definitions.memkeys_CrownTundra_Misc["z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Mikaruge"]).GetBooleanValue();
+    ct_spiritomb_players_NUD.Value = (uint)SAV.Blocks.GetBlock(Definitions.memkeys_CrownTundra_Misc["KPlayersInteractedOnline"]).GetValue()!;
   }
 
   void SaveCrownTundra() {
     if (SAV.SaveRevision < 2) return;
 
-    SCBlock b_garticuno = SAV.Blocks.GetBlock(Definitions.BirdsKeys[Species.Articuno]);
-    SCBlock b_gzapdos = SAV.Blocks.GetBlock(Definitions.BirdsKeys[Species.Zapdos]);
-    SCBlock b_gmoltres = SAV.Blocks.GetBlock(Definitions.BirdsKeys[Species.Moltres]);
+    SCBlock b_garticuno = SAV.Blocks.GetBlock(Definitions.memkeys_Birds[Species.Articuno]);
+    SCBlock b_gzapdos = SAV.Blocks.GetBlock(Definitions.memkeys_Birds[Species.Zapdos]);
+    SCBlock b_gmoltres = SAV.Blocks.GetBlock(Definitions.memkeys_Birds[Species.Moltres]);
 
-    SCBlock b_giftcosmog = SAV.Blocks.GetBlock(Definitions.GiftsKeys["z_wr0301_i0401_COSMOG"]);
+    SCBlock b_giftcosmog = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["z_wr0301_i0401_COSMOG"]);
 
-    SCBlock b_gift_poipole = SAV.Blocks.GetBlock(Definitions.GiftsKeys["z_d0901_BEBENOM"]);
+    SCBlock b_gift_poipole = SAV.Blocks.GetBlock(Definitions.memkeys_Gifts["z_d0901_BEBENOM"]);
 
-    SCBlock b_spiritomb_caught = SAV.Blocks.GetBlock(Definitions.CrownTundraMiscKeys["FE_CAPTURE_MIKARUGE"]);
-    SCBlock b_spiritomb_visible = SAV.Blocks.GetBlock(Definitions.CrownTundraMiscKeys["z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Mikaruge"]);
+    SCBlock b_spiritomb_caught = SAV.Blocks.GetBlock(Definitions.memkeys_CrownTundra_Misc["FE_CAPTURE_MIKARUGE"]);
+    SCBlock b_spiritomb_visible = SAV.Blocks.GetBlock(Definitions.memkeys_CrownTundra_Misc["z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Mikaruge"]);
 
-    SCBlock b_playersonline = SAV.Blocks.GetBlock(Definitions.CrownTundraMiscKeys["KPlayersInteractedOnline"]);
+    SCBlock b_playersonline = SAV.Blocks.GetBlock(Definitions.memkeys_CrownTundra_Misc["KPlayersInteractedOnline"]);
 
     b_garticuno.ChangeBooleanValue(ct_garticuno_PB.Caught);
     b_gzapdos.ChangeBooleanValue(ct_gzapdos_PB.Caught);
@@ -280,16 +290,16 @@ public partial class WorldEventsForm : Form {
   string[] ct_checklegal_Spiritomb() {
     List<string> Issues = [];
     if (ct_spiritomb_PB.Caught && ct_spiritomb_visible_CB.Checked) {
-      Issues.Add("Spiritomb cannot be caught and visible in the overworld!");
+      Issues.Add("花岩怪无法在主世界中被捕获和可见!");
     }
     if (ct_spiritomb_visible_CB.Checked && ct_spiritomb_players_NUD.Value < 32) {
-      Issues.Add("Spiritomb visible in the overworld if the player has less than 32 online interactions!");
+      Issues.Add("花岩怪如果玩家在线互动少于30次，则在世界范围内可见!");
     }
     if (ct_spiritomb_PB.Caught && ct_spiritomb_players_NUD.Value < 32) {
-      Issues.Add("Spiritomb caught if the player has less than 32 online interactions!");
+      Issues.Add("花岩怪如果玩家的在线互动少于 30 次就可以被捕获!\"");
     }
     if (!ct_spiritomb_PB.Caught && !ct_spiritomb_visible_CB.Checked && ct_spiritomb_players_NUD.Value >= 32) {
-      Issues.Add("Spiritomb is not caught or visble/spawned in the overworld but player interactions >= 32!");
+      Issues.Add("花岩怪在主世界中未被捕获或可见/生成，但玩家互动 >= 30!");
     }
     if (Issues.Count == 0) ct_spiritomb_PB.Legalility = PokemonRenderUC.LegalStatus.Legal;
     else ct_spiritomb_PB.Legalility = PokemonRenderUC.LegalStatus.Illegal;
@@ -317,16 +327,16 @@ public partial class WorldEventsForm : Form {
   bool ShowLegalMSG(string[] issues) {
     if (loading) return false;
     if (issues.Length == 0) {
-      MessageBox.Show("Legal!", "Legal Status: Legal", MessageBoxButtons.OK, MessageBoxIcon.Information);
+      MessageBox.Show("合法!", "合法性:合法", MessageBoxButtons.OK, MessageBoxIcon.Information);
       return true;
     } else {
-      string temp = "** POTENTIALLY ILLEGAL SAVE DATA **\n";
+      string temp = "** 潜在的非法保存数据 **\n";
       for (int i = 0; i < issues.Length; i++) {
-        temp += $"Invalid: {issues[i]}\n";
+        temp += $"无效的: {issues[i]}\n";
       }
-      temp += "\nIf you believe this to be an error please click \"No\" and report the issue!\n" +
-              "Would you like to disable show legalilty corrections?";
-      if (MessageBox.Show(temp, "Legal Status: Potentially Illegal", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.No)
+      temp += "\n如果您认为这是一个错误，请点击 \"否\" 并报告问题!\n" +
+              "是否要禁用显示合法性更正?";
+      if (MessageBox.Show(temp, "合法性:可能非法", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.No)
         return true;
       else
         return false;

@@ -42,7 +42,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor.Controls {
             this.caught_CB.Name = "caught_CB";
             this.caught_CB.Size = new System.Drawing.Size(60, 17);
             this.caught_CB.TabIndex = 1;
-            this.caught_CB.Text = "Caught";
+            this.caught_CB.Text = "捕获";
             this.caught_CB.UseVisualStyleBackColor = true;
             this.caught_CB.CheckedChanged += new System.EventHandler(this.caught_CB_CheckedChanged);
             //
@@ -63,7 +63,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor.Controls {
             this.caughtToolStripMenuItem.Image = global::PluginPile.Unmaintained.SwShEventEditor.Properties.Resources._ball4;
             this.caughtToolStripMenuItem.Name = "caughtToolStripMenuItem";
             this.caughtToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.caughtToolStripMenuItem.Text = "Caught";
+            this.caughtToolStripMenuItem.Text = "捕获";
             this.caughtToolStripMenuItem.Click += new System.EventHandler(this.caughtToolStripMenuItem_Click);
             //
             // viewHintToolStripMenuItem
@@ -71,7 +71,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor.Controls {
             this.viewHintToolStripMenuItem.Image = global::PluginPile.Unmaintained.SwShEventEditor.Properties.Resources.hint;
             this.viewHintToolStripMenuItem.Name = "viewHintToolStripMenuItem";
             this.viewHintToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.viewHintToolStripMenuItem.Text = "View Hint";
+            this.viewHintToolStripMenuItem.Text = "查看提示";
             //
             // toolStripSeparator1
             //
@@ -83,7 +83,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor.Controls {
             this.illegalToolStripMenuItem.Image = global::PluginPile.Unmaintained.SwShEventEditor.Properties.Resources.warn;
             this.illegalToolStripMenuItem.Name = "illegalToolStripMenuItem";
             this.illegalToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.illegalToolStripMenuItem.Text = "Illegal";
+            this.illegalToolStripMenuItem.Text = "不合法";
             this.illegalToolStripMenuItem.Click += new System.EventHandler(this.illegalToolStripMenuItem_Click);
             //
             // pokeName
@@ -93,7 +93,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor.Controls {
             this.pokeName.Name = "pokeName";
             this.pokeName.Size = new System.Drawing.Size(83, 13);
             this.pokeName.TabIndex = 2;
-            this.pokeName.Text = "Pokemon Name";
+            this.pokeName.Text = "宝可梦名称";
             //
             // pokemonRenderUC1
             //

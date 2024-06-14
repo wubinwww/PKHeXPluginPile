@@ -55,7 +55,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.groupBox12.Size = new System.Drawing.Size(132, 181);
       this.groupBox12.TabIndex = 53;
       this.groupBox12.TabStop = false;
-      this.groupBox12.Text = "Caught";
+      this.groupBox12.Text = "捕获";
       //
       // regieleki_RBTN
       //
@@ -64,7 +64,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.regieleki_RBTN.Name = "regieleki_RBTN";
       this.regieleki_RBTN.Size = new System.Drawing.Size(69, 17);
       this.regieleki_RBTN.TabIndex = 54;
-      this.regieleki_RBTN.Text = "Regieleki";
+      this.regieleki_RBTN.Text = "雷吉艾勒奇";
       this.regieleki_RBTN.UseVisualStyleBackColor = true;
       this.regieleki_RBTN.CheckedChanged += new System.EventHandler(this.regieleki_RBTN_CheckedChanged);
       //
@@ -75,7 +75,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.regidrago_RBTN.Name = "regidrago_RBTN";
       this.regidrago_RBTN.Size = new System.Drawing.Size(74, 17);
       this.regidrago_RBTN.TabIndex = 53;
-      this.regidrago_RBTN.Text = "Regidrago";
+      this.regidrago_RBTN.Text = "雷吉铎拉戈";
       this.regidrago_RBTN.UseVisualStyleBackColor = true;
       this.regidrago_RBTN.CheckedChanged += new System.EventHandler(this.regidrago_RBTN_CheckedChanged);
       //
@@ -83,10 +83,10 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       //
       this.regi_clistbox.FormattingEnabled = true;
       this.regi_clistbox.Items.AddRange(new object[] {
-      "Regirock",
-      "Regice",
-      "Registeel",
-      "Regigigas"});
+      "雷吉洛克",
+      "雷吉艾斯",
+      "雷吉斯奇鲁",
+      "雷吉奇卡斯"});
       this.regi_clistbox.Location = new System.Drawing.Point(6, 19);
       this.regi_clistbox.Name = "regi_clistbox";
       this.regi_clistbox.Size = new System.Drawing.Size(120, 64);
@@ -101,7 +101,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.reginone_RBTN.Size = new System.Drawing.Size(59, 17);
       this.reginone_RBTN.TabIndex = 52;
       this.reginone_RBTN.TabStop = true;
-      this.reginone_RBTN.Text = "Neither";
+      this.reginone_RBTN.Text = "两者都不";
       this.reginone_RBTN.UseVisualStyleBackColor = true;
       this.reginone_RBTN.CheckedChanged += new System.EventHandler(this.reginone_RBTN_CheckedChanged);
       //
@@ -118,7 +118,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.groupBox1.Size = new System.Drawing.Size(140, 181);
       this.groupBox1.TabIndex = 54;
       this.groupBox1.TabStop = false;
-      this.groupBox1.Text = " Regi Pattern";
+      this.groupBox1.Text = " 雷吉纹路";
       //
       // regiother_patrBTN
       //
@@ -127,7 +127,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.regiother_patrBTN.Name = "regiother_patrBTN";
       this.regiother_patrBTN.Size = new System.Drawing.Size(51, 17);
       this.regiother_patrBTN.TabIndex = 57;
-      this.regiother_patrBTN.Text = "Other";
+      this.regiother_patrBTN.Text = "其他";
       this.regiother_patrBTN.UseVisualStyleBackColor = true;
       this.regiother_patrBTN.CheckedChanged += new System.EventHandler(this.regiother_patrBTN_CheckedChanged);
       //
@@ -138,7 +138,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.label1.Name = "label1";
       this.label1.Size = new System.Drawing.Size(96, 13);
       this.label1.TabIndex = 55;
-      this.label1.Text = "Raw Pattern Value";
+      this.label1.Text = "原始图案值";
       //
       // regipatternNUD
       //
@@ -156,7 +156,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.regieleki_patrBTN.Name = "regieleki_patrBTN";
       this.regieleki_patrBTN.Size = new System.Drawing.Size(69, 17);
       this.regieleki_patrBTN.TabIndex = 57;
-      this.regieleki_patrBTN.Text = "Regieleki";
+      this.regieleki_patrBTN.Text = "雷吉艾勒奇";
       this.regieleki_patrBTN.UseVisualStyleBackColor = true;
       this.regieleki_patrBTN.CheckedChanged += new System.EventHandler(this.regieleki_patrBTN_CheckedChanged);
       //
@@ -169,7 +169,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.reginone_patrBTN.Size = new System.Drawing.Size(59, 17);
       this.reginone_patrBTN.TabIndex = 55;
       this.reginone_patrBTN.TabStop = true;
-      this.reginone_patrBTN.Text = "Neither";
+      this.reginone_patrBTN.Text = "两者都不";
       this.reginone_patrBTN.UseVisualStyleBackColor = true;
       this.reginone_patrBTN.CheckedChanged += new System.EventHandler(this.reginone_patrBTN_CheckedChanged);
       //
@@ -180,7 +180,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.regidrago_patrBTN.Name = "regidrago_patrBTN";
       this.regidrago_patrBTN.Size = new System.Drawing.Size(74, 17);
       this.regidrago_patrBTN.TabIndex = 56;
-      this.regidrago_patrBTN.Text = "Regidrago";
+      this.regidrago_patrBTN.Text = "雷吉铎拉戈";
       this.regidrago_patrBTN.UseVisualStyleBackColor = true;
       this.regidrago_patrBTN.CheckedChanged += new System.EventHandler(this.regidrago_patrBTN_CheckedChanged);
       //
@@ -191,7 +191,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.legailty_CB.Name = "legailty_CB";
       this.legailty_CB.Size = new System.Drawing.Size(143, 17);
       this.legailty_CB.TabIndex = 57;
-      this.legailty_CB.Text = "Force legality corrections";
+      this.legailty_CB.Text = "强制合法性纠正";
       this.legailty_CB.UseVisualStyleBackColor = true;
       this.legailty_CB.CheckedChanged += new System.EventHandler(this.forcematchCB_CheckedChanged);
       //
@@ -209,7 +209,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.applyBTN.Name = "applyBTN";
       this.applyBTN.Size = new System.Drawing.Size(129, 48);
       this.applyBTN.TabIndex = 57;
-      this.applyBTN.Text = "Apply Selection";
+      this.applyBTN.Text = "应用所选内容";
       this.applyBTN.UseVisualStyleBackColor = true;
       this.applyBTN.Click += new System.EventHandler(this.applyBTN_Click);
       //
@@ -220,7 +220,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.legalLBL.Name = "legalLBL";
       this.legalLBL.Size = new System.Drawing.Size(92, 13);
       this.legalLBL.TabIndex = 58;
-      this.legalLBL.Text = "Legal Status: N/A";
+      this.legalLBL.Text = "合法性: 不适用";
       //
       // RegiForm
       //
@@ -235,7 +235,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.Controls.Add(this.groupBox12);
       this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
       this.Name = "RegiForm";
-      this.Text = "RegiForm Editor";
+      this.Text = "雷吉形式编辑器";
       this.Load += new System.EventHandler(this.RegiForm_Load);
       this.groupBox12.ResumeLayout(false);
       this.groupBox12.PerformLayout();

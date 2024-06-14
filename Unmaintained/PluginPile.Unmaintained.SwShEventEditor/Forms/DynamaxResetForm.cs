@@ -12,74 +12,74 @@ public partial class DynamaxResetForm : Form {
   }
 
   public uint[] Gen1Keys = [
-    0xF75E52CF, //Articuno
-    0xF75E5635, //Zapdos
-    0xF75E511C, //Moltres
-    0xF75E4DB6 //Mewtwo
+    0xF75E52CF, //急冻鸟
+    0xF75E5635, //闪电鸟
+    0xF75E511C, //火焰鸟
+    0xF75E4DB6 //超梦
   ];
 
   public uint[] Gen2Keys = [
-    0xF75E4C03, //Raikou
-    0xF75E4A50, //Entei
-    0xF75E4F69, //Suicune
-    0xF75E621A, //Lugia
-    0xF75E63CD //Ho-Oh
+    0xF75E4C03, //雷公
+    0xF75E4A50, //炎帝
+    0xF75E4F69, //水君
+    0xF75E621A, //洛奇亚
+    0xF75E63CD //凤王
   ];
 
   public uint[] Gen3Keys = [
-    0xF760963E, //Kyogre
-    0xF76097F1, //Groudon
-    0xF7609B57, //Rayquaza
-    0xF760948B, //Latias
-    0xF76092D8, //Latios
+    0xF760963E, //盖欧卡
+    0xF76097F1, //固拉多
+    0xF7609B57, //烈空坐
+    0xF760948B, //拉帝亚斯
+    0xF76092D8, //拉帝欧斯
   ];
 
   public uint[] Gen4Keys = [
-    0xF76086F3, //Dialga
-    0xF7608540, //Palkia
-    0xF7582170, //Giratina
-    0xF76099A4, //Uxie
-    0xF7609D0A, //Mesprit
-    0xF7609EBD, //Azelf
-    0xF7582323, //Heatran
-    0xF75824D6, //Cresselia
+    0xF76086F3, //帝牙卢卡
+    0xF7608540, //帕路奇亚
+    0xF7582170, //骑拉帝纳
+    0xF76099A4, //由克希
+    0xF7609D0A, //艾姆利多
+    0xF7609EBD, //亚克诺姆
+    0xF7582323, //席多蓝恩
+    0xF75824D6, //克雷色利亚
   ];
 
   public uint[] Gen5Keys = [
-    0xF7582BA2, //Reshiram
-    0xF7582D55, //Zekrom
-    0xF7582F08, //Kyurem
-    0xF7582689, //Tornadus
-    0xF758283C, //Thundurus
-    0xF75829EF, //Landorus
+    0xF7582BA2, //莱希拉姆
+    0xF7582D55, //捷克罗姆
+    0xF7582F08, //酋雷姆
+    0xF7582689, //龙卷云
+    0xF758283C, //雷电云
+    0xF75829EF, //土地云
   ];
 
   public uint[] Gen6Keys = [
-    0xF75830BB, //Xerneas
-    0xF75B3AF9, //Yveltal
-    0xF75B3946, //Zygarde
+    0xF75830BB, //哲尔尼亚斯
+    0xF75B3AF9, //伊裴尔塔尔
+    0xF75B3946, //基格尔德
   ];
 
   public uint[] Gen7Keys = [
-    0xF75B3E5F, //Solgaleo
-    0xF75B3CAC, //Lunala
-    0xF75B3793, //Tapu Koko
-    0xF75B35E0, //Tapu Lele
-    0xF75B41C5, //Tapu Bulu
-    0xF75B4012, //Tapu Fini
+    0xF75B3E5F, //索尔迦雷欧
+    0xF75B3CAC, //露奈雅拉
+    0xF75B3793, //卡璞・鸣鸣
+    0xF75B35E0, //卡璞・蝶蝶
+    0xF75B41C5, //卡璞・哞哞
+    0xF75B4012, //卡璞・鳍鳍
   ];
 
   public uint[] Gen7UBKeys = [
-    0xF75B46DE, //Nihilego
-    0xF769AAC6, //Buzzwole
-    0xF769AC79, //Pheromosa
-    0xF769A760, //Xurkitree
-    0xF769B192, //Celesteela
-    0xF769A913, //Kartana
-    0xF769B345, //Guzzlord
-    0xF75B4891, //Necrozma
-    0xF769B85E, //Stakataka
-    0xF769AFDF, //Blacephalon
+    0xF75B46DE, //虚吾伊德
+    0xF769AAC6, //爆肌蚊
+    0xF769AC79, //费洛美螂
+    0xF769A760, //电束木
+    0xF769B192, //铁火辉夜
+    0xF769A913, //纸御剑
+    0xF769B345, //恶食大王
+    0xF75B4891, //奈克洛兹玛
+    0xF769B85E, //垒磊石
+    0xF769AFDF, //砰头小丑
   ];
 
 
@@ -132,14 +132,14 @@ public partial class DynamaxResetForm : Form {
     }
 
     //Get Misc
-    dstreak_NUD.Value = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairDisconnectStreak"]).GetValue());
-    estreak_NUD.Value = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairEndlessStreak"]).GetValue());
+    dstreak_NUD.Value = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairDisconnectStreak"]).GetValue());
+    estreak_NUD.Value = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairEndlessStreak"]).GetValue());
 
-    int notes1 = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairSpeciesID1Noted"]).GetValue());
-    int notes2 = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairSpeciesID2Noted"]).GetValue());
-    int notes3 = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairSpeciesID3Noted"]).GetValue());
+    int notes1 = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairSpeciesID1Noted"]).GetValue());
+    int notes2 = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairSpeciesID2Noted"]).GetValue());
+    int notes3 = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairSpeciesID3Noted"]).GetValue());
 
-    int hint = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairPeoniaSpeciesHint"]).GetValue());
+    int hint = Convert.ToInt32(SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairPeoniaSpeciesHint"]).GetValue());
 
     mlspecies1_CMB.SelectedIndex = Definitions.NationalDex.GetIDIndex(notes1);
     mlspecies2_CMB.SelectedIndex = Definitions.NationalDex.GetIDIndex(notes2);
@@ -199,11 +199,11 @@ public partial class DynamaxResetForm : Form {
     }
 
     //apply misc changes
-    SCBlock b_notes1 = SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairSpeciesID1Noted"]);
-    SCBlock b_notes2 = SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairSpeciesID2Noted"]);
-    SCBlock b_notes3 = SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairSpeciesID3Noted"]);
+    SCBlock b_notes1 = SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairSpeciesID1Noted"]);
+    SCBlock b_notes2 = SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairSpeciesID2Noted"]);
+    SCBlock b_notes3 = SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairSpeciesID3Noted"]);
 
-    SCBlock b_hint = SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairPeoniaSpeciesHint"]);
+    SCBlock b_hint = SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairPeoniaSpeciesHint"]);
 
     b_notes1.SetValue(Convert.ToUInt32(Definitions.NationalDex.GetID(mlspecies1_CMB.SelectedItem!.ToString()!)));
     b_notes2.SetValue(Convert.ToUInt32(Definitions.NationalDex.GetID(mlspecies2_CMB.SelectedItem!.ToString()!)));
@@ -211,8 +211,8 @@ public partial class DynamaxResetForm : Form {
 
     b_hint.SetValue(Convert.ToUInt32(Definitions.NationalDex.GetID(mlhint_CMB.SelectedItem!.ToString()!)));
 
-    SCBlock b_dstreak = SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairDisconnectStreak"]);
-    SCBlock b_estreak = SAV.Blocks.GetBlock(Definitions.MaxLairMiscKeys["KMaxLairEndlessStreak"]);
+    SCBlock b_dstreak = SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairDisconnectStreak"]);
+    SCBlock b_estreak = SAV.Blocks.GetBlock(Definitions.memkeys_MaxLairMisc["KMaxLairEndlessStreak"]);
 
     b_dstreak.SetValue(Convert.ToUInt32(dstreak_NUD.Value));
     b_estreak.SetValue(Convert.ToUInt32(estreak_NUD.Value));
@@ -322,17 +322,17 @@ public partial class DynamaxResetForm : Form {
   #endregion
 
   private void glFA_BTN_Click(object sender, EventArgs e) {
-    var result = MessageBox.Show("Are you sure you want to check everything?", "Alert", MessageBoxButtons.YesNo);
+    var result = MessageBox.Show("你确定要设置所有内容吗?", "警报", MessageBoxButtons.YesNo);
     if (result == DialogResult.Yes) for (int i = 0; i < (int)Generations.Gen7_UB + 1; i++) SetValue((Generations)i, true);
   }
 
   private void glRA_BTN_Click(object sender, EventArgs e) {
-    var result = MessageBox.Show("Are you sure you want to un-check everything?", "Alert", MessageBoxButtons.YesNo);
+    var result = MessageBox.Show("您确定要取消选中所有内容吗?", "警报", MessageBoxButtons.YesNo);
     if (result == DialogResult.Yes) for (int i = 0; i < (int)Generations.Gen7_UB + 1; i++) SetValue((Generations)i, false);
   }
 
   private void report_BTN_Click(object sender, EventArgs e) {
-    MessageBox.Show("For help or to report issues and/or bugs, please contact \"Reshiquori#8124\" and/or \"Darthfiggy#9205\" on Discord.", "Help");
+    MessageBox.Show("如需帮助或报告问题和/或错误，请联系 \"Reshiquori#8124\" 和/或 \"Darthfiggy#9205\" 上 Discord.", "帮助");
   }
 
   #region Notes
@@ -447,6 +447,11 @@ public partial class DynamaxResetForm : Form {
   }
 
   private static DialogResult ShowWrongGameMSG() {
-    return MessageBox.Show("You have chosen a legendary that you cannot have notes for! Would you like to correct this to the legendary for your game?", "Error", MessageBoxButtons.YesNo);
+    return MessageBox.Show("您选择了一个您无法为其添加注释的传奇！您想将此更正为您的游戏的传奇吗?", "错误", MessageBoxButtons.YesNo);
   }
+
+  private void mlnotes_legal_LBL_Click(object sender, EventArgs e) {
+
+  }
+
 }

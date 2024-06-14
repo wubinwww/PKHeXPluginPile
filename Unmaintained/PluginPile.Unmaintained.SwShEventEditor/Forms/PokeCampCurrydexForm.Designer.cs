@@ -72,12 +72,12 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             //
             this.type_CLB.FormattingEnabled = true;
             this.type_CLB.Items.AddRange(new object[] {
-            "Normal",
-            "Spicy",
-            "Dry",
-            "Sweet",
-            "Bitter",
-            "Sour"});
+            "一般",
+            "辣味",
+            "涩味",
+            "甜味",
+            "苦味",
+            "酸味"});
             this.type_CLB.Location = new System.Drawing.Point(148, 6);
             this.type_CLB.Name = "type_CLB";
             this.type_CLB.Size = new System.Drawing.Size(61, 94);
@@ -87,31 +87,31 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             //
             this.mainingredient_CLB.FormattingEnabled = true;
             this.mainingredient_CLB.Items.AddRange(new object[] {
-            "None",
-            "Sausage",
-            "Bob\'s Tin Food",
-            "Bach\'s Tin Food",
-            "Tin of Beans",
-            "Bread",
-            "Pasta",
-            "Mixed Mushrooms",
-            "Smoke-Poke Tail",
-            "Large Leek",
-            "Fancy Apple",
-            "Brittle Bones",
-            "Pack of Potatoes",
-            "Pungent Root",
-            "Salad Mix",
-            "Fried Food",
-            "Boiled Egg",
-            "Fruit Bunch",
-            "Moomoo Cheese",
-            "Spice Mix",
-            "Fresh Cream",
-            "Packaged Curry",
-            "Coconut Milk",
-            "Instant Noodles",
-            "Precooked Burger"});
+            "无",
+            "粗绞肉香肠",
+            "饱伯罐头",
+            "巴哈罐头",
+            "豆子罐头",
+            "吐司面包",
+            "通心粉",
+            "袋装蕈菇",
+            "烟熏尾巴",
+            "粗枝大葱",
+            "特选苹果",
+            "细骨",
+            "袋装土豆",
+            "水边香草",
+            "袋装蔬菜",
+            "炸物拼盘",
+            "水煮蛋",
+            "袋装果实",
+            "哞哞乳酪",
+            "香料组合",
+            "鲜鲜奶油",
+            "即食咖喱",
+            "椰奶",
+            "即食面",
+            "即食肉排"});
             this.mainingredient_CLB.Location = new System.Drawing.Point(6, 6);
             this.mainingredient_CLB.Name = "mainingredient_CLB";
             this.mainingredient_CLB.Size = new System.Drawing.Size(136, 379);
@@ -125,7 +125,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(381, 25);
             this.toolStrip1.TabIndex = 2;
-            this.toolStrip1.Text = "toolStrip1";
+            this.toolStrip1.Text = "工具栏1";
             //
             // toolStripButton1
             //
@@ -134,7 +134,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(93, 22);
-            this.toolStripButton1.Text = "Apply Selection";
+            this.toolStripButton1.Text = "应用所选内容";
             //
             // tabControl1
             //
@@ -158,7 +158,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(373, 399);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Curry Dex";
+            this.tabPage1.Text = "咖喱材料";
             //
             // tabPage2
             //
@@ -171,7 +171,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(373, 399);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Pokecamp";
+            this.tabPage2.Text = "宝可梦野营";
             //
             // groupBox3
             //
@@ -182,7 +182,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.groupBox3.Size = new System.Drawing.Size(200, 60);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Cooking";
+            this.groupBox3.Text = "烹饪";
             //
             // camp_has_golden_CB
             //
@@ -191,7 +191,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.camp_has_golden_CB.Name = "camp_has_golden_CB";
             this.camp_has_golden_CB.Size = new System.Drawing.Size(144, 17);
             this.camp_has_golden_CB.TabIndex = 3;
-            this.camp_has_golden_CB.Text = "Has Golden Kitchenware";
+            this.camp_has_golden_CB.Text = "拥有金色厨具/暴鲤龙扇";
             this.camp_has_golden_CB.UseVisualStyleBackColor = true;
             //
             // camp_use_golden_CB
@@ -201,7 +201,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.camp_use_golden_CB.Name = "camp_use_golden_CB";
             this.camp_use_golden_CB.Size = new System.Drawing.Size(144, 17);
             this.camp_use_golden_CB.TabIndex = 4;
-            this.camp_use_golden_CB.Text = "Use Golden Kitchenware";
+            this.camp_use_golden_CB.Text = "使用金色厨具/暴鲤龙扇";
             this.camp_use_golden_CB.UseVisualStyleBackColor = true;
             //
             // groupBox2
@@ -213,31 +213,31 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.groupBox2.Size = new System.Drawing.Size(200, 51);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Tent Colour";
+            this.groupBox2.Text = "帐篷颜色";
             //
             // camp_type_CMB
             //
             this.camp_type_CMB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.camp_type_CMB.FormattingEnabled = true;
             this.camp_type_CMB.Items.AddRange(new object[] {
-            "Normal",
-            "Fighting",
-            "Flying",
-            "Poison",
-            "Ground",
-            "Rock",
-            "Bug",
-            "Ghost",
-            "Steel",
-            "Fire",
-            "Water",
-            "Grass",
-            "Electric",
-            "Pyschic",
-            "Ice",
-            "Dragon",
-            "Dark",
-            "Fairy"});
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
             this.camp_type_CMB.Location = new System.Drawing.Point(6, 19);
             this.camp_type_CMB.Name = "camp_type_CMB";
             this.camp_type_CMB.Size = new System.Drawing.Size(82, 21);
@@ -272,7 +272,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.groupBox1.Size = new System.Drawing.Size(200, 250);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Balls/Toys";
+            this.groupBox1.Text = "球/玩具";
             //
             // camp_ball_champion_CB
             //
@@ -281,7 +281,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.camp_ball_champion_CB.Name = "camp_ball_champion_CB";
             this.camp_ball_champion_CB.Size = new System.Drawing.Size(93, 17);
             this.camp_ball_champion_CB.TabIndex = 8;
-            this.camp_ball_champion_CB.Text = "Champion Ball";
+            this.camp_ball_champion_CB.Text = "冠军球";
             this.camp_ball_champion_CB.UseVisualStyleBackColor = true;
             //
             // camp_ball_mirror_CB
@@ -291,7 +291,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.camp_ball_mirror_CB.Name = "camp_ball_mirror_CB";
             this.camp_ball_mirror_CB.Size = new System.Drawing.Size(72, 17);
             this.camp_ball_mirror_CB.TabIndex = 7;
-            this.camp_ball_mirror_CB.Text = "Mirror Ball";
+            this.camp_ball_mirror_CB.Text = "镜面球";
             this.camp_ball_mirror_CB.UseVisualStyleBackColor = true;
             //
             // camp_ball_tympole_CB
@@ -301,7 +301,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.camp_ball_tympole_CB.Name = "camp_ball_tympole_CB";
             this.camp_ball_tympole_CB.Size = new System.Drawing.Size(86, 17);
             this.camp_ball_tympole_CB.TabIndex = 7;
-            this.camp_ball_tympole_CB.Text = "Tympole Ball";
+            this.camp_ball_tympole_CB.Text = "蝌蚪球";
             this.camp_ball_tympole_CB.UseVisualStyleBackColor = true;
             //
             // camp_ball_soothe_CB
@@ -311,7 +311,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.camp_ball_soothe_CB.Name = "camp_ball_soothe_CB";
             this.camp_ball_soothe_CB.Size = new System.Drawing.Size(80, 17);
             this.camp_ball_soothe_CB.TabIndex = 6;
-            this.camp_ball_soothe_CB.Text = "Soothe Ball";
+            this.camp_ball_soothe_CB.Text = "静心球";
             this.camp_ball_soothe_CB.UseVisualStyleBackColor = true;
             //
             // camp_ball_weighted_CB
@@ -321,7 +321,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.camp_ball_weighted_CB.Name = "camp_ball_weighted_CB";
             this.camp_ball_weighted_CB.Size = new System.Drawing.Size(92, 17);
             this.camp_ball_weighted_CB.TabIndex = 3;
-            this.camp_ball_weighted_CB.Text = "Weighted Ball";
+            this.camp_ball_weighted_CB.Text = "重沉球";
             this.camp_ball_weighted_CB.UseVisualStyleBackColor = true;
             //
             // camp_ball_fresh_CB
@@ -331,7 +331,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.camp_ball_fresh_CB.Name = "camp_ball_fresh_CB";
             this.camp_ball_fresh_CB.Size = new System.Drawing.Size(72, 17);
             this.camp_ball_fresh_CB.TabIndex = 2;
-            this.camp_ball_fresh_CB.Text = "Fresh Ball";
+            this.camp_ball_fresh_CB.Text = "瓜西球";
             this.camp_ball_fresh_CB.UseVisualStyleBackColor = true;
             //
             // pictureBox6
@@ -401,7 +401,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.ts_applyBTN.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ts_applyBTN.Name = "ts_applyBTN";
             this.ts_applyBTN.Size = new System.Drawing.Size(93, 22);
-            this.ts_applyBTN.Text = "Apply Selection";
+            this.ts_applyBTN.Text = "应用所选内容";
             this.ts_applyBTN.Click += new System.EventHandler(this.ts_applyBTN_Click);
             //
             // label1
@@ -411,7 +411,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "TODO: This page";
+            this.label1.Text = "一切顺利: 本页";
             //
             // PokeCampCurrydexForm
             //
@@ -422,7 +422,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
             this.Controls.Add(this.toolStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "PokeCampCurrydexForm";
-            this.Text = "Pokemon Camp/Currydex Form";
+            this.Text = "宝可梦野营/咖喱图鉴";
             this.Load += new System.EventHandler(this.CurrdexForm_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

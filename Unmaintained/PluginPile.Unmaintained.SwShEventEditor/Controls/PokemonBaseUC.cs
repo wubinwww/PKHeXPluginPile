@@ -34,7 +34,7 @@ public partial class PokemonBaseUC : UserControl {
   private void contextMenuStrip1_Opening(object sender, CancelEventArgs e) {
     //Just to make sure the values are correct
     caughtToolStripMenuItem.Checked = Caught;
-    illegalToolStripMenuItem.Text = Legalility == PokemonRenderUC.LegalStatus.Illegal ? "Illegal" : "Legal";
+    illegalToolStripMenuItem.Text = Legalility == PokemonRenderUC.LegalStatus.Illegal ? "不合法" : "合法";
     illegalToolStripMenuItem.Image = Legalility == PokemonRenderUC.LegalStatus.Illegal ? Properties.Resources.warn : Properties.Resources.valid;
   }
 

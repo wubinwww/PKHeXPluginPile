@@ -62,7 +62,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       questStatusLabel.Name = "questStatusLabel";
       questStatusLabel.Size = new Size(73, 15);
       questStatusLabel.TabIndex = 0;
-      questStatusLabel.Text = "Quest Status";
+      questStatusLabel.Text = "任务状态";
       //
       // questStatus
       //
@@ -79,7 +79,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       questProgressLabel.Name = "questProgressLabel";
       questProgressLabel.Size = new Size(86, 15);
       questProgressLabel.TabIndex = 2;
-      questProgressLabel.Text = "Quest Progress";
+      questProgressLabel.Text = "任务进度";
       //
       // questProgress
       //
@@ -100,7 +100,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       cobalionGroup.Size = new Size(338, 80);
       cobalionGroup.TabIndex = 4;
       cobalionGroup.TabStop = false;
-      cobalionGroup.Text = "Cobalion";
+      cobalionGroup.Text = "勾帕路翁";
       //
       // cobalionProgress
       //
@@ -118,7 +118,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       cobalionDisappeared.Name = "cobalionDisappeared";
       cobalionDisappeared.Size = new Size(91, 19);
       cobalionDisappeared.TabIndex = 8;
-      cobalionDisappeared.Text = "Disappeared";
+      cobalionDisappeared.Text = "消失";
       cobalionDisappeared.UseVisualStyleBackColor = true;
       //
       // cobalionFootsprintsLabel
@@ -129,7 +129,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       cobalionFootsprintsLabel.Name = "cobalionFootsprintsLabel";
       cobalionFootsprintsLabel.Size = new Size(69, 15);
       cobalionFootsprintsLabel.TabIndex = 6;
-      cobalionFootsprintsLabel.Text = "Footprint %";
+      cobalionFootsprintsLabel.Text = "脚印 %";
       //
       // cobalionFootprints
       //
@@ -151,7 +151,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       terrakionGroup.Size = new Size(338, 80);
       terrakionGroup.TabIndex = 9;
       terrakionGroup.TabStop = false;
-      terrakionGroup.Text = "Terrakion";
+      terrakionGroup.Text = "代拉基翁";
       //
       // terrakionProgress
       //
@@ -169,7 +169,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       terrakionDisappeared.Name = "terrakionDisappeared";
       terrakionDisappeared.Size = new Size(91, 19);
       terrakionDisappeared.TabIndex = 11;
-      terrakionDisappeared.Text = "Disappeared";
+      terrakionDisappeared.Text = "消失";
       terrakionDisappeared.UseVisualStyleBackColor = true;
       //
       // terrakionFootprintsLabel
@@ -180,7 +180,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       terrakionFootprintsLabel.Name = "terrakionFootprintsLabel";
       terrakionFootprintsLabel.Size = new Size(69, 15);
       terrakionFootprintsLabel.TabIndex = 12;
-      terrakionFootprintsLabel.Text = "Footprint %";
+      terrakionFootprintsLabel.Text = "脚印 %";
       //
       // terrakionFootprints
       //
@@ -202,7 +202,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       virizionGroup.Size = new Size(338, 80);
       virizionGroup.TabIndex = 14;
       virizionGroup.TabStop = false;
-      virizionGroup.Text = "Virizion";
+      virizionGroup.Text = "毕力吉翁";
       //
       // virizionProgress
       //
@@ -220,7 +220,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       virizionDisappeared.Name = "virizionDisappeared";
       virizionDisappeared.Size = new Size(91, 19);
       virizionDisappeared.TabIndex = 16;
-      virizionDisappeared.Text = "Disappeared";
+      virizionDisappeared.Text = "消失";
       virizionDisappeared.UseVisualStyleBackColor = true;
       //
       // virizionFootprintsLabel
@@ -231,7 +231,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       virizionFootprintsLabel.Name = "virizionFootprintsLabel";
       virizionFootprintsLabel.Size = new Size(69, 15);
       virizionFootprintsLabel.TabIndex = 17;
-      virizionFootprintsLabel.Text = "Footprint %";
+      virizionFootprintsLabel.Text = "脚印 %";
       //
       // virizionFootprints
       //
@@ -251,7 +251,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       keldeoGroup.Size = new Size(338, 80);
       keldeoGroup.TabIndex = 19;
       keldeoGroup.TabStop = false;
-      keldeoGroup.Text = "Keldeo";
+      keldeoGroup.Text = "凯路迪欧";
       //
       // keldeoProgress
       //
@@ -269,7 +269,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       keldeoDisappeared.Name = "keldeoDisappeared";
       keldeoDisappeared.Size = new Size(91, 19);
       keldeoDisappeared.TabIndex = 21;
-      keldeoDisappeared.Text = "Disappeared";
+      keldeoDisappeared.Text = "消失";
       keldeoDisappeared.UseVisualStyleBackColor = true;
       //
       // apply_BTN
@@ -279,7 +279,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       apply_BTN.Name = "apply_BTN";
       apply_BTN.Size = new Size(154, 55);
       apply_BTN.TabIndex = 22;
-      apply_BTN.Text = "Apply Selection";
+      apply_BTN.Text = "应用所选内容";
       apply_BTN.UseVisualStyleBackColor = true;
       apply_BTN.Click += apply_BTN_Click;
       //
@@ -300,7 +300,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       FormBorderStyle = FormBorderStyle.FixedToolWindow;
       Margin = new Padding(4, 3, 4, 3);
       Name = "SwordsOfJusticeForm";
-      Text = "Swords of Justice Editor";
+      Text = "四剑客编辑器";
       cobalionGroup.ResumeLayout(false);
       cobalionGroup.PerformLayout();
       ((System.ComponentModel.ISupportInitialize)cobalionFootprints).EndInit();

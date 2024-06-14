@@ -15,7 +15,7 @@ public partial class Wonder2FashionForm : Form {
     string[] temp = [];
     using (OpenFileDialog dlg = new OpenFileDialog()) {
       dlg.Multiselect = true;
-      dlg.Title = $"Please Select Wondercard {type} File";
+      dlg.Title = $"请选择 Wondercard {type} File";
       dlg.Filter = "Gen 8 Wondercard file (*.wc8)|*.wc8";
       if (dlg.ShowDialog() == DialogResult.OK) {
         temp = dlg.FileNames;

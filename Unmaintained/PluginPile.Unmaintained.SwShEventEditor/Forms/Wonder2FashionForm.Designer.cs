@@ -41,7 +41,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.toolStrip1.Name = "toolStrip1";
       this.toolStrip1.Size = new System.Drawing.Size(800, 25);
       this.toolStrip1.TabIndex = 0;
-      this.toolStrip1.Text = "toolStrip1";
+      this.toolStrip1.Text = "工具栏1";
       //
       // ts_apply_BTN
       //
@@ -49,7 +49,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.ts_apply_BTN.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.ts_apply_BTN.Name = "ts_apply_BTN";
       this.ts_apply_BTN.Size = new System.Drawing.Size(93, 22);
-      this.ts_apply_BTN.Text = "Apply Selection";
+      this.ts_apply_BTN.Text = "应用所选内容";
       this.ts_apply_BTN.Click += new System.EventHandler(this.ts_apply_BTN_Click);
       //
       // tabControl1
@@ -71,7 +71,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
       this.tabPage1.Size = new System.Drawing.Size(792, 399);
       this.tabPage1.TabIndex = 0;
-      this.tabPage1.Text = "Fashion";
+      this.tabPage1.Text = "服装";
       //
       // wondercardControl1
       //
@@ -89,7 +89,7 @@ namespace PluginPile.Unmaintained.SwShEventEditor {
       this.Controls.Add(this.tabControl1);
       this.Controls.Add(this.toolStrip1);
       this.Name = "Wonder2FashionForm";
-      this.Text = "Wondercard Conversion";
+      this.Text = "神秘礼物卡片导入";
       this.toolStrip1.ResumeLayout(false);
       this.toolStrip1.PerformLayout();
       this.tabControl1.ResumeLayout(false);
