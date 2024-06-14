@@ -39,7 +39,107 @@ namespace PluginPile.Unmaintained.BWTool {
       // Proplist
       //
       Proplist.FormattingEnabled = true;
-      Proplist.Items.AddRange(new object[] { "Pink Barrette", "Blue Barrette", "Red Barrette", "Blue Flower", "Crimson Scarf", "Red Flower", "Big Barrette", "Headband", "Square Glasses", "Striped Barrette", "Small Barrette", "Decorative Ribbon", "Purse", "Necklace", "Gorgeous Flower", "Round Button", "Green Barrette", "Straw Hat", "Snow Crystal", "Lonely Flower", "Paintbrush", "Beret", "Whisk", "Ladle", "Toy Cake", "Chef's Hat", "Frying Pan", "Bib", "Red Parasol", "Germ Mask", "Mallet", "Colorful Parasol", "Wrench", "Lantern", "Windup Key", "Helmet", "Frilly Apron", "Dressy Tie", "Lace Cap", "Scarlet Cape", "Toy Cutlass", "Toy Sword", "Pirate Hat", "Cowboy Hat", "Rigid Shield", "Black Wings", "Witchy Hat", "White Wings", "Umber Belt", "Horned Helm", "Trident", "Magic Wand", "Red Nose", "Jester's Cap", "Googly Specs", "Crown", "Black Tie", "Black Cape", "Gorgeous Specs", "Top Hat", "White Domino Mask", "White Cape", "Gentleman's Hat", "Cane", "Striped Tie", "Pocket Watch", "Bowtie", "Tiara", "Rose", "Monocle", "Tie", "Wig", "Standing Mike", "Tambourine", "Fedora", "Microphone", "Maraca", "Trumpet", "Laurel Wreath", "White Pompom", "Pennant", "Football", "Winner's Belt", "Racket", "Electric Guitar", "Toy Fishing Rod", "Smiley-Face Mask", "Fake Belly Button", "Professor Hat", "Hula Skirt", "Thick Book", "Bouquet", "Fake Bone", "Round Mushroom", "Shuriken", "Scarlet Hat", "Big Bag", "Candy", "Fluffy Beard", "Gift Box" });
+      Proplist.Items.AddRange(new object[] {
+            "粉色发夹",
+            "蓝色发夹",
+            "红色发夹",
+            "蓝色花朵",
+            "红色围巾",
+            "红色花朵",
+            "大型发夹",
+            "发箍",
+            "方框眼镜",
+            "条纹发夹",
+            "小型发夹",
+            "装饰缎带",
+            "手提袋",
+            "项链",
+            "艳丽花朵",
+            "圆形纽扣",
+            "绿色发夹",
+            "草帽",
+            "雪结晶",
+            "单枝的花",
+            "画笔",
+            "贝雷帽",
+            "打蛋器",
+            "汤勺",
+            "蛋糕模型",
+            "厨师帽",
+            "平底锅",
+            "围嘴",
+            "红色阳伞",
+            "伤风口罩",
+            "铁锤",
+            "缤纷阳伞",
+            "扳手",
+            "手提油灯",
+            "发条",
+            "安全头盔",
+            "褶边围裙",
+            "洋装领结",
+            "丝质礼帽",
+            "红色披风",
+            "玩具刀",
+            "玩具剑",
+            "海贼帽",
+            "牛仔帽",
+            "坚硬盾牌",
+            "漆黑之翼",
+            "女巫帽子",
+            "纯白之翼",
+            "茶色皮带",
+            "带角头盔",
+            "三叉戟",
+            "魔杖",
+            "红鼻子",
+            "小丑帽",
+            "晕晕眼镜",
+            "王冠",
+            "黑色领带",
+            "黑色披风",
+            "华丽眼镜",
+            "褶边头带",
+            "白色面具",
+            "白色披风",
+            "绅士帽",
+            "手杖",
+            "斜纹领带",
+            "小怀表",
+            "蝴蝶领结",
+            "后冠",
+            "蔷薇花",
+            "单片眼镜",
+            "横纹领带",
+            "爆炸头",
+            "立式话筒",
+            "铃鼓",
+            "小帽子",
+            "手持话筒",
+            "响葫芦",
+            "喇叭",
+            "桂冠",
+            "白色绒球",
+            "旗子",
+            "球",
+            "优胜腰带",
+            "球拍",
+            "电吉他",
+            "玩具钓竿",
+            "笑笑面具",
+            "假肚脐",
+            "博士帽",
+            "草裙",
+            "厚重的书",
+            "捧花",
+            "骨头仿品",
+            "圆圆蘑菇",
+            "手里剑",
+            "红色帽子",
+            "大布袋",
+            "糖果",
+            "密密胡子",
+            "礼物盒"});
       Proplist.Location = new Point(30, 32);
       Proplist.Margin = new Padding(4, 3, 4, 3);
       Proplist.Name = "Proplist";
@@ -54,7 +154,7 @@ namespace PluginPile.Unmaintained.BWTool {
       HasPropCheckbox.Name = "HasPropCheckbox";
       HasPropCheckbox.Size = new Size(121, 28);
       HasPropCheckbox.TabIndex = 1;
-      HasPropCheckbox.Text = "Obtained";
+      HasPropCheckbox.Text = "已获得";
       HasPropCheckbox.UseVisualStyleBackColor = true;
       HasPropCheckbox.CheckedChanged += Hasprop_checkboxCheckedChanged;
       //
@@ -65,7 +165,7 @@ namespace PluginPile.Unmaintained.BWTool {
       UnlockAll.Name = "UnlockAll";
       UnlockAll.Size = new Size(119, 27);
       UnlockAll.TabIndex = 2;
-      UnlockAll.Text = "Unlock all";
+      UnlockAll.Text = "解锁全部";
       UnlockAll.UseVisualStyleBackColor = true;
       UnlockAll.Click += UnlockAll_Click;
       //
@@ -76,7 +176,7 @@ namespace PluginPile.Unmaintained.BWTool {
       HexValueLabel.Name = "HexValueLabel";
       HexValueLabel.Size = new Size(117, 27);
       HexValueLabel.TabIndex = 3;
-      HexValueLabel.Text = "Hex value:";
+      HexValueLabel.Text = "十六进制:";
       //
       // PropHex
       //
@@ -94,7 +194,7 @@ namespace PluginPile.Unmaintained.BWTool {
       Exit.Name = "Exit";
       Exit.Size = new Size(119, 27);
       Exit.TabIndex = 21;
-      Exit.Text = "Exit";
+      Exit.Text = "退出";
       Exit.UseVisualStyleBackColor = true;
       Exit.Click += Exit_Click;
       //
@@ -105,7 +205,7 @@ namespace PluginPile.Unmaintained.BWTool {
       SaveButton.Name = "SaveButton";
       SaveButton.Size = new Size(119, 27);
       SaveButton.TabIndex = 20;
-      SaveButton.Text = "Save";
+      SaveButton.Text = "保存";
       SaveButton.UseVisualStyleBackColor = true;
       SaveButton.Click += Save_Click;
       //
@@ -126,7 +226,7 @@ namespace PluginPile.Unmaintained.BWTool {
       RemoveAll.Name = "RemoveAll";
       RemoveAll.Size = new Size(119, 27);
       RemoveAll.TabIndex = 23;
-      RemoveAll.Text = "Remove all";
+      RemoveAll.Text = "移除全部";
       RemoveAll.UseVisualStyleBackColor = true;
       RemoveAll.Click += RemoveAll_Click;
       //
@@ -148,7 +248,7 @@ namespace PluginPile.Unmaintained.BWTool {
       MaximizeBox = false;
       MinimizeBox = false;
       Name = "PropcaseForm";
-      Text = "Props Case Editor";
+      Text = "物品箱编辑器";
       ((System.ComponentModel.ISupportInitialize)SpriteBox).EndInit();
       ResumeLayout(false);
       PerformLayout();

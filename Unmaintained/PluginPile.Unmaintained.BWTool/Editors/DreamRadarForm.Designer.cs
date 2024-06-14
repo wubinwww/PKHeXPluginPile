@@ -195,7 +195,7 @@ namespace PluginPile.Unmaintained.BWTool {
       saveexit_but.Name = "saveexit_but";
       saveexit_but.Size = new Size(115, 33);
       saveexit_but.TabIndex = 11;
-      saveexit_but.Text = "Save and Exit";
+      saveexit_but.Text = "保存并退出";
       saveexit_but.UseVisualStyleBackColor = true;
       saveexit_but.Click += Saveexit_butClick;
       //
@@ -206,7 +206,7 @@ namespace PluginPile.Unmaintained.BWTool {
       exit_but.Name = "exit_but";
       exit_but.Size = new Size(113, 31);
       exit_but.TabIndex = 10;
-      exit_but.Text = "Exit";
+      exit_but.Text = "退出";
       exit_but.UseVisualStyleBackColor = true;
       exit_but.Click += Exit_butClick;
       //
@@ -217,7 +217,7 @@ namespace PluginPile.Unmaintained.BWTool {
       clean_but.Name = "clean_but";
       clean_but.Size = new Size(142, 25);
       clean_but.TabIndex = 12;
-      clean_but.Text = "RESET ALL DATA";
+      clean_but.Text = "重置所有数据";
       clean_but.UseVisualStyleBackColor = true;
       clean_but.Visible = false;
       clean_but.Click += Clean_butClick;
@@ -247,7 +247,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox1.Size = new Size(216, 280);
       groupBox1.TabIndex = 13;
       groupBox1.TabStop = false;
-      groupBox1.Text = "Legendary Slots";
+      groupBox1.Text = "传说槽位";
       //
       // label5
       //
@@ -256,13 +256,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label5.Name = "label5";
       label5.Size = new Size(50, 27);
       label5.TabIndex = 15;
-      label5.Text = "Slot 8";
+      label5.Text = "槽位8";
       label5.TextAlign = ContentAlignment.MiddleRight;
       //
       // legend8
       //
       legend8.FormattingEnabled = true;
-      legend8.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      legend8.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       legend8.Location = new Point(64, 239);
       legend8.Margin = new Padding(4, 3, 4, 3);
       legend8.Name = "legend8";
@@ -276,16 +276,16 @@ namespace PluginPile.Unmaintained.BWTool {
       label6.Name = "label6";
       label6.Size = new Size(50, 27);
       label6.TabIndex = 13;
-      label6.Text = "Slot 7";
+      label6.Text = "槽位7";
       label6.TextAlign = ContentAlignment.MiddleRight;
       //
       // legend7
       //
       legend7.FormattingEnabled = true;
-      legend7.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      legend7.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       legend7.Location = new Point(64, 208);
       legend7.Margin = new Padding(4, 3, 4, 3);
-      legend7.Name = "legend7";
+      legend7.Name = "槽位7";
       legend7.Size = new Size(121, 23);
       legend7.TabIndex = 12;
       //
@@ -296,13 +296,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label7.Name = "label7";
       label7.Size = new Size(50, 27);
       label7.TabIndex = 11;
-      label7.Text = "Slot 6";
+      label7.Text = "槽位6";
       label7.TextAlign = ContentAlignment.MiddleRight;
       //
       // legend6
       //
       legend6.FormattingEnabled = true;
-      legend6.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      legend6.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       legend6.Location = new Point(64, 177);
       legend6.Margin = new Padding(4, 3, 4, 3);
       legend6.Name = "legend6";
@@ -316,13 +316,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label8.Name = "label8";
       label8.Size = new Size(50, 27);
       label8.TabIndex = 9;
-      label8.Text = "Slot 5";
+      label8.Text = "槽位5";
       label8.TextAlign = ContentAlignment.MiddleRight;
       //
       // legend5
       //
       legend5.FormattingEnabled = true;
-      legend5.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      legend5.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       legend5.Location = new Point(64, 145);
       legend5.Margin = new Padding(4, 3, 4, 3);
       legend5.Name = "legend5";
@@ -336,13 +336,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label4.Name = "label4";
       label4.Size = new Size(50, 27);
       label4.TabIndex = 7;
-      label4.Text = "Slot 4";
+      label4.Text = "槽位4";
       label4.TextAlign = ContentAlignment.MiddleRight;
       //
       // legend4
       //
       legend4.FormattingEnabled = true;
-      legend4.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      legend4.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       legend4.Location = new Point(64, 114);
       legend4.Margin = new Padding(4, 3, 4, 3);
       legend4.Name = "legend4";
@@ -356,13 +356,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label3.Name = "label3";
       label3.Size = new Size(50, 27);
       label3.TabIndex = 5;
-      label3.Text = "Slot 3";
+      label3.Text = "槽位3";
       label3.TextAlign = ContentAlignment.MiddleRight;
       //
       // legend3
       //
       legend3.FormattingEnabled = true;
-      legend3.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      legend3.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       legend3.Location = new Point(64, 83);
       legend3.Margin = new Padding(4, 3, 4, 3);
       legend3.Name = "legend3";
@@ -376,13 +376,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label2.Name = "label2";
       label2.Size = new Size(50, 27);
       label2.TabIndex = 3;
-      label2.Text = "Slot 2";
+      label2.Text = "槽位2";
       label2.TextAlign = ContentAlignment.MiddleRight;
       //
       // legend2
       //
       legend2.FormattingEnabled = true;
-      legend2.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      legend2.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       legend2.Location = new Point(64, 52);
       legend2.Margin = new Padding(4, 3, 4, 3);
       legend2.Name = "legend2";
@@ -396,16 +396,16 @@ namespace PluginPile.Unmaintained.BWTool {
       label1.Name = "label1";
       label1.Size = new Size(50, 27);
       label1.TabIndex = 1;
-      label1.Text = "Slot 1";
+      label1.Text = "槽位1";
       label1.TextAlign = ContentAlignment.MiddleRight;
       //
       // legend1
       //
       legend1.FormattingEnabled = true;
-      legend1.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      legend1.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       legend1.Location = new Point(64, 21);
       legend1.Margin = new Padding(4, 3, 4, 3);
-      legend1.Name = "legend1";
+      legend1.Name = "槽位1";
       legend1.Size = new Size(121, 23);
       legend1.TabIndex = 0;
       //
@@ -439,7 +439,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox2.Size = new Size(329, 280);
       groupBox2.TabIndex = 14;
       groupBox2.TabStop = false;
-      groupBox2.Text = "Pokémon Slots";
+      groupBox2.Text = "宝可梦槽位";
       //
       // label24
       //
@@ -449,7 +449,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label24.Name = "label24";
       label24.Size = new Size(99, 27);
       label24.TabIndex = 36;
-      label24.Text = "Gender";
+      label24.Text = "性别";
       label24.TextAlign = ContentAlignment.MiddleCenter;
       //
       // label23
@@ -460,7 +460,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label23.Name = "label23";
       label23.Size = new Size(121, 27);
       label23.TabIndex = 35;
-      label23.Text = "Species";
+      label23.Text = "种族";
       label23.TextAlign = ContentAlignment.MiddleCenter;
       //
       // label22
@@ -470,12 +470,12 @@ namespace PluginPile.Unmaintained.BWTool {
       label22.Name = "label22";
       label22.Size = new Size(303, 36);
       label22.TabIndex = 34;
-      label22.Text = "Note: fixed gender and genderless species will be auto-corrected when saving.";
+      label22.Text = "注：保存时会自动更正固定的性别和无性别宝可梦.";
       //
       // pkmgnd6
       //
       pkmgnd6.FormattingEnabled = true;
-      pkmgnd6.Items.AddRange(new object[] { "♂", "♀", "Genderless" });
+      pkmgnd6.Items.AddRange(new object[] { "♂", "♀", "无性别" });
       pkmgnd6.Location = new Point(223, 208);
       pkmgnd6.Margin = new Padding(4, 3, 4, 3);
       pkmgnd6.Name = "pkmgnd6";
@@ -485,7 +485,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // pkmgnd5
       //
       pkmgnd5.FormattingEnabled = true;
-      pkmgnd5.Items.AddRange(new object[] { "♂", "♀", "Genderless" });
+      pkmgnd5.Items.AddRange(new object[] { "♂", "♀", "无性别" });
       pkmgnd5.Location = new Point(223, 177);
       pkmgnd5.Margin = new Padding(4, 3, 4, 3);
       pkmgnd5.Name = "pkmgnd5";
@@ -495,7 +495,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // pkmgnd4
       //
       pkmgnd4.FormattingEnabled = true;
-      pkmgnd4.Items.AddRange(new object[] { "♂", "♀", "Genderless" });
+      pkmgnd4.Items.AddRange(new object[] { "♂", "♀", "无性别" });
       pkmgnd4.Location = new Point(223, 145);
       pkmgnd4.Margin = new Padding(4, 3, 4, 3);
       pkmgnd4.Name = "pkmgnd4";
@@ -505,7 +505,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // pkmgnd3
       //
       pkmgnd3.FormattingEnabled = true;
-      pkmgnd3.Items.AddRange(new object[] { "♂", "♀", "Genderless" });
+      pkmgnd3.Items.AddRange(new object[] { "♂", "♀", "无性别" });
       pkmgnd3.Location = new Point(223, 114);
       pkmgnd3.Margin = new Padding(4, 3, 4, 3);
       pkmgnd3.Name = "pkmgnd3";
@@ -515,7 +515,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // pkmgnd2
       //
       pkmgnd2.FormattingEnabled = true;
-      pkmgnd2.Items.AddRange(new object[] { "♂", "♀", "Genderless" });
+      pkmgnd2.Items.AddRange(new object[] { "♂", "♀", "无性别" });
       pkmgnd2.Location = new Point(223, 83);
       pkmgnd2.Margin = new Padding(4, 3, 4, 3);
       pkmgnd2.Name = "pkmgnd2";
@@ -525,7 +525,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // pkmgnd1
       //
       pkmgnd1.FormattingEnabled = true;
-      pkmgnd1.Items.AddRange(new object[] { "♂", "♀", "Genderless" });
+      pkmgnd1.Items.AddRange(new object[] { "♂", "♀", "无性别" });
       pkmgnd1.Location = new Point(223, 52);
       pkmgnd1.Margin = new Padding(4, 3, 4, 3);
       pkmgnd1.Name = "pkmgnd1";
@@ -539,13 +539,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label9.Name = "label9";
       label9.Size = new Size(50, 27);
       label9.TabIndex = 27;
-      label9.Text = "Slot 6";
+      label9.Text = "槽位6";
       label9.TextAlign = ContentAlignment.MiddleRight;
       //
       // pkm1
       //
       pkm1.FormattingEnabled = true;
-      pkm1.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      pkm1.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       pkm1.Location = new Point(64, 52);
       pkm1.Margin = new Padding(4, 3, 4, 3);
       pkm1.Name = "pkm1";
@@ -555,7 +555,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // pkm6
       //
       pkm6.FormattingEnabled = true;
-      pkm6.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      pkm6.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       pkm6.Location = new Point(64, 208);
       pkm6.Margin = new Padding(4, 3, 4, 3);
       pkm6.Name = "pkm6";
@@ -569,7 +569,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label14.Name = "label14";
       label14.Size = new Size(50, 27);
       label14.TabIndex = 17;
-      label14.Text = "Slot 1";
+      label14.Text = "槽位1";
       label14.TextAlign = ContentAlignment.MiddleRight;
       //
       // label10
@@ -579,13 +579,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label10.Name = "label10";
       label10.Size = new Size(50, 27);
       label10.TabIndex = 25;
-      label10.Text = "Slot 5";
+      label10.Text = "槽位5";
       label10.TextAlign = ContentAlignment.MiddleRight;
       //
       // pkm2
       //
       pkm2.FormattingEnabled = true;
-      pkm2.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      pkm2.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       pkm2.Location = new Point(64, 83);
       pkm2.Margin = new Padding(4, 3, 4, 3);
       pkm2.Name = "pkm2";
@@ -595,7 +595,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // pkm5
       //
       pkm5.FormattingEnabled = true;
-      pkm5.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      pkm5.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       pkm5.Location = new Point(64, 177);
       pkm5.Margin = new Padding(4, 3, 4, 3);
       pkm5.Name = "pkm5";
@@ -609,7 +609,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label13.Name = "label13";
       label13.Size = new Size(50, 27);
       label13.TabIndex = 19;
-      label13.Text = "Slot 2";
+      label13.Text = "槽位2";
       label13.TextAlign = ContentAlignment.MiddleRight;
       //
       // label11
@@ -619,13 +619,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label11.Name = "label11";
       label11.Size = new Size(50, 27);
       label11.TabIndex = 23;
-      label11.Text = "Slot 4";
+      label11.Text = "槽位4";
       label11.TextAlign = ContentAlignment.MiddleRight;
       //
       // pkm3
       //
       pkm3.FormattingEnabled = true;
-      pkm3.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      pkm3.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       pkm3.Location = new Point(64, 114);
       pkm3.Margin = new Padding(4, 3, 4, 3);
       pkm3.Name = "pkm3";
@@ -635,7 +635,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // pkm4
       //
       pkm4.FormattingEnabled = true;
-      pkm4.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      pkm4.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       pkm4.Location = new Point(64, 145);
       pkm4.Margin = new Padding(4, 3, 4, 3);
       pkm4.Name = "pkm4";
@@ -649,7 +649,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label12.Name = "label12";
       label12.Size = new Size(50, 27);
       label12.TabIndex = 21;
-      label12.Text = "Slot 3";
+      label12.Text = "槽位3";
       label12.TextAlign = ContentAlignment.MiddleRight;
       //
       // groupBox3
@@ -680,7 +680,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox3.Size = new Size(326, 280);
       groupBox3.TabIndex = 15;
       groupBox3.TabStop = false;
-      groupBox3.Text = "Item Slots";
+      groupBox3.Text = "道具槽位";
       //
       // label26
       //
@@ -689,7 +689,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label26.Name = "label26";
       label26.Size = new Size(295, 32);
       label26.TabIndex = 46;
-      label26.Text = "Note: \"NONE\" will auto-set to 0 cuantity. Any item with 0 cuantity will be auto set to 1 when saving.";
+      label26.Text = "注： \"无\" 将自动设置数量为0.任何非\"无\"道具数量为0的,将在保存时自动设置为1.";
       //
       // itemcnt6
       //
@@ -752,7 +752,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label15.Name = "label15";
       label15.Size = new Size(50, 27);
       label15.TabIndex = 39;
-      label15.Text = "Slot 6";
+      label15.Text = "槽位6";
       label15.TextAlign = ContentAlignment.MiddleRight;
       //
       // label20
@@ -762,13 +762,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label20.Name = "label20";
       label20.Size = new Size(50, 27);
       label20.TabIndex = 29;
-      label20.Text = "Slot 1";
+      label20.Text = "槽位1";
       label20.TextAlign = ContentAlignment.MiddleRight;
       //
       // item6
       //
       item6.FormattingEnabled = true;
-      item6.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      item6.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       item6.Location = new Point(64, 208);
       item6.Margin = new Padding(4, 3, 4, 3);
       item6.Name = "item6";
@@ -778,7 +778,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // item1
       //
       item1.FormattingEnabled = true;
-      item1.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      item1.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       item1.Location = new Point(64, 52);
       item1.Margin = new Padding(4, 3, 4, 3);
       item1.Name = "item1";
@@ -792,13 +792,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label16.Name = "label16";
       label16.Size = new Size(50, 27);
       label16.TabIndex = 37;
-      label16.Text = "Slot 5";
+      label16.Text = "槽位5";
       label16.TextAlign = ContentAlignment.MiddleRight;
       //
       // item2
       //
       item2.FormattingEnabled = true;
-      item2.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      item2.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       item2.Location = new Point(64, 83);
       item2.Margin = new Padding(4, 3, 4, 3);
       item2.Name = "item2";
@@ -808,7 +808,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // item5
       //
       item5.FormattingEnabled = true;
-      item5.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      item5.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       item5.Location = new Point(64, 177);
       item5.Margin = new Padding(4, 3, 4, 3);
       item5.Name = "item5";
@@ -822,7 +822,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label19.Name = "label19";
       label19.Size = new Size(50, 27);
       label19.TabIndex = 31;
-      label19.Text = "Slot 2";
+      label19.Text = "槽位2";
       label19.TextAlign = ContentAlignment.MiddleRight;
       //
       // label17
@@ -832,13 +832,13 @@ namespace PluginPile.Unmaintained.BWTool {
       label17.Name = "label17";
       label17.Size = new Size(50, 27);
       label17.TabIndex = 35;
-      label17.Text = "Slot 4";
+      label17.Text = "槽位4";
       label17.TextAlign = ContentAlignment.MiddleRight;
       //
       // item3
       //
       item3.FormattingEnabled = true;
-      item3.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      item3.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       item3.Location = new Point(64, 114);
       item3.Margin = new Padding(4, 3, 4, 3);
       item3.Name = "item3";
@@ -848,7 +848,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // item4
       //
       item4.FormattingEnabled = true;
-      item4.Items.AddRange(new object[] { "NONE", "Tornadus", "Thundurus", "Landorus", "Dialga", "Palkia", "Giratina", "Ho-Oh", "Lugia" });
+      item4.Items.AddRange(new object[] { "无", "龙卷云", "雷电云", "土地云", "帝牙卢卡", "帕路奇亚", "骑拉帝纳", "凤王", "洛奇亚" });
       item4.Location = new Point(64, 145);
       item4.Margin = new Padding(4, 3, 4, 3);
       item4.Name = "item4";
@@ -862,7 +862,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label18.Name = "label18";
       label18.Size = new Size(50, 27);
       label18.TabIndex = 33;
-      label18.Text = "Slot 3";
+      label18.Text = "槽位3";
       label18.TextAlign = ContentAlignment.MiddleRight;
       //
       // groupBox4
@@ -885,7 +885,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label25.Name = "label25";
       label25.Size = new Size(244, 22);
       label25.TabIndex = 2;
-      label25.Text = "Note: Changing mode will reload all data";
+      label25.Text = "注：模式切换将会重载所有数据";
       //
       // allmode
       //
@@ -895,7 +895,7 @@ namespace PluginPile.Unmaintained.BWTool {
       allmode.Size = new Size(97, 28);
       allmode.TabIndex = 1;
       allmode.TabStop = true;
-      allmode.Text = "All Mode";
+      allmode.Text = "所有模式";
       allmode.UseVisualStyleBackColor = true;
       allmode.CheckedChanged += AllmodeCheckedChanged;
       //
@@ -907,7 +907,7 @@ namespace PluginPile.Unmaintained.BWTool {
       legitmode.Size = new Size(97, 28);
       legitmode.TabIndex = 0;
       legitmode.TabStop = true;
-      legitmode.Text = "Legit Mode";
+      legitmode.Text = "合法模式";
       legitmode.UseVisualStyleBackColor = true;
       legitmode.CheckedChanged += LegitmodeCheckedChanged;
       //
@@ -919,7 +919,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label21.Name = "label21";
       label21.Size = new Size(884, 27);
       label21.TabIndex = 17;
-      label21.Text = "Note: Dream Radar only allows to transfer a total of 6 Pokémon (including normal + legendaries) even though you can transfer 14 at once using this editor.";
+      label21.Text = "注：即便你能通过本编辑器一次性传送14只宝可梦,AR搜寻器实际只允许传送总共6只宝可梦（包括普通和传说宝可梦）.";
       //
       // groupBox5
       //
@@ -938,7 +938,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox5.Size = new Size(268, 129);
       groupBox5.TabIndex = 18;
       groupBox5.TabStop = false;
-      groupBox5.Text = "Legendary Flags";
+      groupBox5.Text = "传说旗标";
       //
       // flag7
       //
@@ -947,7 +947,7 @@ namespace PluginPile.Unmaintained.BWTool {
       flag7.Name = "flag7";
       flag7.Size = new Size(121, 28);
       flag7.TabIndex = 7;
-      flag7.Text = "Lugia";
+      flag7.Text = "洛奇亚";
       flag7.UseVisualStyleBackColor = true;
       //
       // flag3
@@ -957,7 +957,7 @@ namespace PluginPile.Unmaintained.BWTool {
       flag3.Name = "flag3";
       flag3.Size = new Size(121, 28);
       flag3.TabIndex = 6;
-      flag3.Text = "Dialga";
+      flag3.Text = "帝牙卢卡";
       flag3.UseVisualStyleBackColor = true;
       //
       // flag6
@@ -967,7 +967,7 @@ namespace PluginPile.Unmaintained.BWTool {
       flag6.Name = "flag6";
       flag6.Size = new Size(121, 28);
       flag6.TabIndex = 5;
-      flag6.Text = "Ho-Oh";
+      flag6.Text = "凤王";
       flag6.UseVisualStyleBackColor = true;
       //
       // flag2
@@ -977,7 +977,7 @@ namespace PluginPile.Unmaintained.BWTool {
       flag2.Name = "flag2";
       flag2.Size = new Size(121, 28);
       flag2.TabIndex = 4;
-      flag2.Text = "Landorus";
+      flag2.Text = "土地云";
       flag2.UseVisualStyleBackColor = true;
       //
       // flag5
@@ -987,7 +987,7 @@ namespace PluginPile.Unmaintained.BWTool {
       flag5.Name = "flag5";
       flag5.Size = new Size(121, 28);
       flag5.TabIndex = 3;
-      flag5.Text = "Giratina";
+      flag5.Text = "骑拉帝纳";
       flag5.UseVisualStyleBackColor = true;
       //
       // flag1
@@ -997,7 +997,7 @@ namespace PluginPile.Unmaintained.BWTool {
       flag1.Name = "flag1";
       flag1.Size = new Size(121, 28);
       flag1.TabIndex = 2;
-      flag1.Text = "Thundurus";
+      flag1.Text = "雷电云";
       flag1.UseVisualStyleBackColor = true;
       //
       // flag4
@@ -1007,7 +1007,7 @@ namespace PluginPile.Unmaintained.BWTool {
       flag4.Name = "flag4";
       flag4.Size = new Size(121, 28);
       flag4.TabIndex = 1;
-      flag4.Text = "Palkia";
+      flag4.Text = "帕路奇亚";
       flag4.UseVisualStyleBackColor = true;
       //
       // flag0
@@ -1017,7 +1017,7 @@ namespace PluginPile.Unmaintained.BWTool {
       flag0.Name = "flag0";
       flag0.Size = new Size(121, 28);
       flag0.TabIndex = 0;
-      flag0.Text = "Tornadus";
+      flag0.Text = "龙卷云";
       flag0.UseVisualStyleBackColor = true;
       //
       // DreamRadarForm
@@ -1038,7 +1038,7 @@ namespace PluginPile.Unmaintained.BWTool {
       MaximizeBox = false;
       MinimizeBox = false;
       Name = "DreamRadarForm";
-      Text = "DreamRadar";
+      Text = "AR搜寻器";
       groupBox1.ResumeLayout(false);
       groupBox2.ResumeLayout(false);
       groupBox3.ResumeLayout(false);

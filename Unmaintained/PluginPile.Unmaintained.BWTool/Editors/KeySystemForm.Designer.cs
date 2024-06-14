@@ -101,7 +101,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox1.Size = new Size(245, 89);
       groupBox1.TabIndex = 0;
       groupBox1.TabStop = false;
-      groupBox1.Text = "White 2 Keys";
+      groupBox1.Text = "白2钥匙";
       //
       // icebergkeybox
       //
@@ -110,7 +110,7 @@ namespace PluginPile.Unmaintained.BWTool {
       icebergkeybox.Name = "icebergkeybox";
       icebergkeybox.Size = new Size(164, 28);
       icebergkeybox.TabIndex = 1;
-      icebergkeybox.Text = "Iceberg Chamber Key";
+      icebergkeybox.Text = "冰山钥匙";
       icebergkeybox.UseVisualStyleBackColor = true;
       //
       // easykeybox
@@ -120,7 +120,7 @@ namespace PluginPile.Unmaintained.BWTool {
       easykeybox.Name = "easykeybox";
       easykeybox.Size = new Size(121, 28);
       easykeybox.TabIndex = 0;
-      easykeybox.Text = "Easy Mode Key";
+      easykeybox.Text = "助手钥匙";
       easykeybox.UseVisualStyleBackColor = true;
       //
       // groupBox2
@@ -134,7 +134,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox2.Size = new Size(245, 89);
       groupBox2.TabIndex = 1;
       groupBox2.TabStop = false;
-      groupBox2.Text = "Black 2 Keys";
+      groupBox2.Text = "黑2钥匙";
       //
       // ironkeybox
       //
@@ -143,7 +143,7 @@ namespace PluginPile.Unmaintained.BWTool {
       ironkeybox.Name = "ironkeybox";
       ironkeybox.Size = new Size(164, 28);
       ironkeybox.TabIndex = 2;
-      ironkeybox.Text = "Iron Chamber Key";
+      ironkeybox.Text = "黑金钥匙";
       ironkeybox.UseVisualStyleBackColor = true;
       //
       // challengekeybox
@@ -153,7 +153,7 @@ namespace PluginPile.Unmaintained.BWTool {
       challengekeybox.Name = "challengekeybox";
       challengekeybox.Size = new Size(121, 28);
       challengekeybox.TabIndex = 1;
-      challengekeybox.Text = "Challenge Mode Key";
+      challengekeybox.Text = "挑战钥匙";
       challengekeybox.UseVisualStyleBackColor = true;
       //
       // citykeybox
@@ -163,7 +163,7 @@ namespace PluginPile.Unmaintained.BWTool {
       citykeybox.Name = "citykeybox";
       citykeybox.Size = new Size(161, 28);
       citykeybox.TabIndex = 2;
-      citykeybox.Text = "Tower/Treehollow Key";
+      citykeybox.Text = "摩天楼钥匙/树洞钥匙";
       citykeybox.UseVisualStyleBackColor = true;
       //
       // groupBox3
@@ -180,7 +180,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox3.Size = new Size(493, 91);
       groupBox3.TabIndex = 3;
       groupBox3.TabStop = false;
-      groupBox3.Text = "Unlockables";
+      groupBox3.Text = "已解锁";
       //
       // icebergbox
       //
@@ -189,7 +189,7 @@ namespace PluginPile.Unmaintained.BWTool {
       icebergbox.Name = "icebergbox";
       icebergbox.Size = new Size(134, 28);
       icebergbox.TabIndex = 6;
-      icebergbox.Text = "Iceberg Chamber";
+      icebergbox.Text = "冰山之间";
       icebergbox.UseVisualStyleBackColor = true;
       //
       // ironbox
@@ -199,7 +199,7 @@ namespace PluginPile.Unmaintained.BWTool {
       ironbox.Name = "ironbox";
       ironbox.Size = new Size(121, 28);
       ironbox.TabIndex = 5;
-      ironbox.Text = "Iron Chamber";
+      ironbox.Text = "黑金之间";
       ironbox.UseVisualStyleBackColor = true;
       //
       // citybox
@@ -209,7 +209,7 @@ namespace PluginPile.Unmaintained.BWTool {
       citybox.Name = "citybox";
       citybox.Size = new Size(170, 28);
       citybox.TabIndex = 4;
-      citybox.Text = "Black City/White Forest";
+      citybox.Text = "黑色市/白森林";
       citybox.UseVisualStyleBackColor = true;
       //
       // challengemodebox
@@ -219,7 +219,7 @@ namespace PluginPile.Unmaintained.BWTool {
       challengemodebox.Name = "challengemodebox";
       challengemodebox.Size = new Size(121, 28);
       challengemodebox.TabIndex = 3;
-      challengemodebox.Text = "Challenge Mode";
+      challengemodebox.Text = "挑战模式";
       challengemodebox.UseVisualStyleBackColor = true;
       //
       // easymodebox
@@ -229,7 +229,7 @@ namespace PluginPile.Unmaintained.BWTool {
       easymodebox.Name = "easymodebox";
       easymodebox.Size = new Size(121, 28);
       easymodebox.TabIndex = 2;
-      easymodebox.Text = "Easy Mode";
+      easymodebox.Text = "助手模式";
       easymodebox.UseVisualStyleBackColor = true;
       //
       // Saveexit_but
@@ -239,7 +239,7 @@ namespace PluginPile.Unmaintained.BWTool {
       Saveexit_but.Name = "Saveexit_but";
       Saveexit_but.Size = new Size(119, 27);
       Saveexit_but.TabIndex = 5;
-      Saveexit_but.Text = "Save and Exit";
+      Saveexit_but.Text = "保存并退出";
       Saveexit_but.UseVisualStyleBackColor = true;
       Saveexit_but.Click += Saveexit_butClick;
       //
@@ -250,7 +250,7 @@ namespace PluginPile.Unmaintained.BWTool {
       Exit_but.Name = "Exit_but";
       Exit_but.Size = new Size(119, 27);
       Exit_but.TabIndex = 6;
-      Exit_but.Text = "Exit";
+      Exit_but.Text = "退出";
       Exit_but.UseVisualStyleBackColor = true;
       Exit_but.Click += Exit_butClick;
       //
@@ -263,7 +263,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_mode_def.Size = new Size(121, 28);
       cfg_mode_def.TabIndex = 0;
       cfg_mode_def.TabStop = true;
-      cfg_mode_def.Text = "Default";
+      cfg_mode_def.Text = "默认";
       cfg_mode_def.UseVisualStyleBackColor = true;
       //
       // cfg_mode_1
@@ -275,7 +275,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_mode_1.Size = new Size(121, 28);
       cfg_mode_1.TabIndex = 1;
       cfg_mode_1.TabStop = true;
-      cfg_mode_1.Text = "Easy Mode";
+      cfg_mode_1.Text = "助手模式";
       cfg_mode_1.UseVisualStyleBackColor = true;
       //
       // cfg_mode_2
@@ -287,7 +287,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_mode_2.Size = new Size(121, 28);
       cfg_mode_2.TabIndex = 2;
       cfg_mode_2.TabStop = true;
-      cfg_mode_2.Text = "Normal Mode";
+      cfg_mode_2.Text = "普通模式";
       cfg_mode_2.UseVisualStyleBackColor = true;
       //
       // cfg_mode_3
@@ -299,7 +299,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_mode_3.Size = new Size(121, 28);
       cfg_mode_3.TabIndex = 3;
       cfg_mode_3.TabStop = true;
-      cfg_mode_3.Text = "Challenge Mode";
+      cfg_mode_3.Text = "挑战模式";
       cfg_mode_3.UseVisualStyleBackColor = true;
       //
       // cfg_city_def
@@ -311,7 +311,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_city_def.Size = new Size(121, 27);
       cfg_city_def.TabIndex = 4;
       cfg_city_def.TabStop = true;
-      cfg_city_def.Text = "Default";
+      cfg_city_def.Text = "默认";
       cfg_city_def.UseVisualStyleBackColor = true;
       //
       // cfg_city_game
@@ -323,7 +323,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_city_game.Size = new Size(121, 23);
       cfg_city_game.TabIndex = 5;
       cfg_city_game.TabStop = true;
-      cfg_city_game.Text = "Game's City";
+      cfg_city_game.Text = "黑色市";
       cfg_city_game.UseVisualStyleBackColor = true;
       //
       // cfg_city_foreing
@@ -335,7 +335,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_city_foreing.Size = new Size(121, 25);
       cfg_city_foreing.TabIndex = 6;
       cfg_city_foreing.TabStop = true;
-      cfg_city_foreing.Text = "Foreign City";
+      cfg_city_foreing.Text = "白森林";
       cfg_city_foreing.UseVisualStyleBackColor = true;
       //
       // cfg_chamber_def
@@ -347,7 +347,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_chamber_def.Size = new Size(121, 28);
       cfg_chamber_def.TabIndex = 7;
       cfg_chamber_def.TabStop = true;
-      cfg_chamber_def.Text = "Default";
+      cfg_chamber_def.Text = "默认";
       cfg_chamber_def.UseVisualStyleBackColor = true;
       //
       // cfg_chamber_rock
@@ -359,7 +359,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_chamber_rock.Size = new Size(121, 28);
       cfg_chamber_rock.TabIndex = 8;
       cfg_chamber_rock.TabStop = true;
-      cfg_chamber_rock.Text = "Rock Chamber";
+      cfg_chamber_rock.Text = "岩山之间";
       cfg_chamber_rock.UseVisualStyleBackColor = true;
       //
       // cfg_chamber_iron
@@ -371,7 +371,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_chamber_iron.Size = new Size(121, 28);
       cfg_chamber_iron.TabIndex = 9;
       cfg_chamber_iron.TabStop = true;
-      cfg_chamber_iron.Text = "Iron Chamber";
+      cfg_chamber_iron.Text = "黑金之间";
       cfg_chamber_iron.UseVisualStyleBackColor = true;
       //
       // cfg_chamber_ice
@@ -383,7 +383,7 @@ namespace PluginPile.Unmaintained.BWTool {
       cfg_chamber_ice.Size = new Size(134, 28);
       cfg_chamber_ice.TabIndex = 10;
       cfg_chamber_ice.TabStop = true;
-      cfg_chamber_ice.Text = "Iceberg Chamber";
+      cfg_chamber_ice.Text = "冰山之间";
       cfg_chamber_ice.UseVisualStyleBackColor = true;
       //
       // groupBox4
@@ -399,7 +399,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox4.Size = new Size(135, 115);
       groupBox4.TabIndex = 11;
       groupBox4.TabStop = false;
-      groupBox4.Text = "Difficulty config:";
+      groupBox4.Text = "难度设置:";
       //
       // groupBox5
       //
@@ -413,7 +413,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox5.Size = new Size(159, 115);
       groupBox5.TabIndex = 12;
       groupBox5.TabStop = false;
-      groupBox5.Text = "City config:";
+      groupBox5.Text = "城市设置:";
       //
       // groupBox6
       //
@@ -428,7 +428,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox6.Size = new Size(186, 115);
       groupBox6.TabIndex = 13;
       groupBox6.TabStop = false;
-      groupBox6.Text = "Chamber config:";
+      groupBox6.Text = "不可思议的门设置:";
       //
       // KeySystemForm
       //
@@ -448,7 +448,7 @@ namespace PluginPile.Unmaintained.BWTool {
       MaximizeBox = false;
       MinimizeBox = false;
       Name = "KeySystemForm";
-      Text = "Key System";
+      Text = "钥匙系统";
       groupBox1.ResumeLayout(false);
       groupBox2.ResumeLayout(false);
       groupBox3.ResumeLayout(false);

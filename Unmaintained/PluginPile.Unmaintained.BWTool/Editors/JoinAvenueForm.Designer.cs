@@ -313,7 +313,7 @@ namespace PluginPile.Unmaintained.BWTool {
       Exit_but.Name = "Exit_but";
       Exit_but.Size = new Size(119, 27);
       Exit_but.TabIndex = 8;
-      Exit_but.Text = "Exit";
+      Exit_but.Text = "退出";
       Exit_but.UseVisualStyleBackColor = true;
       Exit_but.Click += Exit_butClick;
       //
@@ -324,26 +324,26 @@ namespace PluginPile.Unmaintained.BWTool {
       Saveexit_but.Name = "Saveexit_but";
       Saveexit_but.Size = new Size(119, 27);
       Saveexit_but.TabIndex = 7;
-      Saveexit_but.Text = "Save and Exit";
+      Saveexit_but.Text = "保存并退出";
       Saveexit_but.UseVisualStyleBackColor = true;
       Saveexit_but.Click += Saveexit_butClick;
       //
-      // Rank
+      // rank
       //
       rank.Location = new Point(125, 52);
       rank.Margin = new Padding(4, 3, 4, 3);
       rank.Maximum = new decimal(new int[] { 9999, 0, 0, 0 });
-      rank.Name = "Rank";
+      rank.Name = "rank";
       rank.Size = new Size(183, 23);
       rank.TabIndex = 9;
       //
-      // Color
+      // color
       //
       color.FormattingEnabled = true;
-      color.Items.AddRange(new object[] { "Orange", "Purple", "Blue", "Green" });
+      color.Items.AddRange(new object[] { "橙色", "紫色", "蓝色", "绿色" });
       color.Location = new Point(125, 82);
       color.Margin = new Padding(4, 3, 4, 3);
-      color.Name = "Color";
+      color.Name = "color";
       color.Size = new Size(182, 23);
       color.TabIndex = 10;
       //
@@ -354,7 +354,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label1.Name = "label1";
       label1.Size = new Size(75, 23);
       label1.TabIndex = 11;
-      label1.Text = "Color";
+      label1.Text = "霓虹灯颜色";
       //
       // label2
       //
@@ -363,7 +363,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label2.Name = "label2";
       label2.Size = new Size(75, 23);
       label2.TabIndex = 12;
-      label2.Text = "Rank";
+      label2.Text = "等级";
       //
       // favorite
       //
@@ -381,11 +381,11 @@ namespace PluginPile.Unmaintained.BWTool {
       Impressed.Size = new Size(182, 23);
       Impressed.TabIndex = 14;
       //
-      // Name
+      // name
       //
       name.Location = new Point(125, 22);
       name.Margin = new Padding(4, 3, 4, 3);
-      name.Name = "Name";
+      name.Name = "name";
       name.Size = new Size(182, 23);
       name.TabIndex = 15;
       //
@@ -404,7 +404,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label3.Name = "label3";
       label3.Size = new Size(75, 27);
       label3.TabIndex = 17;
-      label3.Text = "Name";
+      label3.Text = "姓名";
       //
       // label4
       //
@@ -413,7 +413,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label4.Name = "label4";
       label4.Size = new Size(75, 23);
       label4.TabIndex = 18;
-      label4.Text = "Title";
+      label4.Text = "头衔称呼";
       //
       // label5
       //
@@ -422,7 +422,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label5.Name = "label5";
       label5.Size = new Size(100, 23);
       label5.TabIndex = 19;
-      label5.Text = "Favorite Phrase";
+      label5.Text = "口头禅";
       //
       // label6
       //
@@ -431,7 +431,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label6.Name = "label6";
       label6.Size = new Size(113, 23);
       label6.TabIndex = 20;
-      label6.Text = "Impressed Phrase";
+      label6.Text = "最感动的话";
       //
       // npc
       //
@@ -519,7 +519,7 @@ namespace PluginPile.Unmaintained.BWTool {
       tabPage1.Padding = new Padding(4, 3, 4, 3);
       tabPage1.Size = new Size(588, 362);
       tabPage1.TabIndex = 0;
-      tabPage1.Text = "Shop";
+      tabPage1.Text = "商店";
       tabPage1.UseVisualStyleBackColor = true;
       //
       // shop_pic
@@ -540,12 +540,12 @@ namespace PluginPile.Unmaintained.BWTool {
       shop_debug.TabIndex = 114;
       shop_debug.Visible = false;
       //
-      // ShopExp
+      // shop_exp
       //
       shop_exp.Location = new Point(90, 324);
       shop_exp.Margin = new Padding(4, 3, 4, 3);
       shop_exp.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
-      shop_exp.Name = "ShopExp";
+      shop_exp.Name = "shop_exp";
       shop_exp.Size = new Size(158, 23);
       shop_exp.TabIndex = 113;
       //
@@ -556,7 +556,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label34.Name = "label34";
       label34.Size = new Size(76, 27);
       label34.TabIndex = 112;
-      label34.Text = "Shop Exp";
+      label34.Text = "商店经验值";
       //
       // shop_inventory
       //
@@ -565,7 +565,7 @@ namespace PluginPile.Unmaintained.BWTool {
       shop_inventory.Name = "shop_inventory";
       shop_inventory.Size = new Size(152, 28);
       shop_inventory.TabIndex = 110;
-      shop_inventory.Text = "Inventory availability";
+      shop_inventory.Text = "库存可用";
       shop_inventory.UseVisualStyleBackColor = true;
       //
       // shop_kind
@@ -575,12 +575,12 @@ namespace PluginPile.Unmaintained.BWTool {
       shop_kind.Name = "shop_kind";
       shop_kind.Size = new Size(76, 27);
       shop_kind.TabIndex = 109;
-      shop_kind.Text = "Store";
+      shop_kind.Text = "商店类型";
       //
       // shop_store
       //
       shop_store.FormattingEnabled = true;
-      shop_store.Items.AddRange(new object[] { "Raffle", "Salon", "Market", "Florist", "Dojo", "Nurse", "Antique", "Cafe" });
+      shop_store.Items.AddRange(new object[] { "抽签店", "美容院", "超市", "花店", "道场", "保育所", "旧货店", "餐厅" });
       shop_store.Location = new Point(90, 261);
       shop_store.Margin = new Padding(4, 3, 4, 3);
       shop_store.Name = "shop_store";
@@ -594,15 +594,15 @@ namespace PluginPile.Unmaintained.BWTool {
       label33.Name = "label33";
       label33.Size = new Size(76, 27);
       label33.TabIndex = 107;
-      label33.Text = "Shop Ver";
+      label33.Text = "商店版本";
       //
-      // ShopType
+      // shop_type
       //
       shop_type.FormattingEnabled = true;
-      shop_type.Items.AddRange(new object[] { "Black", "White", "Black 2", "White 2" });
+      shop_type.Items.AddRange(new object[] { "黑", "白", "黑2", "白2" });
       shop_type.Location = new Point(90, 230);
       shop_type.Margin = new Padding(4, 3, 4, 3);
-      shop_type.Name = "ShopType";
+      shop_type.Name = "shop_type";
       shop_type.Size = new Size(157, 23);
       shop_type.TabIndex = 106;
       //
@@ -613,7 +613,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label32.Name = "label32";
       label32.Size = new Size(76, 27);
       label32.TabIndex = 105;
-      label32.Text = "Shop Rank";
+      label32.Text = "商店等级";
       //
       // shop_rank
       //
@@ -621,7 +621,7 @@ namespace PluginPile.Unmaintained.BWTool {
       shop_rank.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
       shop_rank.Location = new Point(90, 292);
       shop_rank.Margin = new Padding(4, 3, 4, 3);
-      shop_rank.Name = "ShopRank";
+      shop_rank.Name = "shop_rank";
       shop_rank.Size = new Size(157, 23);
       shop_rank.TabIndex = 104;
       //
@@ -632,7 +632,7 @@ namespace PluginPile.Unmaintained.BWTool {
       shop_ishuman.Name = "shop_ishuman";
       shop_ishuman.Size = new Size(121, 28);
       shop_ishuman.TabIndex = 103;
-      shop_ishuman.Text = "Is human";
+      shop_ishuman.Text = "真人";
       shop_ishuman.UseVisualStyleBackColor = true;
       //
       // label31
@@ -642,7 +642,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label31.Name = "label31";
       label31.Size = new Size(76, 27);
       label31.TabIndex = 102;
-      label31.Text = "Recruit Lvl";
+      label31.Text = "招募等级";
       //
       // shop_recruit
       //
@@ -660,12 +660,12 @@ namespace PluginPile.Unmaintained.BWTool {
       label30.Name = "label30";
       label30.Size = new Size(66, 27);
       label30.TabIndex = 100;
-      label30.Text = "Gender";
+      label30.Text = "性别";
       //
       // shop_gender
       //
       shop_gender.FormattingEnabled = true;
-      shop_gender.Items.AddRange(new object[] { "Male", "Female" });
+      shop_gender.Items.AddRange(new object[] { "男", "女" });
       shop_gender.Location = new Point(90, 167);
       shop_gender.Margin = new Padding(4, 3, 4, 3);
       shop_gender.Name = "shop_gender";
@@ -679,7 +679,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label21.Name = "label21";
       label21.Size = new Size(66, 27);
       label21.TabIndex = 98;
-      label21.Text = "Met Date";
+      label21.Text = "相遇日期";
       //
       // shop_date
       //
@@ -693,7 +693,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // shop_subregion
       //
       shop_subregion.FormattingEnabled = true;
-      shop_subregion.Items.AddRange(new object[] { "0 None" });
+      shop_subregion.Items.AddRange(new object[] { "0 无" });
       shop_subregion.Location = new Point(342, 78);
       shop_subregion.Margin = new Padding(4, 3, 4, 3);
       shop_subregion.Name = "shop_subregion";
@@ -707,7 +707,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label22.Name = "label22";
       label22.Size = new Size(66, 27);
       label22.TabIndex = 95;
-      label22.Text = "Sprite";
+      label22.Text = "图像";
       //
       // shop_sprite
       //
@@ -726,7 +726,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label23.Name = "label23";
       label23.Size = new Size(66, 27);
       label23.TabIndex = 93;
-      label23.Text = "Subregion";
+      label23.Text = "次级区域";
       //
       // shop_shout
       //
@@ -744,7 +744,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label24.Name = "label24";
       label24.Size = new Size(66, 27);
       label24.TabIndex = 91;
-      label24.Text = "Shout";
+      label24.Text = "大喊";
       //
       // shop_apply
       //
@@ -753,7 +753,7 @@ namespace PluginPile.Unmaintained.BWTool {
       shop_apply.Name = "shop_apply";
       shop_apply.Size = new Size(78, 27);
       shop_apply.TabIndex = 90;
-      shop_apply.Text = "Apply";
+      shop_apply.Text = "应用";
       shop_apply.UseVisualStyleBackColor = true;
       shop_apply.Click += Shop_applyClick;
       //
@@ -764,7 +764,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label25.Name = "label25";
       label25.Size = new Size(66, 27);
       label25.TabIndex = 89;
-      label25.Text = "Slot";
+      label25.Text = "槽位";
       //
       // shop_farewell
       //
@@ -791,7 +791,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label26.Name = "label26";
       label26.Size = new Size(66, 27);
       label26.TabIndex = 86;
-      label26.Text = "Farewell";
+      label26.Text = "告别语";
       //
       // label27
       //
@@ -800,7 +800,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label27.Name = "label27";
       label27.Size = new Size(66, 27);
       label27.TabIndex = 85;
-      label27.Text = "Greeting";
+      label27.Text = "问候语";
       //
       // label28
       //
@@ -809,7 +809,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label28.Name = "label28";
       label28.Size = new Size(66, 27);
       label28.TabIndex = 84;
-      label28.Text = "Country";
+      label28.Text = "国家地区";
       //
       // label29
       //
@@ -818,12 +818,245 @@ namespace PluginPile.Unmaintained.BWTool {
       label29.Name = "label29";
       label29.Size = new Size(66, 27);
       label29.TabIndex = 83;
-      label29.Text = "Name";
+      label29.Text = "姓名";
       //
       // shop_country
       //
       shop_country.FormattingEnabled = true;
-      shop_country.Items.AddRange(new object[] { "0 None", "1 Afghanistan", "2 Albania", "3 Algeria", "4 American Samoa", "5 Andorra", "6 Angola", "7 Anguilla", "8 Antigua and Barbuda", "9 Argentina", "10 Armenia", "11 Aruba", "12 Australia", "13 Austria", "14 Azerbaijan", "15 Bahamas", "16 Bahrain", "17 Bangladesh", "18 Barbados", "19 Belarus", "20 Belgium", "21 Belize", "22 Benin", "23 Bermuda", "24 Bhutan", "25 Bolivia", "26 Bosnia and Herzegovina", "27 Botswana", "28 Brazil", "29 British Virgin Islands", "30 Brunei Darussalam", "31 Bulgaria", "32 Burkina Faso", "33 Burundi", "34 Cambodia", "35 Cameroon", "36 Canada", "37 Cape Verde", "38 Cayman Islands", "39 Central African Republic", "40 Chad", "41 Channel Islands", "42 Chile", "43 China", "44 Christmas Island", "45 Colombia", "46 Comoros", "47 Congo", "48 Cook Islands", "49 Costa Rica", "50 Cote d'Ivoire", "51 Croatia", "52 Cuba", "53 Cyprus", "54 Czech Republic", "55 North Korea", "56 Democratic Republic of the Congo", "57 Timor-Leste", "58 Denmark", "59 Djibouti", "60 Dominica", "61 Dominican Republic", "62 Ecuador", "63 Egypt", "64 El Salvador", "65 Equatorial Guinea", "66 Eritrea", "67 Estonia", "68 Ethiopia", "69 Falkland Islands", "70 Faroe Islands", "71 Fiji", "72 Finland", "73 France", "74 French Guiana", "75 French Polynesia", "76 Gabon", "77 Gambia", "78 Georgia", "79 Germany", "80 Ghana", "81 Gibraltar", "82 Greece", "83 Greenland", "84 Grenada", "85 Guadeloupe", "86 Guam", "87 Guatemala", "88 Guinea", "89 Guinea-Bissau", "90 Guyana", "91 Haiti", "92 Honduras", "93 Hungary", "94 Iceland", "95 India", "96 Indonesia", "97 Iran", "98 Iraq", "99 Ireland", "100 Isle of Man", "101 Israel", "102 Italy", "103 Jamaica", "104 Jan Mayen Island", "105 Japan", "106 Jordan", "107 Kashmir", "108 Kazakhstan", "109 Kenya", "110 Kiribati", "111 Kuwait", "112 Kyrgyzstan", "113 Laos", "114 Latvia", "115 Lebanon", "116 Lesotho", "117 Liberia", "118 Libya", "119 Liechtenstein", "120 Lithuania", "121 Luxembourg", "122 Macedonia (FYROM)", "123 Madagascar", "124 Malawi", "125 Malaysia", "126 Maldives", "127 Mali", "128 Malta", "129 Marshall Islands", "130 Martinique", "131 Mauritania", "132 Mauritius", "133 Mayotte", "134 Mexico", "135 Micronesia", "136 Monaco", "137 Mongolia", "138 Montenegro", "139 Morocco", "140 Mozambique", "141 Myanmar", "142 Namibia", "143 Nauru", "144 Nepal", "145 Netherlands", "146 Netherlands Antilles", "147 New Caledonia", "148 New Zealand", "149 Nicaragua", "150 Niger", "151 Nigeria", "152 Niue", "153 Norfolk Island", "154 Northern Mariana Islands", "155 Norway", "156 Oman", "157 Pakistan", "158 Palau", "159 Palestine", "160 Panama", "161 Papua New Guinea", "162 Paraguay", "163 Peru", "164 Philippines", "165 Pitcairn Islands", "166 Poland", "167 Portugal", "168 Puerto Rico", "169 Qatar", "170 South Korea", "171 Moldova", "172 Reunion", "173 Romania", "174 Russian Federation", "175 Rwanda", "176 Saint Helena", "177 Saint Kitts and Nevis", "178 Saint Lucia", "179 Saint Vincent and the Grenadines", "180 Saint Pierre and Miquelon", "181 Samoa", "182 San Marino", "183 Sao Tome and Principe", "184 Saudi Arabia", "185 Senegal", "186 Serbia", "187 Seychelles", "188 Sierra Leone", "189 Singapore", "190 Slovakia", "191 Slovenia", "192 Solomon Islands", "193 Somalia", "194 South Africa", "195 Spain", "196 Sri Lanka", "197 Sudan", "198 Suriname", "199 Swaziland", "200 Sweden", "201 Switzerland", "202 Syria", "203 Taiwan", "204 Tajikistan", "205 Thailand", "206 Togo", "207 Tokelau", "208 Tonga", "209 Trinidad and Tobago", "210 Tunisia", "211 Turkey", "212 Turkmenistan", "213 Turks and Caicos Islands", "214 Tuvalu", "215 Uganda", "216 Ukraine", "217 United Arab Emirates", "218 United Kingdom", "219 Tanzania", "220 United States of America", "221 United States Virgin Islands", "222 Uruguay", "223 Uzbekistan", "224 Vanuatu", "225 Holy See (Vatican City State)", "226 Venezuela", "227 Vietnam", "228 Wallis and Futuna", "229 Western Sahara", "230 Yemen", "231 Zambia", "232 Zimbabwe" });
+      shop_country.Items.AddRange(new object[] {
+      "0 无",
+      "1 阿富汗",
+      "2 阿尔巴尼亚",
+      "3 阿尔及利亚",
+      "4 美属萨摩亚",
+      "5 安道尔",
+      "6 安哥拉",
+      "7 安圭拉",
+      "8 安提瓜和巴布达",
+      "9 阿根廷",
+      "10 亚美尼亚",
+      "11 阿鲁巴岛",
+      "12 澳大利亚",
+      "13 奥地利",
+      "14 阿塞拜疆",
+      "15 巴哈马",
+      "16 巴林",
+      "17 孟加拉国",
+      "18 巴巴多斯",
+      "19 白俄罗斯",
+      "20 比利时",
+      "21 伯利兹",
+      "22 贝宁",
+      "23 百慕大",
+      "24 不丹",
+      "25 玻利维亚",
+      "26 波斯尼亚和黑塞哥维那",
+      "27 博茨瓦纳",
+      "28 巴西",
+      "29 英属维尔京群岛",
+      "30 文莱达鲁萨兰国",
+      "31 保加利亚",
+      "32 布基纳法索",
+      "33 布隆迪",
+      "34 柬埔寨",
+      "35 喀麦隆",
+      "36 加拿大",
+      "37 佛得角",
+      "38 开曼群岛",
+      "39 中非共和国",
+      "40 乍得",
+      "41 海峡群岛",
+      "42 智利",
+      "43 中国",
+      "44 圣诞岛",
+      "45 哥伦比亚",
+      "46 科摩罗",
+      "47 刚果",
+      "48 库克群岛",
+      "49 哥斯达黎加",
+      "50 科特迪瓦",
+      "51 克罗地亚",
+      "52 古巴",
+      "53 塞浦路斯",
+      "54 捷克共和国",
+      "55 北朝鲜",
+      "56 刚果民主共和国",
+      "57 东帝汶",
+      "58 丹麦",
+      "59 吉布提",
+      "60 多米尼克",
+      "61 多明尼加共和国",
+      "62 厄瓜多尔",
+      "63 埃及",
+      "64 萨尔瓦多",
+      "65 赤道几内亚",
+      "66 厄立特里亚",
+      "67 爱沙尼亚",
+      "68 埃塞俄比亚",
+      "69 福克兰群岛",
+      "70 法罗群岛",
+      "71 斐济",
+      "72 芬兰",
+      "73 法国",
+      "74 法属圭亚那",
+      "75 法属波利尼西亚",
+      "76 加蓬",
+      "77 冈比亚",
+      "78 乔治亚州",
+      "79 德国",
+      "80 加纳",
+      "81 直布罗陀",
+      "82 希腊",
+      "83 格陵兰",
+      "84 格林纳达",
+      "85 瓜德罗普",
+      "86 关岛",
+      "87 危地马拉",
+      "88 几内亚",
+      "89 几内亚比绍",
+      "90 圭亚那",
+      "91 海地",
+      "92 洪都拉斯",
+      "93 匈牙利",
+      "94 冰岛",
+      "95 印度",
+      "96 印度尼西亚",
+      "97 伊朗",
+      "98 伊拉克",
+      "99 爱尔兰",
+      "100 马恩岛",
+      "101 以色列",
+      "102 意大利",
+      "103 牙买加",
+      "104 扬马延岛",
+      "105 日本",
+      "106 约旦",
+      "107 克什米尔",
+      "108 哈萨克斯坦",
+      "109 肯尼亚",
+      "110 基里巴斯",
+      "111 科威特",
+      "112 吉尔吉斯斯坦",
+      "113 老挝",
+      "114 拉脱维亚",
+      "115 黎巴嫩",
+      "116 莱索托",
+      "117 利比里亚",
+      "118 利比亚",
+      "119 列支敦士登",
+      "120 立陶宛",
+      "121 卢森堡",
+      "122 马其顿 (FYROM)",
+      "123 马达加斯加",
+      "124 马拉维",
+      "125 马来西亚",
+      "126 马尔代夫",
+      "127 马里",
+      "128 马耳他",
+      "129 马绍尔群岛",
+      "130 马提尼克岛",
+      "131 毛里塔尼亚",
+      "132 毛里求斯",
+      "133 马约特岛",
+      "134 墨西哥",
+      "135 密克罗尼西亚",
+      "136 摩纳哥",
+      "137 蒙古",
+      "138 黑山",
+      "139 摩洛哥",
+      "140 莫桑比克",
+      "141 缅甸",
+      "142 纳米比亚",
+      "143 瑙鲁",
+      "144 尼泊尔",
+      "145 荷兰",
+      "146 荷属安的列斯",
+      "147 新喀里多尼亚",
+      "148 新西兰",
+      "149 尼加拉瓜",
+      "150 尼日尔",
+      "151 尼日利亚",
+      "152 纽埃",
+      "153 诺福克岛",
+      "154 北马里亚纳群岛",
+      "155 挪威",
+      "156 阿曼",
+      "157 巴基斯坦",
+      "158 帕劳",
+      "159 巴勒斯坦",
+      "160 巴拿马",
+      "161 巴布亚新几内亚",
+      "162 巴拉圭",
+      "163 秘鲁",
+      "164 菲律宾",
+      "165 皮特凯恩群岛",
+      "166 波兰",
+      "167 葡萄牙",
+      "168 波多黎各",
+      "169 卡塔尔",
+      "170 韩国",
+      "171 摩尔多瓦",
+      "172 团圆",
+      "173 罗马尼亚",
+      "174 俄罗斯联邦",
+      "175 卢旺达",
+      "176 圣赫勒拿",
+      "177 圣基茨和尼维斯",
+      "178 圣卢西亚",
+      "179 圣文森特和格林纳丁斯",
+      "180 圣皮埃尔和密克隆",
+      "181 萨摩亚",
+      "182 圣马力诺",
+      "183 圣多美和普林西比",
+      "184 沙特阿拉伯",
+      "185 塞内加尔",
+      "186 塞尔维亚",
+      "187 塞舌尔",
+      "188 塞拉利昂",
+      "189 新加坡",
+      "190 斯洛伐克",
+      "191 斯洛文尼亚",
+      "192 所罗门群岛",
+      "193 索马里",
+      "194 南非",
+      "195 西班牙",
+      "196 斯里兰卡",
+      "197 苏丹",
+      "198 苏里南",
+      "199 斯威士兰",
+      "200 瑞典",
+      "201 瑞士",
+      "202 叙利亚",
+      "203 台湾地区",
+      "204 塔吉克斯坦",
+      "205 泰国",
+      "206 多哥",
+      "207 托克劳",
+      "208 汤加",
+      "209 特立尼达和多巴哥",
+      "210 突尼斯",
+      "211 火鸡",
+      "212 土库曼斯坦",
+      "213 特克斯和凯科斯群岛",
+      "214 图瓦卢",
+      "215 乌干达",
+      "216 乌克兰",
+      "217 阿拉伯联合酋长国",
+      "218 英国",
+      "219 坦桑尼亚",
+      "220 美国",
+      "221 美属维尔京群岛",
+      "222 乌拉圭",
+      "223 乌兹别克斯坦",
+      "224 瓦努阿图",
+      "225 圣座（梵蒂冈城邦）",
+      "226 委内瑞拉",
+      "227 越南",
+      "228 瓦利斯和富图纳",
+      "229 西撒哈拉",
+      "230 也门",
+      "231 赞比亚",
+      "232 津巴布韦"});
       shop_country.Location = new Point(342, 47);
       shop_country.Margin = new Padding(4, 3, 4, 3);
       shop_country.Name = "shop_country";
@@ -875,7 +1108,7 @@ namespace PluginPile.Unmaintained.BWTool {
       tabPage2.Padding = new Padding(4, 3, 4, 3);
       tabPage2.Size = new Size(588, 362);
       tabPage2.TabIndex = 1;
-      tabPage2.Text = "Visitor";
+      tabPage2.Text = "顾客";
       tabPage2.UseVisualStyleBackColor = true;
       //
       // visitor_pic
@@ -894,7 +1127,7 @@ namespace PluginPile.Unmaintained.BWTool {
       visitor_import.Name = "visitor_import";
       visitor_import.Size = new Size(88, 27);
       visitor_import.TabIndex = 150;
-      visitor_import.Text = "Import";
+      visitor_import.Text = "导入";
       visitor_import.UseVisualStyleBackColor = true;
       visitor_import.Click += Visitor_importClick;
       //
@@ -905,7 +1138,7 @@ namespace PluginPile.Unmaintained.BWTool {
       visitor_export.Name = "visitor_export";
       visitor_export.Size = new Size(88, 27);
       visitor_export.TabIndex = 149;
-      visitor_export.Text = "Export";
+      visitor_export.Text = "导出";
       visitor_export.UseVisualStyleBackColor = true;
       visitor_export.Click += Visitor_exportClick;
       //
@@ -916,7 +1149,7 @@ namespace PluginPile.Unmaintained.BWTool {
       visitor_ishuman.Name = "visitor_ishuman";
       visitor_ishuman.Size = new Size(121, 28);
       visitor_ishuman.TabIndex = 138;
-      visitor_ishuman.Text = "Is human";
+      visitor_ishuman.Text = "真人";
       visitor_ishuman.UseVisualStyleBackColor = true;
       //
       // label39
@@ -926,7 +1159,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label39.Name = "label39";
       label39.Size = new Size(76, 27);
       label39.TabIndex = 137;
-      label39.Text = "Recruit Lvl";
+      label39.Text = "招募等级";
       //
       // visitor_recruit
       //
@@ -944,12 +1177,12 @@ namespace PluginPile.Unmaintained.BWTool {
       label40.Name = "label40";
       label40.Size = new Size(66, 27);
       label40.TabIndex = 135;
-      label40.Text = "Gender";
+      label40.Text = "性别";
       //
       // visitor_gender
       //
       visitor_gender.FormattingEnabled = true;
-      visitor_gender.Items.AddRange(new object[] { "Male", "Female" });
+      visitor_gender.Items.AddRange(new object[] { "男", "女" });
       visitor_gender.Location = new Point(90, 167);
       visitor_gender.Margin = new Padding(4, 3, 4, 3);
       visitor_gender.Name = "visitor_gender";
@@ -963,7 +1196,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label41.Name = "label41";
       label41.Size = new Size(66, 27);
       label41.TabIndex = 133;
-      label41.Text = "Met Date";
+      label41.Text = "相遇日期";
       //
       // visitor_date
       //
@@ -977,7 +1210,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // visitor_subregion
       //
       VisitorSubregion.FormattingEnabled = true;
-      VisitorSubregion.Items.AddRange(new object[] { "0 None" });
+      VisitorSubregion.Items.AddRange(new object[] { "0 无" });
       VisitorSubregion.Location = new Point(342, 78);
       VisitorSubregion.Margin = new Padding(4, 3, 4, 3);
       VisitorSubregion.Name = "visitor_subregion";
@@ -991,7 +1224,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label42.Name = "label42";
       label42.Size = new Size(66, 27);
       label42.TabIndex = 130;
-      label42.Text = "Sprite";
+      label42.Text = "图像";
       //
       // visitor_sprite
       //
@@ -1009,7 +1242,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label43.Name = "label43";
       label43.Size = new Size(66, 27);
       label43.TabIndex = 128;
-      label43.Text = "Subregion";
+      label43.Text = "次级区域";
       //
       // visitor_shout
       //
@@ -1027,7 +1260,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label44.Name = "label44";
       label44.Size = new Size(66, 27);
       label44.TabIndex = 126;
-      label44.Text = "Shout";
+      label44.Text = "大喊";
       //
       // visitor_apply
       //
@@ -1036,7 +1269,7 @@ namespace PluginPile.Unmaintained.BWTool {
       visitor_apply.Name = "visitor_apply";
       visitor_apply.Size = new Size(78, 27);
       visitor_apply.TabIndex = 125;
-      visitor_apply.Text = "Apply";
+      visitor_apply.Text = "应用";
       visitor_apply.UseVisualStyleBackColor = true;
       //
       // label45
@@ -1046,7 +1279,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label45.Name = "label45";
       label45.Size = new Size(66, 27);
       label45.TabIndex = 124;
-      label45.Text = "Slot";
+      label45.Text = "槽位";
       //
       // visitor_farewell
       //
@@ -1073,7 +1306,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label46.Name = "label46";
       label46.Size = new Size(66, 27);
       label46.TabIndex = 121;
-      label46.Text = "Farewell";
+      label46.Text = "告别语";
       //
       // label47
       //
@@ -1082,7 +1315,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label47.Name = "label47";
       label47.Size = new Size(66, 27);
       label47.TabIndex = 120;
-      label47.Text = "Greeting";
+      label47.Text = "问候语";
       //
       // label48
       //
@@ -1091,7 +1324,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label48.Name = "label48";
       label48.Size = new Size(66, 27);
       label48.TabIndex = 119;
-      label48.Text = "Country";
+      label48.Text = "国家地区";
       //
       // label49
       //
@@ -1100,12 +1333,245 @@ namespace PluginPile.Unmaintained.BWTool {
       label49.Name = "label49";
       label49.Size = new Size(66, 27);
       label49.TabIndex = 118;
-      label49.Text = "Name";
+      label49.Text = "姓名";
       //
       // visitor_country
       //
       visitor_country.FormattingEnabled = true;
-      visitor_country.Items.AddRange(new object[] { "0 None", "1 Afghanistan", "2 Albania", "3 Algeria", "4 American Samoa", "5 Andorra", "6 Angola", "7 Anguilla", "8 Antigua and Barbuda", "9 Argentina", "10 Armenia", "11 Aruba", "12 Australia", "13 Austria", "14 Azerbaijan", "15 Bahamas", "16 Bahrain", "17 Bangladesh", "18 Barbados", "19 Belarus", "20 Belgium", "21 Belize", "22 Benin", "23 Bermuda", "24 Bhutan", "25 Bolivia", "26 Bosnia and Herzegovina", "27 Botswana", "28 Brazil", "29 British Virgin Islands", "30 Brunei Darussalam", "31 Bulgaria", "32 Burkina Faso", "33 Burundi", "34 Cambodia", "35 Cameroon", "36 Canada", "37 Cape Verde", "38 Cayman Islands", "39 Central African Republic", "40 Chad", "41 Channel Islands", "42 Chile", "43 China", "44 Christmas Island", "45 Colombia", "46 Comoros", "47 Congo", "48 Cook Islands", "49 Costa Rica", "50 Cote d'Ivoire", "51 Croatia", "52 Cuba", "53 Cyprus", "54 Czech Republic", "55 North Korea", "56 Democratic Republic of the Congo", "57 Timor-Leste", "58 Denmark", "59 Djibouti", "60 Dominica", "61 Dominican Republic", "62 Ecuador", "63 Egypt", "64 El Salvador", "65 Equatorial Guinea", "66 Eritrea", "67 Estonia", "68 Ethiopia", "69 Falkland Islands", "70 Faroe Islands", "71 Fiji", "72 Finland", "73 France", "74 French Guiana", "75 French Polynesia", "76 Gabon", "77 Gambia", "78 Georgia", "79 Germany", "80 Ghana", "81 Gibraltar", "82 Greece", "83 Greenland", "84 Grenada", "85 Guadeloupe", "86 Guam", "87 Guatemala", "88 Guinea", "89 Guinea-Bissau", "90 Guyana", "91 Haiti", "92 Honduras", "93 Hungary", "94 Iceland", "95 India", "96 Indonesia", "97 Iran", "98 Iraq", "99 Ireland", "100 Isle of Man", "101 Israel", "102 Italy", "103 Jamaica", "104 Jan Mayen Island", "105 Japan", "106 Jordan", "107 Kashmir", "108 Kazakhstan", "109 Kenya", "110 Kiribati", "111 Kuwait", "112 Kyrgyzstan", "113 Laos", "114 Latvia", "115 Lebanon", "116 Lesotho", "117 Liberia", "118 Libya", "119 Liechtenstein", "120 Lithuania", "121 Luxembourg", "122 Macedonia (FYROM)", "123 Madagascar", "124 Malawi", "125 Malaysia", "126 Maldives", "127 Mali", "128 Malta", "129 Marshall Islands", "130 Martinique", "131 Mauritania", "132 Mauritius", "133 Mayotte", "134 Mexico", "135 Micronesia", "136 Monaco", "137 Mongolia", "138 Montenegro", "139 Morocco", "140 Mozambique", "141 Myanmar", "142 Namibia", "143 Nauru", "144 Nepal", "145 Netherlands", "146 Netherlands Antilles", "147 New Caledonia", "148 New Zealand", "149 Nicaragua", "150 Niger", "151 Nigeria", "152 Niue", "153 Norfolk Island", "154 Northern Mariana Islands", "155 Norway", "156 Oman", "157 Pakistan", "158 Palau", "159 Palestine", "160 Panama", "161 Papua New Guinea", "162 Paraguay", "163 Peru", "164 Philippines", "165 Pitcairn Islands", "166 Poland", "167 Portugal", "168 Puerto Rico", "169 Qatar", "170 South Korea", "171 Moldova", "172 Reunion", "173 Romania", "174 Russian Federation", "175 Rwanda", "176 Saint Helena", "177 Saint Kitts and Nevis", "178 Saint Lucia", "179 Saint Vincent and the Grenadines", "180 Saint Pierre and Miquelon", "181 Samoa", "182 San Marino", "183 Sao Tome and Principe", "184 Saudi Arabia", "185 Senegal", "186 Serbia", "187 Seychelles", "188 Sierra Leone", "189 Singapore", "190 Slovakia", "191 Slovenia", "192 Solomon Islands", "193 Somalia", "194 South Africa", "195 Spain", "196 Sri Lanka", "197 Sudan", "198 Suriname", "199 Swaziland", "200 Sweden", "201 Switzerland", "202 Syria", "203 Taiwan", "204 Tajikistan", "205 Thailand", "206 Togo", "207 Tokelau", "208 Tonga", "209 Trinidad and Tobago", "210 Tunisia", "211 Turkey", "212 Turkmenistan", "213 Turks and Caicos Islands", "214 Tuvalu", "215 Uganda", "216 Ukraine", "217 United Arab Emirates", "218 United Kingdom", "219 Tanzania", "220 United States of America", "221 United States Virgin Islands", "222 Uruguay", "223 Uzbekistan", "224 Vanuatu", "225 Holy See (Vatican City State)", "226 Venezuela", "227 Vietnam", "228 Wallis and Futuna", "229 Western Sahara", "230 Yemen", "231 Zambia", "232 Zimbabwe" });
+      visitor_country.Items.AddRange(new object[] {
+      "0 无",
+      "1 阿富汗",
+      "2 阿尔巴尼亚",
+      "3 阿尔及利亚",
+      "4 美属萨摩亚",
+      "5 安道尔",
+      "6 安哥拉",
+      "7 安圭拉",
+      "8 安提瓜和巴布达",
+      "9 阿根廷",
+      "10 亚美尼亚",
+      "11 阿鲁巴岛",
+      "12 澳大利亚",
+      "13 奥地利",
+      "14 阿塞拜疆",
+      "15 巴哈马",
+      "16 巴林",
+      "17 孟加拉国",
+      "18 巴巴多斯",
+      "19 白俄罗斯",
+      "20 比利时",
+      "21 伯利兹",
+      "22 贝宁",
+      "23 百慕大",
+      "24 不丹",
+      "25 玻利维亚",
+      "26 波斯尼亚和黑塞哥维那",
+      "27 博茨瓦纳",
+      "28 巴西",
+      "29 英属维尔京群岛",
+      "30 文莱达鲁萨兰国",
+      "31 保加利亚",
+      "32 布基纳法索",
+      "33 布隆迪",
+      "34 柬埔寨",
+      "35 喀麦隆",
+      "36 加拿大",
+      "37 佛得角",
+      "38 开曼群岛",
+      "39 中非共和国",
+      "40 乍得",
+      "41 海峡群岛",
+      "42 智利",
+      "43 中国",
+      "44 圣诞岛",
+      "45 哥伦比亚",
+      "46 科摩罗",
+      "47 刚果",
+      "48 库克群岛",
+      "49 哥斯达黎加",
+      "50 科特迪瓦",
+      "51 克罗地亚",
+      "52 古巴",
+      "53 塞浦路斯",
+      "54 捷克共和国",
+      "55 北朝鲜",
+      "56 刚果民主共和国",
+      "57 东帝汶",
+      "58 丹麦",
+      "59 吉布提",
+      "60 多米尼克",
+      "61 多明尼加共和国",
+      "62 厄瓜多尔",
+      "63 埃及",
+      "64 萨尔瓦多",
+      "65 赤道几内亚",
+      "66 厄立特里亚",
+      "67 爱沙尼亚",
+      "68 埃塞俄比亚",
+      "69 福克兰群岛",
+      "70 法罗群岛",
+      "71 斐济",
+      "72 芬兰",
+      "73 法国",
+      "74 法属圭亚那",
+      "75 法属波利尼西亚",
+      "76 加蓬",
+      "77 冈比亚",
+      "78 乔治亚州",
+      "79 德国",
+      "80 加纳",
+      "81 直布罗陀",
+      "82 希腊",
+      "83 格陵兰",
+      "84 格林纳达",
+      "85 瓜德罗普",
+      "86 关岛",
+      "87 危地马拉",
+      "88 几内亚",
+      "89 几内亚比绍",
+      "90 圭亚那",
+      "91 海地",
+      "92 洪都拉斯",
+      "93 匈牙利",
+      "94 冰岛",
+      "95 印度",
+      "96 印度尼西亚",
+      "97 伊朗",
+      "98 伊拉克",
+      "99 爱尔兰",
+      "100 马恩岛",
+      "101 以色列",
+      "102 意大利",
+      "103 牙买加",
+      "104 扬马延岛",
+      "105 日本",
+      "106 约旦",
+      "107 克什米尔",
+      "108 哈萨克斯坦",
+      "109 肯尼亚",
+      "110 基里巴斯",
+      "111 科威特",
+      "112 吉尔吉斯斯坦",
+      "113 老挝",
+      "114 拉脱维亚",
+      "115 黎巴嫩",
+      "116 莱索托",
+      "117 利比里亚",
+      "118 利比亚",
+      "119 列支敦士登",
+      "120 立陶宛",
+      "121 卢森堡",
+      "122 马其顿 (FYROM)",
+      "123 马达加斯加",
+      "124 马拉维",
+      "125 马来西亚",
+      "126 马尔代夫",
+      "127 马里",
+      "128 马耳他",
+      "129 马绍尔群岛",
+      "130 马提尼克岛",
+      "131 毛里塔尼亚",
+      "132 毛里求斯",
+      "133 马约特岛",
+      "134 墨西哥",
+      "135 密克罗尼西亚",
+      "136 摩纳哥",
+      "137 蒙古",
+      "138 黑山",
+      "139 摩洛哥",
+      "140 莫桑比克",
+      "141 缅甸",
+      "142 纳米比亚",
+      "143 瑙鲁",
+      "144 尼泊尔",
+      "145 荷兰",
+      "146 荷属安的列斯",
+      "147 新喀里多尼亚",
+      "148 新西兰",
+      "149 尼加拉瓜",
+      "150 尼日尔",
+      "151 尼日利亚",
+      "152 纽埃",
+      "153 诺福克岛",
+      "154 北马里亚纳群岛",
+      "155 挪威",
+      "156 阿曼",
+      "157 巴基斯坦",
+      "158 帕劳",
+      "159 巴勒斯坦",
+      "160 巴拿马",
+      "161 巴布亚新几内亚",
+      "162 巴拉圭",
+      "163 秘鲁",
+      "164 菲律宾",
+      "165 皮特凯恩群岛",
+      "166 波兰",
+      "167 葡萄牙",
+      "168 波多黎各",
+      "169 卡塔尔",
+      "170 韩国",
+      "171 摩尔多瓦",
+      "172 团圆",
+      "173 罗马尼亚",
+      "174 俄罗斯联邦",
+      "175 卢旺达",
+      "176 圣赫勒拿",
+      "177 圣基茨和尼维斯",
+      "178 圣卢西亚",
+      "179 圣文森特和格林纳丁斯",
+      "180 圣皮埃尔和密克隆",
+      "181 萨摩亚",
+      "182 圣马力诺",
+      "183 圣多美和普林西比",
+      "184 沙特阿拉伯",
+      "185 塞内加尔",
+      "186 塞尔维亚",
+      "187 塞舌尔",
+      "188 塞拉利昂",
+      "189 新加坡",
+      "190 斯洛伐克",
+      "191 斯洛文尼亚",
+      "192 所罗门群岛",
+      "193 索马里",
+      "194 南非",
+      "195 西班牙",
+      "196 斯里兰卡",
+      "197 苏丹",
+      "198 苏里南",
+      "199 斯威士兰",
+      "200 瑞典",
+      "201 瑞士",
+      "202 叙利亚",
+      "203 台湾地区",
+      "204 塔吉克斯坦",
+      "205 泰国",
+      "206 多哥",
+      "207 托克劳",
+      "208 汤加",
+      "209 特立尼达和多巴哥",
+      "210 突尼斯",
+      "211 火鸡",
+      "212 土库曼斯坦",
+      "213 特克斯和凯科斯群岛",
+      "214 图瓦卢",
+      "215 乌干达",
+      "216 乌克兰",
+      "217 阿拉伯联合酋长国",
+      "218 英国",
+      "219 坦桑尼亚",
+      "220 美国",
+      "221 美属维尔京群岛",
+      "222 乌拉圭",
+      "223 乌兹别克斯坦",
+      "224 瓦努阿图",
+      "225 圣座（梵蒂冈城邦）",
+      "226 委内瑞拉",
+      "227 越南",
+      "228 瓦利斯和富图纳",
+      "229 西撒哈拉",
+      "230 也门",
+      "231 赞比亚",
+      "232 津巴布韦"});
       visitor_country.Location = new Point(342, 47);
       visitor_country.Margin = new Padding(4, 3, 4, 3);
       visitor_country.Name = "visitor_country";
@@ -1152,7 +1618,7 @@ namespace PluginPile.Unmaintained.BWTool {
       npc_apply.Name = "npc_apply";
       npc_apply.Size = new Size(78, 27);
       npc_apply.TabIndex = 42;
-      npc_apply.Text = "Apply";
+      npc_apply.Text = "应用";
       npc_apply.UseVisualStyleBackColor = true;
       npc_apply.Click += Npc_applyClick;
       //
@@ -1163,7 +1629,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label12.Name = "label12";
       label12.Size = new Size(66, 27);
       label12.TabIndex = 41;
-      label12.Text = "Slot";
+      label12.Text = "槽位";
       //
       // npc_text2
       //
@@ -1190,7 +1656,7 @@ namespace PluginPile.Unmaintained.BWTool {
       npc_spoken.Name = "npc_spoken";
       npc_spoken.Size = new Size(121, 28);
       npc_spoken.TabIndex = 37;
-      npc_spoken.Text = "Spoken";
+      npc_spoken.Text = "已对话";
       npc_spoken.UseVisualStyleBackColor = true;
       //
       // label11
@@ -1200,7 +1666,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label11.Name = "label11";
       label11.Size = new Size(66, 27);
       label11.TabIndex = 36;
-      label11.Text = "Text 2";
+      label11.Text = "文本 2";
       //
       // label10
       //
@@ -1209,7 +1675,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label10.Name = "label10";
       label10.Size = new Size(66, 27);
       label10.TabIndex = 35;
-      label10.Text = "Text 1";
+      label10.Text = "文本 1";
       //
       // label8
       //
@@ -1218,7 +1684,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label8.Name = "label8";
       label8.Size = new Size(66, 27);
       label8.TabIndex = 33;
-      label8.Text = "Gender";
+      label8.Text = "性别";
       //
       // label7
       //
@@ -1227,12 +1693,12 @@ namespace PluginPile.Unmaintained.BWTool {
       label7.Name = "label7";
       label7.Size = new Size(66, 27);
       label7.TabIndex = 32;
-      label7.Text = "Name";
+      label7.Text = "姓名";
       //
       // npc_gender
       //
       npc_gender.FormattingEnabled = true;
-      npc_gender.Items.AddRange(new object[] { "Male", "Female" });
+      npc_gender.Items.AddRange(new object[] { "男", "女" });
       npc_gender.Location = new Point(90, 74);
       npc_gender.Margin = new Padding(4, 3, 4, 3);
       npc_gender.Name = "npc_gender";
@@ -1293,13 +1759,13 @@ namespace PluginPile.Unmaintained.BWTool {
       tabPage4.Padding = new Padding(4, 3, 4, 3);
       tabPage4.Size = new Size(588, 362);
       tabPage4.TabIndex = 3;
-      tabPage4.Text = "Helper";
+      tabPage4.Text = "助手";
       tabPage4.UseVisualStyleBackColor = true;
       //
       // helper
       //
       helper.FormattingEnabled = true;
-      helper.Items.AddRange(new object[] { "Helper 1 (Registration)", "Helper 2 (Shops)", "Helper 3 (Organization)", "Helper 4 (Healer)" });
+      helper.Items.AddRange(new object[] { "第一助手 (注册登记", "第二助手 (商店管理)", "第三助手 (组织)", "第四助手 (治愈)" });
       helper.Location = new Point(90, 16);
       helper.Margin = new Padding(4, 3, 4, 3);
       helper.Name = "helper";
@@ -1314,7 +1780,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label20.Name = "label20";
       label20.Size = new Size(66, 27);
       label20.TabIndex = 80;
-      label20.Text = "Met Date";
+      label20.Text = "相遇日期";
       //
       // helper_date
       //
@@ -1328,7 +1794,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion
       //
       helper_subregion.FormattingEnabled = true;
-      helper_subregion.Items.AddRange(new object[] { "0 None" });
+      helper_subregion.Items.AddRange(new object[] { "0 无" });
       helper_subregion.Location = new Point(342, 78);
       helper_subregion.Margin = new Padding(4, 3, 4, 3);
       helper_subregion.Name = "helper_subregion";
@@ -1338,7 +1804,32 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_argentina
       //
       HelperSubregion_argentina.FormattingEnabled = true;
-      HelperSubregion_argentina.Items.AddRange(new object[] { "0 None", "1 Buenos Aires", "2 Ciudad Autónoma de Buenos Aires", "3 Catamarca", "4 Chaco", "5 Chubut", "6 Córdoba", "7 Corrientes", "8 Entre Ríos", "9 Formosa", "10 Jujuy", "11 La Pampa", "12 La Rioja", "13 Mendoza", "14 Misiones", "15 Neuquén", "16 Río Negro", "17 Salta", "18 San Juan", "19 San Luis", "20 Santa Cruz", "21 Santa Fe", "22 Santiago del Estero", "23 Tierra del Fuego", "24 Tucumán" });
+      HelperSubregion_argentina.Items.AddRange(new object[] {
+      "0 无",
+      "1 布宜诺斯艾利斯",
+      "2 布宜诺斯艾利斯自治城",
+      "3 卡塔马卡",
+      "4 查科",
+      "5 丘布特",
+      "6 科尔多瓦",
+      "7 科连特斯",
+      "8 恩特雷里奥斯",
+      "9 福尔摩沙",
+      "10 胡胡伊",
+      "11 拉潘帕",
+      "12 拉里奥哈",
+      "13 门多萨",
+      "14 米西奥内斯",
+      "15 内乌肯",
+      "16 里奥内格罗",
+      "17 萨尔塔",
+      "18 圣胡安",
+      "19 圣路易斯",
+      "20 圣诞老人",
+      "21 圣达菲",
+      "22 圣地亚哥德尔埃斯特罗",
+      "23 火地岛",
+      "24 图库曼"});
       HelperSubregion_argentina.Location = new Point(551, 210);
       HelperSubregion_argentina.Margin = new Padding(4, 3, 4, 3);
       HelperSubregion_argentina.Name = "helper_subregion_argentina";
@@ -1349,7 +1840,16 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_australia
       //
       helper_subregion_australia.FormattingEnabled = true;
-      helper_subregion_australia.Items.AddRange(new object[] { "0 None", "1 Australian Capital Territory", "2 New South Wales", "3 Northern Territory", "4 Queensland", "5 South Australia", "6 Tasmania", "7 Victoria", "8 Western Australia" });
+      helper_subregion_australia.Items.AddRange(new object[] {
+      "0 无",
+      "1 澳大利亚首都领地",
+      "2 新南威尔士州",
+      "3 北方领土",
+      "4 昆士兰",
+      "5 南澳大利亚",
+      "6 塔斯马尼亚",
+      "7 维多利亚",
+      "8 澳洲西部"});
       helper_subregion_australia.Location = new Point(495, 210);
       helper_subregion_australia.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_australia.Name = "helper_subregion_australia";
@@ -1360,7 +1860,35 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_brazil
       //
       helper_subregion_brazil.FormattingEnabled = true;
-      helper_subregion_brazil.Items.AddRange(new object[] { "0 None", "1 Acre", "2 Rondônia", "3 Alagoas", "4 Amapá", "5 Amazonas", "6 Bahia", "7 Ceará", "8 Federal District", "9 Espírito Santo", "10 Goias", "11 Maranhão", "12 Mato Grosso", "13 Mato Grosso do Sul", "14 Minas Gerais", "15 Pará", "16 Paraíba", "17 Paraná", "18 Pernambuco", "19 Piauí", "20 Rio de Janeiro", "21 Rio Grande do Sul", "22 Rio Grande do Norte", "23 Roraima", "24 Santa Catarina", "25 São Paulo", "26 Sergipe", "27 Tocantins" });
+      helper_subregion_brazil.Items.AddRange(new object[] {
+      "0 无",
+      "1 英亩",
+      "2 朗多尼亚",
+      "3 阿拉戈斯",
+      "4 阿马帕",
+      "5 亚马孙",
+      "6 巴伊亚",
+      "7 塞阿拉",
+      "8 联邦区",
+      "9 圣埃斯皮里图",
+      "10 戈亚斯",
+      "11 马拉尼昂",
+      "12 马托格罗索",
+      "13 南马托格罗索州",
+      "14 米纳斯吉拉斯州",
+      "15 帕拉",
+      "16 帕拉伊巴",
+      "17 巴拉那",
+      "18 伯南布哥",
+      "19 皮奥伊",
+      "20 里约热内卢",
+      "21 南里奥格兰德",
+      "22 北里奥格兰德",
+      "23 罗赖马",
+      "24 圣卡塔琳娜",
+      "25 圣保罗",
+      "26 塞尔希佩",
+      "27 托坎廷斯"});
       helper_subregion_brazil.Location = new Point(439, 210);
       helper_subregion_brazil.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_brazil.Name = "helper_subregion_brazil";
@@ -1371,7 +1899,21 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_canada
       //
       helper_subregion_canada.FormattingEnabled = true;
-      helper_subregion_canada.Items.AddRange(new object[] { "0 None", "1 Alberta", "2 British Columbia", "3 Manitoba", "4 New Brunswick", "5 Newfoundland and Labrador", "6 Northwest Territories", "7 Nova Scotia", "8 Nunavut", "9 Ontario", "10 Prince Edward Island", "11 Quebec", "12 Saskatchewan", "13 Yukon" });
+      helper_subregion_canada.Items.AddRange(new object[] {
+      "0 无",
+      "1 阿尔伯塔",
+      "2 不列颠哥伦比亚省",
+      "3 马尼托巴",
+      "4 新不伦瑞克",
+      "5 纽芬兰和拉布拉多",
+      "6 西北地区",
+      "7 新斯科舍省",
+      "8 努纳武特",
+      "9 安大略省",
+      "10 爱德华王子岛",
+      "11 魁北克",
+      "12 萨斯喀彻温省",
+      "13 育空地区"});
       helper_subregion_canada.Location = new Point(383, 210);
       helper_subregion_canada.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_canada.Name = "helper_subregion_canada";
@@ -1382,7 +1924,41 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_china
       //
       helper_subregion_china.FormattingEnabled = true;
-      helper_subregion_china.Items.AddRange(new object[] { "0 None", "1 Anhui", "2 Beijing", "3 Chongqing", "4 Fujian", "5 Gansu", "6 Guangdong", "7 Guangxi", "8 Guizhou", "9 Hainan", "10 Hebei", "11 Heilongjiang", "12 Henan", "13 Hubei", "14 Hunan", "15 Jiangsu", "16 Jiangxi", "17 Jilin", "18 Liaoning", "19 Inner Mongolia", "20 Ningxia", "21 Qinghai", "22 Shaanxi", "23 Shandong", "24 Shanghai", "25 Shanxi", "26 Sichuan", "27 Tianjin", "28 Xinjiang", "29 Tibet", "30 Yunnan", "31 Zhejiang", "32 Hong Kong", "33 Macau" });
+      helper_subregion_china.Items.AddRange(new object[] {
+      "0 无",
+      "1 安徽",
+      "2 北京",
+      "3 重庆",
+      "4 福建",
+      "5 甘肃",
+      "6 广东",
+      "7 广西",
+      "8 贵州",
+      "9 海南",
+      "10 河北",
+      "11 黑龙江",
+      "12 河南",
+      "13 湖北",
+      "14 湖南",
+      "15 江苏",
+      "16 江西",
+      "17 吉林",
+      "18 辽宁",
+      "19 内蒙古",
+      "20 宁夏",
+      "21 青海",
+      "22 陕西",
+      "23 山东",
+      "24 上海",
+      "25 山西",
+      "26 四川",
+      "27 天津",
+      "28 新疆",
+      "29 西藏",
+      "30 云南",
+      "31 浙江",
+      "32 香港",
+      "33 澳门"});
       helper_subregion_china.Location = new Point(327, 210);
       helper_subregion_china.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_china.Name = "helper_subregion_china";
@@ -1393,7 +1969,24 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_germany
       //
       helper_subregion_germany.FormattingEnabled = true;
-      helper_subregion_germany.Items.AddRange(new object[] { "0 None", "1 Baden-Württemberg", "2 Bayern", "3 Berlin", "4 Brandenburg", "5 Bremen", "6 Hamburg", "7 Hesse", "8 Mecklenburg-West Pomerania", "9 Lower Saxony", "10 North Rhine-Westphalia", "11 Rhineland-Palatinate", "12 Saarland", "13 Saxony", "14 Saxony-Anhalt", "15 Schleswig-Holstein", "16 Thuringia" });
+      helper_subregion_germany.Items.AddRange(new object[] {
+      "0 无",
+      "1 巴登-符腾堡州",
+      "2 拜仁",
+      "3 柏林",
+      "4 勃兰登堡",
+      "5 不来梅",
+      "6 汉堡",
+      "7 黑森州",
+      "8 梅克伦堡-西波美拉尼亚",
+      "9 下萨克森",
+      "10 北莱茵-威斯特法伦",
+      "11 莱茵兰-普法尔茨",
+      "12 萨尔州",
+      "13 萨克森",
+      "14 萨克森-安哈尔特",
+      "15 石勒苏益格-荷尔斯泰因",
+      "16 图林根"});
       helper_subregion_germany.Location = new Point(271, 210);
       helper_subregion_germany.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_germany.Name = "helper_subregion_germany";
@@ -1404,7 +1997,25 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_spain
       //
       helper_subregion_spain.FormattingEnabled = true;
-      helper_subregion_spain.Items.AddRange(new object[] { "0 None", "1 Andalusia", "2 Aragon", "3 Asturias", "4 Balearic Islands", "5 Basque Country", "6 Canary Islands", "7 Cantabria", "8 Castile-La Mancha", "9 Castile and León", "10 Catalonia", "11 Extremadura", "12 Galicia", "13 Madrid", "14 Murcia", "15 Navarre", "16 La Rioja", "17 Valencia" });
+      helper_subregion_spain.Items.AddRange(new object[] {
+      "0 无",
+      "1 安达卢西亚",
+      "2 阿拉贡",
+      "3 阿斯图里亚斯",
+      "4 巴利阿里群岛",
+      "5 巴斯克地区",
+      "6 加那利群岛",
+      "7 坎塔布里亚",
+      "8 卡斯蒂利亚-拉曼恰",
+      "9 卡斯蒂利亚和莱昂",
+      "10 加泰罗尼亚",
+      "11 埃斯特雷马杜拉",
+      "12 加利西亚",
+      "13 马德里",
+      "14 穆尔西亚",
+      "15 纳瓦拉",
+      "16 拉里奥哈",
+      "17 瓦伦西亚"});
       helper_subregion_spain.Location = new Point(215, 210);
       helper_subregion_spain.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_spain.Name = "helper_subregion_spain";
@@ -1415,7 +2026,14 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_finland
       //
       helper_subregion_finland.FormattingEnabled = true;
-      helper_subregion_finland.Items.AddRange(new object[] { "0 None", "1 Åland Islands", "2 Lapland", "3 East Finland", "4 South Finland", "5 Oulu", "6 West Finland" });
+      helper_subregion_finland.Items.AddRange(new object[] {
+      "0 无",
+      "1 奥兰群岛",
+      "2 拉普兰",
+      "3 东芬兰",
+      "4 南芬兰",
+      "5 奥卢",
+      "6 西芬兰"});
       helper_subregion_finland.Location = new Point(159, 210);
       helper_subregion_finland.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_finland.Name = "helper_subregion_finland";
@@ -1426,7 +2044,30 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_france
       //
       helper_subregion_france.FormattingEnabled = true;
-      helper_subregion_france.Items.AddRange(new object[] { "0 None", "1 Aquitaine", "2 Alsace", "3 Île-de-France", "4 Auvergne", "5 Corse", "6 Champagne-Ardenne", "7 Nord-Pas-de-Calais", "8 Lower Normandy", "9 Upper Normandy", "10 Picardy", "11 Franche-Comté", "12 Burgundy", "13 Brittany", "14 Provence-Alpes-Côte d'Azur", "15 Pays-de-la-Loire", "16 Poitou-Charentes", "17 Midi-Pyrenees", "18 Languedoc-Roussillon", "19 Limousin", "20 Rhône-Alpes", "21 Lorraine", "22 Centre" });
+      helper_subregion_france.Items.AddRange(new object[] {
+      "0 无",
+      "1 阿基坦",
+      "2 阿尔萨斯",
+      "3 法兰西岛",
+      "4 奥弗涅",
+      "5 科西嘉",
+      "6 香槟-阿登",
+      "7 北加来海峡",
+      "8 下诺曼底",
+      "9 上诺曼底",
+      "10 皮卡第",
+      "11 弗朗什孔泰",
+      "12 勃艮第",
+      "13 布列塔尼",
+      "14 普罗旺斯-阿尔卑斯-蔚蓝海岸",
+      "15 卢瓦尔河地区",
+      "16 普瓦图-夏朗德",
+      "17 南比利牛斯山脉",
+      "18 朗格多克-鲁西永",
+      "19 豪华轿车",
+      "20 罗纳-阿尔卑斯",
+      "21 洛林",
+      "22 中心"});
       helper_subregion_france.Location = new Point(103, 210);
       helper_subregion_france.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_france.Name = "helper_subregion_france";
@@ -1437,7 +2078,20 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_england
       //
       helper_subregion_england.FormattingEnabled = true;
-      helper_subregion_england.Items.AddRange(new object[] { "0 None", "1 East of England", "2 East Midlands", "3 Greater London", "4 North East England", "5 North West England", "6 Northern Ireland", "7 Scotland", "8 South East England", "9 South West England", "10 Wales", "11 West Midlands", "12 Yorkshire and the Humber" });
+      helper_subregion_england.Items.AddRange(new object[] {
+      "0 无",
+      "1 英格兰东部",
+      "2 东米德兰兹",
+      "3 大伦敦",
+      "4 英格兰东北部",
+      "5 英格兰西北部",
+      "6 北爱尔兰",
+      "7 苏格兰",
+      "8 英格兰东南部",
+      "9 英格兰西南部",
+      "10 威尔士",
+      "11 西米德兰兹郡",
+      "12 约克郡和亨伯"});
       helper_subregion_england.Location = new Point(551, 179);
       helper_subregion_england.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_england.Name = "helper_subregion_england";
@@ -1448,7 +2102,43 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_india
       //
       helper_subregion_india.FormattingEnabled = true;
-      helper_subregion_india.Items.AddRange(new object[] { "0 None", "1 Andaman and Nicobar Islands", "2 Andhra Pradesh", "3 Arunachal Pradesh", "4 Assam", "5 Bihar", "6 Chandigarh", "7 Chhattisgarh", "8 Dadra and Nagar Haveli", "9 Daman and Diu", "10 Delhi", "11 Goa", "12 Gujarat", "13 Haryana", "14 Himachal Pradesh", "15 Jammu and Kashmir", "16 Jharkhand", "17 Karnataka", "18 Kerala", "19 Lakshadweep", "20 Madhya Pradesh", "21 Maharashtra", "22 Meghalaya", "23 Mizoram", "24 Manipur", "25 Nagaland", "26 Orissa", "27 Puducherry", "28 Punjab", "29 Rajasthan", "30 Sikkim", "31 Tamil Nadu", "32 Tripura", "33 Uttar Pradesh", "34 Uttarakhand", "35 West Bengal" });
+      helper_subregion_india.Items.AddRange(new object[] {
+      "0 无",
+      "1 安达曼和尼科巴群岛",
+      "2 安德拉邦",
+      "3 阿鲁纳恰尔邦",
+      "4 阿萨姆邦",
+      "5 比哈尔邦",
+      "6 昌迪加尔",
+      "7 恰蒂斯加尔邦",
+      "8 达德拉和纳加尔哈维利",
+      "9 达曼和迪乌",
+      "10 德里",
+      "11 果阿",
+      "12 古吉拉特邦",
+      "13 哈里亚纳邦",
+      "14 喜马偕尔邦",
+      "15 查谟和克什米尔",
+      "16 恰尔肯德邦",
+      "17 卡纳塔克邦",
+      "18 喀拉拉邦",
+      "19 拉克沙威普",
+      "20 中央邦",
+      "21 马哈拉施特拉邦",
+      "22 梅加拉亚邦",
+      "23 米佐拉姆",
+      "24 曼尼普尔邦",
+      "25 那加兰邦",
+      "26 奥里萨邦",
+      "27 本地治里",
+      "28 旁遮普",
+      "29 拉贾斯坦邦",
+      "30 锡金",
+      "31 泰米尔纳德邦",
+      "32 特里普拉",
+      "33 北方邦",
+      "34 北阿坎德邦",
+      "35 西孟加拉邦"});
       helper_subregion_india.Location = new Point(495, 179);
       helper_subregion_india.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_india.Name = "helper_subregion_india";
@@ -1459,7 +2149,28 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_italy
       //
       helper_subregion_italy.FormattingEnabled = true;
-      helper_subregion_italy.Items.AddRange(new object[] { "0 None", "1 Abruzzo", "2 Basilicata", "3 Calabria", "4 Campania", "5 Emilia-Romagna", "6 Friuli-Venezia Giulia", "7 Lazio", "8 Liguria", "9 Lombardy", "10 Marche", "11 Molise", "12 Piedmont", "13 Apulia", "14 Sardinia", "15 Sicily", "16 Tuscany", "17 Trentino-Alto Adige", "18 Umbria", "19 Valle d'Aosta", "20 Veneto" });
+      helper_subregion_italy.Items.AddRange(new object[] {
+      "0 无",
+      "1 阿布鲁佐",
+      "2 巴西利卡塔",
+      "3 卡拉布里亚",
+      "4 坎帕尼亚",
+      "5 艾米利亚-罗马涅",
+      "6 弗留利-威尼斯朱利亚",
+      "7 拉齐奥",
+      "8 利古里亚",
+      "9 伦巴第",
+      "10 马尔凯",
+      "11 莫利斯",
+      "12 皮埃蒙特",
+      "13 普利亚",
+      "14 撒丁岛",
+      "15 西西里",
+      "16 托斯卡纳",
+      "17 特伦蒂诺-上阿迪杰",
+      "18 翁布里亚",
+      "19 瓦莱达奥斯塔",
+      "20 威尼托"});
       helper_subregion_italy.Location = new Point(439, 179);
       helper_subregion_italy.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_italy.Name = "helper_subregion_italy";
@@ -1470,7 +2181,58 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_japan
       //
       helper_subregion_japan.FormattingEnabled = true;
-      helper_subregion_japan.Items.AddRange(new object[] { "0 None ", "1 Hokkaido (Sapporo)", "2 Hokkaido (Hakodate)", "3 Hokkaido (Wakkanai)", "4 Hokkaido (Kushiro)", "5 Aomori ", "6 Iwate ", "7 Miyagi ", "8 Akita ", "9 Yamagata ", "10 Fukushima ", "11 Ibaraki ", "12 Tochigi ", "13 Gunma ", "14 Saitama ", "15 Chiba ", "16 Tokyo ", "17 Kanagawa ", "18 Niigata ", "19 Toyama ", "20 Ishikawa ", "21 Fukui ", "22 Yamanashi ", "23 Nagano ", "24 Gifu ", "25 Shizuoka ", "26 Aichi ", "27 Mie ", "28 Shiga ", "29 Kyoto ", "30 Osaka ", "31 Hyogo ", "32 Nara ", "33 Wakayama ", "34 Tottori ", "35 Shimane ", "36 Okayama ", "37 Hiroshima ", "38 Yamaguchi ", "39 Tokushima ", "40 Kagawa ", "41 Ehime ", "42 Kochi ", "43 Fukuoka ", "44 Saga ", "45 Nagasaki ", "46 Kumamoto ", "47 Oita ", "48 Miyazaki ", "49 Kagoshima ", "50 Okinawa" });
+      helper_subregion_japan.Items.AddRange(new object[] {
+      "0 无",
+      "1 北海道（札幌）",
+      "2 北海道（函馆）",
+      "3 北海道（稚内）",
+      "4 北海道（钏路）",
+      "5 青森",
+      "6 岩手",
+      "7 宫城",
+      "8 秋田",
+      "9 山形",
+      "10 福岛",
+      "11 茨城县",
+      "12 栃木",
+      "13 群马",
+      "14 埼玉",
+      "15 千叶",
+      "16 东京",
+      "17 神奈川",
+      "18 新泻",
+      "19 富山",
+      "20 石川",
+      "21 福井",
+      "22 山梨",
+      "23 长野",
+      "24 岐阜",
+      "25 静冈",
+      "26 爱知县",
+      "27 三重",
+      "28 滋贺",
+      "29 京都",
+      "30 大阪",
+      "31 兵库",
+      "32 奈良",
+      "33 和歌山",
+      "34 鸟取",
+      "35 岛根",
+      "36 冈山",
+      "37 广岛",
+      "38 山口",
+      "39 德岛",
+      "40 香川",
+      "41 爱媛",
+      "42 高知",
+      "43 福冈",
+      "44 佐贺",
+      "45 长崎",
+      "46 熊本",
+      "47 大分",
+      "48 宫崎骏",
+      "49 鹿儿岛",
+      "50 冲绳"});
       helper_subregion_japan.Location = new Point(383, 179);
       helper_subregion_japan.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_japan.Name = "helper_subregion_japan";
@@ -1481,7 +2243,30 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_norway
       //
       helper_subregion_norway.FormattingEnabled = true;
-      helper_subregion_norway.Items.AddRange(new object[] { "0 None", "1 Akershus", "2 Aust-Agder", "3 Buskerud", "4 Finnmark", "5 Hedmark", "6 Hordaland", "7 Jan Mayen Island", "8 Lofoten", "9 Møre og Romsdal", "10 Nordland", "11 Nord-Trøndelag", "12 Oppland", "13 Oslo", "14 Rogaland", "15 Sogn og Fjordane", "16 Sør-Trøndelag", "17 Svalbard", "18 Telemark", "19 Troms", "20 Vest-Agder", "21 Vestfold", "22 Østfold" });
+      helper_subregion_norway.Items.AddRange(new object[] {
+      "0 无",
+      "1 阿克斯胡斯",
+      "2 奥斯特-阿格德尔",
+      "3 布斯克鲁德",
+      "4 芬马克",
+      "5 海德马克",
+      "6 霍达兰",
+      "7 扬马延岛",
+      "8 罗弗敦",
+      "9 莫罗和罗姆斯达尔",
+      "10 诺德兰",
+      "11 北特伦德拉格",
+      "12 奥普兰",
+      "13 奥斯陆",
+      "14 罗加兰",
+      "15 松和峡湾",
+      "16 南特伦德拉格",
+      "17 斯瓦尔巴群岛",
+      "18 泰勒马克",
+      "19 特罗姆斯",
+      "20 西阿格德尔",
+      "21 西福尔",
+      "22 东福尔"});
       helper_subregion_norway.Location = new Point(327, 179);
       helper_subregion_norway.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_norway.Name = "helper_subregion_norway";
@@ -1492,7 +2277,24 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_poland
       //
       helper_subregion_poland.FormattingEnabled = true;
-      helper_subregion_poland.Items.AddRange(new object[] { "0 None", "1 Lower Silesia", "2 Kuyavia-Pomerania", "3 Lublin", "4 Lubusz", "5 Lodz", "6 Lesser Poland", "7 Masovia", "8 Opole", "9 Subcarpathia", "10 Podlachia", "11 Pomerania", "12 Silesia", "13 Holy Cross", "14 Warmia-Masuria", "15 Greater Poland", "16 West Pomerania" });
+      helper_subregion_poland.Items.AddRange(new object[] {
+      "0 无",
+      "1 下西里西亚",
+      "2 库亚维亚-波美拉尼亚",
+      "3 卢布林",
+      "4 卢布斯",
+      "5 罗兹",
+      "6 小波兰",
+      "7 马索维亚",
+      "8 奥波莱",
+      "9 喀尔巴阡山下",
+      "10 波德拉基亚",
+      "11 波美拉尼亚",
+      "12 西里西亚",
+      "13 圣十字",
+      "14 瓦尔米亚-马祖里亚",
+      "15 大波兰",
+      "16 西波美拉尼亚"});
       helper_subregion_poland.Location = new Point(271, 179);
       helper_subregion_poland.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_poland.Name = "helper_subregion_poland";
@@ -1503,7 +2305,16 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_russia
       //
       helper_subregion_russia.FormattingEnabled = true;
-      helper_subregion_russia.Items.AddRange(new object[] { "0 None", "1 Central Federal District", "2 Far Eastern Federal District", "3 Northwestern Federal District", "4 Volga Federal District", "5 Siberian Federal District", "6 Southern Federal District", "7 Urals Federal District", "8 North Caucasian Federal District" });
+      helper_subregion_russia.Items.AddRange(new object[] {
+      "0 无",
+      "1 中央联邦区",
+      "2 远东联邦区",
+      "3 西北联邦区",
+      "4 伏尔加联邦管区",
+      "5 西伯利亚联邦区",
+      "6 南部联邦区",
+      "7 乌拉尔联邦区",
+      "8 北高加索联邦区"});
       helper_subregion_russia.Location = new Point(215, 179);
       helper_subregion_russia.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_russia.Name = "helper_subregion_russia";
@@ -1514,7 +2325,30 @@ namespace PluginPile.Unmaintained.BWTool {
       // helper_subregion_sweeden
       //
       helper_subregion_sweeden.FormattingEnabled = true;
-      helper_subregion_sweeden.Items.AddRange(new object[] { "0 None", "1 Blekinge", "2 Dalarna", "3 Gävleborg", "4 Gotland", "5 Halland", "6 Jamtland", "7 Jönköping", "8 Kalmar", "9 Kronoberg", "10 Norrbotten", "11 Oland", "12 Örebro", "13 Östergötland", "14 Skane", "15 Sodermanland", "16 Stockholm", "17 Uppsala", "18 Varmland", "19 Vasterbotten", "20 Västernorrland", "21 Vastmanland", "22 Västra Götaland" });
+      helper_subregion_sweeden.Items.AddRange(new object[] {
+      "0 无",
+      "1 布莱金厄",
+      "2 达拉纳",
+      "3 耶夫勒堡",
+      "4 哥特兰",
+      "5 哈兰德",
+      "6 沙姆特兰",
+      "7 延雪平",
+      "8 卡尔马",
+      "9 克罗诺贝格",
+      "10 北博滕",
+      "11 奥兰",
+      "12 厄勒布鲁",
+      "13 东约特兰",
+      "14 斯科讷",
+      "15 南曼兰",
+      "16 斯德哥尔摩",
+      "17 乌普萨拉",
+      "18 农田",
+      "19 西博滕",
+      "20 西诺兰",
+      "21 大曼兰",
+      "22 西约塔兰"});
       helper_subregion_sweeden.Location = new Point(159, 179);
       helper_subregion_sweeden.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_sweeden.Name = "helper_subregion_sweeden";
@@ -1529,7 +2363,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label19.Name = "label19";
       label19.Size = new Size(66, 27);
       label19.TabIndex = 60;
-      label19.Text = "Sprite";
+      label19.Text = "图像";
       //
       // helper_sprite
       //
@@ -1547,12 +2381,64 @@ namespace PluginPile.Unmaintained.BWTool {
       label18.Name = "label18";
       label18.Size = new Size(66, 27);
       label18.TabIndex = 58;
-      label18.Text = "Subregion";
+      label18.Text = "次级区域";
       //
       // helper_subregion_USA
       //
       helper_subregion_USA.FormattingEnabled = true;
-      helper_subregion_USA.Items.AddRange(new object[] { "0 None", "1 Alabama", "2 Alaska", "3 Arizona", "4 Arkansas", "5 California", "6 Colorado", "7 Connecticut", "8 Delaware", "9 Florida", "10 Georgia", "11 Hawaii", "12 Idaho", "13 Illinois", "14 Indiana", "15 Iowa", "16 Kansas", "17 Kentucky", "18 Louisiana", "19 Maine", "20 Maryland", "21 Massachusetts", "22 Michigan", "23 Minnesota", "24 Mississippi", "25 Missouri", "26 Montana", "27 Nebraska", "28 Nevada", "29 New Hampshire", "30 New Jersey", "31 New Mexico", "32 New York", "33 North Carolina", "34 North Dakota", "35 Ohio", "36 Oklahoma", "37 Oregon", "38 Pennsylvania", "39 Rhode Island", "40 South Carolina", "41 South Dakota", "42 Tennessee", "43 Texas", "44 Utah", "45 Vermont", "46 Virginia", "47 Washington", "48 Washington, DC", "49 West Virginia", "50 Wisconsin", "51 Wyoming" });
+      helper_subregion_USA.Items.AddRange(new object[] {
+      "0 无",
+      "1 阿拉巴马州",
+      "2 阿拉斯加州",
+      "3 亚利桑那",
+      "4 阿肯色州",
+      "5 加利福尼亚",
+      "6 科罗拉多州",
+      "7 康涅狄格",
+      "8 特拉华州",
+      "9 佛罗里达",
+      "10 乔治亚州",
+      "11 夏威夷",
+      "12 爱达荷州",
+      "13 伊利诺伊州",
+      "14 印第安纳州",
+      "15 爱荷华州",
+      "16 堪萨斯",
+      "17 肯塔基州",
+      "18 路易斯安那州",
+      "19 缅因州",
+      "20 马里兰",
+      "21 马萨诸塞州",
+      "22 密歇根州",
+      "23 明尼苏达",
+      "24 密西西比州",
+      "25 密苏里州",
+      "26 蒙大拿",
+      "27 内布拉斯加州",
+      "28 内华达州",
+      "29 新罕布什尔",
+      "30 新泽西州",
+      "31 新墨西哥",
+      "32 纽约",
+      "33 北卡罗来纳",
+      "34 北达科他州",
+      "35 俄亥俄州",
+      "36 俄克拉荷马州",
+      "37 俄勒冈",
+      "38 宾夕法尼亚州",
+      "39 罗德岛",
+      "40 南卡罗来纳",
+      "41 南达科他州",
+      "42 田纳西州",
+      "43 德克萨斯州",
+      "44 犹他州",
+      "45 佛蒙特",
+      "46 弗吉尼亚",
+      "47 华盛顿",
+      "48 华盛顿特区",
+      "49 西弗吉尼亚",
+      "50 威斯康星州",
+      "51 怀俄明州"});
       helper_subregion_USA.Location = new Point(103, 179);
       helper_subregion_USA.Margin = new Padding(4, 3, 4, 3);
       helper_subregion_USA.Name = "helper_subregion_USA";
@@ -1576,7 +2462,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label17.Name = "label17";
       label17.Size = new Size(66, 27);
       label17.TabIndex = 55;
-      label17.Text = "Met text";
+      label17.Text = "相遇日期";
       //
       // helper_apply
       //
@@ -1585,7 +2471,7 @@ namespace PluginPile.Unmaintained.BWTool {
       helper_apply.Name = "helper_apply";
       helper_apply.Size = new Size(78, 27);
       helper_apply.TabIndex = 54;
-      helper_apply.Text = "Apply";
+      helper_apply.Text = "应用";
       helper_apply.UseVisualStyleBackColor = true;
       helper_apply.Click += Helper_applyClick;
       //
@@ -1596,7 +2482,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label9.Name = "label9";
       label9.Size = new Size(66, 27);
       label9.TabIndex = 53;
-      label9.Text = "Slot";
+      label9.Text = "槽位";
       //
       // helper_greet2
       //
@@ -1623,7 +2509,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label13.Name = "label13";
       label13.Size = new Size(66, 27);
       label13.TabIndex = 49;
-      label13.Text = "Greeting 2";
+      label13.Text = "问候语 2";
       //
       // label14
       //
@@ -1632,7 +2518,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label14.Name = "label14";
       label14.Size = new Size(66, 27);
       label14.TabIndex = 48;
-      label14.Text = "Greeting 1";
+      label14.Text = "问候语 1";
       //
       // label15
       //
@@ -1641,7 +2527,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label15.Name = "label15";
       label15.Size = new Size(66, 27);
       label15.TabIndex = 47;
-      label15.Text = "Country";
+      label15.Text = "国家地区";
       //
       // label16
       //
@@ -1650,12 +2536,245 @@ namespace PluginPile.Unmaintained.BWTool {
       label16.Name = "label16";
       label16.Size = new Size(66, 27);
       label16.TabIndex = 46;
-      label16.Text = "Name";
+      label16.Text = "姓名";
       //
       // helper_country
       //
       helper_country.FormattingEnabled = true;
-      helper_country.Items.AddRange(new object[] { "0 None", "1 Afghanistan", "2 Albania", "3 Algeria", "4 American Samoa", "5 Andorra", "6 Angola", "7 Anguilla", "8 Antigua and Barbuda", "9 Argentina", "10 Armenia", "11 Aruba", "12 Australia", "13 Austria", "14 Azerbaijan", "15 Bahamas", "16 Bahrain", "17 Bangladesh", "18 Barbados", "19 Belarus", "20 Belgium", "21 Belize", "22 Benin", "23 Bermuda", "24 Bhutan", "25 Bolivia", "26 Bosnia and Herzegovina", "27 Botswana", "28 Brazil", "29 British Virgin Islands", "30 Brunei Darussalam", "31 Bulgaria", "32 Burkina Faso", "33 Burundi", "34 Cambodia", "35 Cameroon", "36 Canada", "37 Cape Verde", "38 Cayman Islands", "39 Central African Republic", "40 Chad", "41 Channel Islands", "42 Chile", "43 China", "44 Christmas Island", "45 Colombia", "46 Comoros", "47 Congo", "48 Cook Islands", "49 Costa Rica", "50 Cote d'Ivoire", "51 Croatia", "52 Cuba", "53 Cyprus", "54 Czech Republic", "55 North Korea", "56 Democratic Republic of the Congo", "57 Timor-Leste", "58 Denmark", "59 Djibouti", "60 Dominica", "61 Dominican Republic", "62 Ecuador", "63 Egypt", "64 El Salvador", "65 Equatorial Guinea", "66 Eritrea", "67 Estonia", "68 Ethiopia", "69 Falkland Islands", "70 Faroe Islands", "71 Fiji", "72 Finland", "73 France", "74 French Guiana", "75 French Polynesia", "76 Gabon", "77 Gambia", "78 Georgia", "79 Germany", "80 Ghana", "81 Gibraltar", "82 Greece", "83 Greenland", "84 Grenada", "85 Guadeloupe", "86 Guam", "87 Guatemala", "88 Guinea", "89 Guinea-Bissau", "90 Guyana", "91 Haiti", "92 Honduras", "93 Hungary", "94 Iceland", "95 India", "96 Indonesia", "97 Iran", "98 Iraq", "99 Ireland", "100 Isle of Man", "101 Israel", "102 Italy", "103 Jamaica", "104 Jan Mayen Island", "105 Japan", "106 Jordan", "107 Kashmir", "108 Kazakhstan", "109 Kenya", "110 Kiribati", "111 Kuwait", "112 Kyrgyzstan", "113 Laos", "114 Latvia", "115 Lebanon", "116 Lesotho", "117 Liberia", "118 Libya", "119 Liechtenstein", "120 Lithuania", "121 Luxembourg", "122 Macedonia (FYROM)", "123 Madagascar", "124 Malawi", "125 Malaysia", "126 Maldives", "127 Mali", "128 Malta", "129 Marshall Islands", "130 Martinique", "131 Mauritania", "132 Mauritius", "133 Mayotte", "134 Mexico", "135 Micronesia", "136 Monaco", "137 Mongolia", "138 Montenegro", "139 Morocco", "140 Mozambique", "141 Myanmar", "142 Namibia", "143 Nauru", "144 Nepal", "145 Netherlands", "146 Netherlands Antilles", "147 New Caledonia", "148 New Zealand", "149 Nicaragua", "150 Niger", "151 Nigeria", "152 Niue", "153 Norfolk Island", "154 Northern Mariana Islands", "155 Norway", "156 Oman", "157 Pakistan", "158 Palau", "159 Palestine", "160 Panama", "161 Papua New Guinea", "162 Paraguay", "163 Peru", "164 Philippines", "165 Pitcairn Islands", "166 Poland", "167 Portugal", "168 Puerto Rico", "169 Qatar", "170 South Korea", "171 Moldova", "172 Reunion", "173 Romania", "174 Russian Federation", "175 Rwanda", "176 Saint Helena", "177 Saint Kitts and Nevis", "178 Saint Lucia", "179 Saint Vincent and the Grenadines", "180 Saint Pierre and Miquelon", "181 Samoa", "182 San Marino", "183 Sao Tome and Principe", "184 Saudi Arabia", "185 Senegal", "186 Serbia", "187 Seychelles", "188 Sierra Leone", "189 Singapore", "190 Slovakia", "191 Slovenia", "192 Solomon Islands", "193 Somalia", "194 South Africa", "195 Spain", "196 Sri Lanka", "197 Sudan", "198 Suriname", "199 Swaziland", "200 Sweden", "201 Switzerland", "202 Syria", "203 Taiwan", "204 Tajikistan", "205 Thailand", "206 Togo", "207 Tokelau", "208 Tonga", "209 Trinidad and Tobago", "210 Tunisia", "211 Turkey", "212 Turkmenistan", "213 Turks and Caicos Islands", "214 Tuvalu", "215 Uganda", "216 Ukraine", "217 United Arab Emirates", "218 United Kingdom", "219 Tanzania", "220 United States of America", "221 United States Virgin Islands", "222 Uruguay", "223 Uzbekistan", "224 Vanuatu", "225 Holy See (Vatican City State)", "226 Venezuela", "227 Vietnam", "228 Wallis and Futuna", "229 Western Sahara", "230 Yemen", "231 Zambia", "232 Zimbabwe" });
+      helper_country.Items.AddRange(new object[] {
+      "0 无",
+      "1 阿富汗",
+      "2 阿尔巴尼亚",
+      "3 阿尔及利亚",
+      "4 美属萨摩亚",
+      "5 安道尔",
+      "6 安哥拉",
+      "7 安圭拉",
+      "8 安提瓜和巴布达",
+      "9 阿根廷",
+      "10 亚美尼亚",
+      "11 阿鲁巴岛",
+      "12 澳大利亚",
+      "13 奥地利",
+      "14 阿塞拜疆",
+      "15 巴哈马",
+      "16 巴林",
+      "17 孟加拉国",
+      "18 巴巴多斯",
+      "19 白俄罗斯",
+      "20 比利时",
+      "21 伯利兹",
+      "22 贝宁",
+      "23 百慕大",
+      "24 不丹",
+      "25 玻利维亚",
+      "26 波斯尼亚和黑塞哥维那",
+      "27 博茨瓦纳",
+      "28 巴西",
+      "29 英属维尔京群岛",
+      "30 文莱达鲁萨兰国",
+      "31 保加利亚",
+      "32 布基纳法索",
+      "33 布隆迪",
+      "34 柬埔寨",
+      "35 喀麦隆",
+      "36 加拿大",
+      "37 佛得角",
+      "38 开曼群岛",
+      "39 中非共和国",
+      "40 乍得",
+      "41 海峡群岛",
+      "42 智利",
+      "43 中国",
+      "44 圣诞岛",
+      "45 哥伦比亚",
+      "46 科摩罗",
+      "47 刚果",
+      "48 库克群岛",
+      "49 哥斯达黎加",
+      "50 科特迪瓦",
+      "51 克罗地亚",
+      "52 古巴",
+      "53 塞浦路斯",
+      "54 捷克共和国",
+      "55 北朝鲜",
+      "56 刚果民主共和国",
+      "57 东帝汶",
+      "58 丹麦",
+      "59 吉布提",
+      "60 多米尼克",
+      "61 多明尼加共和国",
+      "62 厄瓜多尔",
+      "63 埃及",
+      "64 萨尔瓦多",
+      "65 赤道几内亚",
+      "66 厄立特里亚",
+      "67 爱沙尼亚",
+      "68 埃塞俄比亚",
+      "69 福克兰群岛",
+      "70 法罗群岛",
+      "71 斐济",
+      "72 芬兰",
+      "73 法国",
+      "74 法属圭亚那",
+      "75 法属波利尼西亚",
+      "76 加蓬",
+      "77 冈比亚",
+      "78 乔治亚州",
+      "79 德国",
+      "80 加纳",
+      "81 直布罗陀",
+      "82 希腊",
+      "83 格陵兰",
+      "84 格林纳达",
+      "85 瓜德罗普",
+      "86 关岛",
+      "87 危地马拉",
+      "88 几内亚",
+      "89 几内亚比绍",
+      "90 圭亚那",
+      "91 海地",
+      "92 洪都拉斯",
+      "93 匈牙利",
+      "94 冰岛",
+      "95 印度",
+      "96 印度尼西亚",
+      "97 伊朗",
+      "98 伊拉克",
+      "99 爱尔兰",
+      "100 马恩岛",
+      "101 以色列",
+      "102 意大利",
+      "103 牙买加",
+      "104 扬马延岛",
+      "105 日本",
+      "106 约旦",
+      "107 克什米尔",
+      "108 哈萨克斯坦",
+      "109 肯尼亚",
+      "110 基里巴斯",
+      "111 科威特",
+      "112 吉尔吉斯斯坦",
+      "113 老挝",
+      "114 拉脱维亚",
+      "115 黎巴嫩",
+      "116 莱索托",
+      "117 利比里亚",
+      "118 利比亚",
+      "119 列支敦士登",
+      "120 立陶宛",
+      "121 卢森堡",
+      "122 马其顿 (FYROM)",
+      "123 马达加斯加",
+      "124 马拉维",
+      "125 马来西亚",
+      "126 马尔代夫",
+      "127 马里",
+      "128 马耳他",
+      "129 马绍尔群岛",
+      "130 马提尼克岛",
+      "131 毛里塔尼亚",
+      "132 毛里求斯",
+      "133 马约特岛",
+      "134 墨西哥",
+      "135 密克罗尼西亚",
+      "136 摩纳哥",
+      "137 蒙古",
+      "138 黑山",
+      "139 摩洛哥",
+      "140 莫桑比克",
+      "141 缅甸",
+      "142 纳米比亚",
+      "143 瑙鲁",
+      "144 尼泊尔",
+      "145 荷兰",
+      "146 荷属安的列斯",
+      "147 新喀里多尼亚",
+      "148 新西兰",
+      "149 尼加拉瓜",
+      "150 尼日尔",
+      "151 尼日利亚",
+      "152 纽埃",
+      "153 诺福克岛",
+      "154 北马里亚纳群岛",
+      "155 挪威",
+      "156 阿曼",
+      "157 巴基斯坦",
+      "158 帕劳",
+      "159 巴勒斯坦",
+      "160 巴拿马",
+      "161 巴布亚新几内亚",
+      "162 巴拉圭",
+      "163 秘鲁",
+      "164 菲律宾",
+      "165 皮特凯恩群岛",
+      "166 波兰",
+      "167 葡萄牙",
+      "168 波多黎各",
+      "169 卡塔尔",
+      "170 韩国",
+      "171 摩尔多瓦",
+      "172 团圆",
+      "173 罗马尼亚",
+      "174 俄罗斯联邦",
+      "175 卢旺达",
+      "176 圣赫勒拿",
+      "177 圣基茨和尼维斯",
+      "178 圣卢西亚",
+      "179 圣文森特和格林纳丁斯",
+      "180 圣皮埃尔和密克隆",
+      "181 萨摩亚",
+      "182 圣马力诺",
+      "183 圣多美和普林西比",
+      "184 沙特阿拉伯",
+      "185 塞内加尔",
+      "186 塞尔维亚",
+      "187 塞舌尔",
+      "188 塞拉利昂",
+      "189 新加坡",
+      "190 斯洛伐克",
+      "191 斯洛文尼亚",
+      "192 所罗门群岛",
+      "193 索马里",
+      "194 南非",
+      "195 西班牙",
+      "196 斯里兰卡",
+      "197 苏丹",
+      "198 苏里南",
+      "199 斯威士兰",
+      "200 瑞典",
+      "201 瑞士",
+      "202 叙利亚",
+      "203 台湾地区",
+      "204 塔吉克斯坦",
+      "205 泰国",
+      "206 多哥",
+      "207 托克劳",
+      "208 汤加",
+      "209 特立尼达和多巴哥",
+      "210 突尼斯",
+      "211 火鸡",
+      "212 土库曼斯坦",
+      "213 特克斯和凯科斯群岛",
+      "214 图瓦卢",
+      "215 乌干达",
+      "216 乌克兰",
+      "217 阿拉伯联合酋长国",
+      "218 英国",
+      "219 坦桑尼亚",
+      "220 美国",
+      "221 美属维尔京群岛",
+      "222 乌拉圭",
+      "223 乌兹别克斯坦",
+      "224 瓦努阿图",
+      "225 圣座（梵蒂冈城邦）",
+      "226 委内瑞拉",
+      "227 越南",
+      "228 瓦利斯和富图纳",
+      "229 西撒哈拉",
+      "230 也门",
+      "231 赞比亚",
+      "232 津巴布韦"});
       helper_country.Location = new Point(342, 47);
       helper_country.Margin = new Padding(4, 3, 4, 3);
       helper_country.Name = "helper_country";
@@ -1693,7 +2812,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox1.Size = new Size(323, 213);
       groupBox1.TabIndex = 44;
       groupBox1.TabStop = false;
-      groupBox1.Text = "Join Avenue";
+      groupBox1.Text = "汇合大道";
       //
       // JoinAvenueForm
       //
@@ -1708,7 +2827,7 @@ namespace PluginPile.Unmaintained.BWTool {
       MaximizeBox = false;
       MinimizeBox = false;
       Name = "JoinAvenueForm";
-      Text = "Join Avenue Editor";
+      Text = "汇合大道编辑器";
       ((System.ComponentModel.ISupportInitialize)rank).EndInit();
       ((System.ComponentModel.ISupportInitialize)npc).EndInit();
       ((System.ComponentModel.ISupportInitialize)shop).EndInit();

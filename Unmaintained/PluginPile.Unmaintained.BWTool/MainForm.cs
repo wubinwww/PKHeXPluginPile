@@ -15,11 +15,11 @@ namespace PluginPile.Unmaintained.BWTool {
         grotto_but.Enabled = false;
         trainer_records_but.Enabled = false;
         medal_but.Enabled = false;
-        forest_but.Enabled = true;
+        forest_but.Enabled = false;
         key_but.Enabled = false;
         join_but.Enabled = false;
         memory_but.Enabled = false;
-        dlc_but.Enabled = true;
+        dlc_but.Enabled = false;
         dr_but.Enabled = false;
       }
     }

@@ -18,7 +18,7 @@ public partial class DreamRadarForm : Form {
     drb = new DreamRadarB(SAV.GetDSLinkB()); //Get 3DS link data decrypted
 
     if (!dra.Received) {
-      MessageBox.Show("Warning! There's unreceived data in the savegame!");
+      MessageBox.Show("警告保存游戏中有未接收到的数据！");
       dra.Key = drb.EncKey ^ drkey.FLAGS;//This makes editing the data possible without messing up the current encryption
     }
 

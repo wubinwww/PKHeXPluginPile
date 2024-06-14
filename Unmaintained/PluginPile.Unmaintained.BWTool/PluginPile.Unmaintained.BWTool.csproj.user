@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Administrator\Desktop\PKHeXPluginPile-master\Unmaintained\PluginPile.Unmaintained.BWTool\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Editors\DLCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\DreamRadarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\DumperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\EntralinkDreamWorldForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\EntralinkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\GrottoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\JoinAvenueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\KeySystemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\MedalsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\MemoryLinkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\PropcaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\TrainerInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editors\TrainerRecordsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Editors\JoinAvenueForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

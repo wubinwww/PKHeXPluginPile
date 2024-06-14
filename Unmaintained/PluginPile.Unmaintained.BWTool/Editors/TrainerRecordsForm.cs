@@ -30,16 +30,16 @@ namespace PluginPile.Unmaintained.BWTool;
 public partial class TrainerRecordsForm : Form {
 
   private readonly SAV5 SAV;
-  private readonly TrainerRecords TrainerRecords;
+  private readonly TrainerRecords trainerRecords;
   public TrainerRecordsForm(SAV5 sav) {
     InitializeComponent();
     SAV = sav;
-    TrainerRecords = new TrainerRecords(SAV.GetBlock(Constants.TrainerRecords));
-    RecordIndex.SelectedIndex = 0;
-    RecordValue.Value = TrainerRecords.WildCount;
+    trainerRecords = new TrainerRecords(SAV.GetBlock(Constants.TrainerRecords));
+    record_index.SelectedIndex = 0;
+    record_value.Value = trainerRecords.WildCount;
   }
 
   void Record_indexSelectedIndexChanged(object sender, EventArgs e) {
-    RecordValue.Value = TrainerRecords.WildCount;
+    record_value.Value = trainerRecords.WildCount;
   }
 }

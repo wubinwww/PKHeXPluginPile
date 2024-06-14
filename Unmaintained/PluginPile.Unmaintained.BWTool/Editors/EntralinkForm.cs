@@ -104,10 +104,10 @@ public partial class EntralinkForm : Form {
             item.Enabled = true;
           else if (i >= 28)
             //We should never reach this point
-            MessageBox.Show("Updatearea error 1");
+            MessageBox.Show("更新区域错误 1");
           break;
         default:
-          MessageBox.Show("Updatearea error 2");
+          MessageBox.Show("更新区域错误 2");
           break;
 
       }
@@ -202,27 +202,27 @@ public partial class EntralinkForm : Form {
           dataGridView1.Rows[i].Cells[1].Value = Language.MoveList[forest.Move];
           switch (forest.Gender) {
             case 0:
-              dataGridView1.Rows[i].Cells[2].Value = "Male";
+              dataGridView1.Rows[i].Cells[2].Value = "公";
               break;
             case 1:
-              dataGridView1.Rows[i].Cells[2].Value = "Female";
+              dataGridView1.Rows[i].Cells[2].Value = "母";
               break;
             case 2:
-              dataGridView1.Rows[i].Cells[2].Value = "Genderless";
+              dataGridView1.Rows[i].Cells[2].Value = "无性别";
               break;
           }
           dataGridView1.Rows[i].Cells[3].Value = forest.Form;
           //dataGridView1.Rows[i].Cells[4].Value = forest.Animation;
           dataGridView1.Rows[i].Cells[4].Value = $"{forest.Animation:00} - " + forest.Animation switch {
-             0 => "Randomly turning around",
-             2 => "Randomly walking",
-             4 => "Randomly walking",
-             6 => "Walking up/down",
-             8 => "Walking left/right",
-            10 => "Walking left/right and randomly looking up/down",
-            12 => "Turning around clockwise",
-            14 => "Turning around counterclockwise",
-            _  => "Invalid (odd)",
+            0 => "随机转动",
+            2 => "随机走动",
+            4 => "随机走动",
+            6 => "上下走动",
+            8 => "左右走动",
+            10 => "左右走动并随机上下观察",
+            12 => "顺时针转动",
+            14 => "逆时针转动",
+            _ => "无效",
           };
         }
 
@@ -332,10 +332,10 @@ public partial class EntralinkForm : Form {
           sprite_warning.Text = "";
           break;
         } else
-          sprite_warning.Text = "Selected species does not have a Sprite for BW2";
+          sprite_warning.Text = "选中的宝可梦不存在供黑白2的图像";
       }
     } else if (spbox1.SelectedIndex > 493) {
-      sprite_warning.Text = "Selected species does not have a Sprite for BW";
+      sprite_warning.Text = "选中的宝可梦不存在供黑白的图像";
     } else {
       sprite_warning.Text = "";
     }
@@ -365,7 +365,7 @@ public partial class EntralinkForm : Form {
         //Only genderless
         special_gender = true;
         genderbox1.Items.Clear();
-        genderbox1.Items.AddRange(["Male", "Female", "Genderless"]);
+        genderbox1.Items.AddRange(["公", "母", "无性别"]);
         genderbox1.SelectedIndex = 2;
         genderbox1.Enabled = false;
       }
@@ -375,7 +375,7 @@ public partial class EntralinkForm : Form {
       //Re-enable list
       genderbox1.Enabled = true;
       genderbox1.Items.Clear();
-      genderbox1.Items.AddRange(["Male", "Female"]);
+      genderbox1.Items.AddRange(["公", "母"]);
     }
 
     //Handle forms
@@ -420,11 +420,11 @@ public partial class EntralinkForm : Form {
       case 386:
 
         formbox1.Items.AddRange([
-          "Normal",
-          "Attack",
-          "Defense",
-          "Speed"]);
-        if (forest.Form > 4)
+        "普通形态",
+        "攻击的样子",
+        "防御的样子",
+        "速度的样子"]);
+    if (forest.Form > 4)
           formbox1.SelectedIndex = 0;
         else
           formbox1.SelectedIndex = forest.Form;
@@ -432,9 +432,9 @@ public partial class EntralinkForm : Form {
       case 412:
       case 413:
         formbox1.Items.AddRange([
-          "Plant",
-          "Sand",
-          "Trash"]);
+          "草木蓑衣",
+          "砂土蓑衣",
+          "垃圾蓑衣"]);
         if (forest.Form > 3)
           formbox1.SelectedIndex = 0;
         else
@@ -443,8 +443,8 @@ public partial class EntralinkForm : Form {
       case 422:
       case 423:
         formbox1.Items.AddRange([
-          "West Sea",
-          "East Sea"]);
+          "西海",
+          "东海"]);
         if (forest.Form > 2)
           formbox1.SelectedIndex = 0;
         else
@@ -452,12 +452,12 @@ public partial class EntralinkForm : Form {
         break;
       case 479:
         formbox1.Items.AddRange([
-          "Normal",
-          "Heat",
-          "Wash",
-          "Frost",
-          "Fan",
-          "Mow"]);
+          "洛托姆",
+          "加热洛托姆",
+          "清洗洛托姆",
+          "结冰洛托姆",
+          "旋转洛托姆",
+          "切割洛托姆"]);
         if (forest.Form > 6)
           formbox1.SelectedIndex = 0;
         else
@@ -465,8 +465,8 @@ public partial class EntralinkForm : Form {
         break;
       case 487:
         formbox1.Items.AddRange([
-          "Altered",
-          "Origin"]);
+          "别种形态",
+          "起源形态"]);
         if (forest.Form > 2)
           formbox1.SelectedIndex = 0;
         else
@@ -474,8 +474,8 @@ public partial class EntralinkForm : Form {
         break;
       case 492:
         formbox1.Items.AddRange([
-          "Land",
-          "Sky"]);
+          "陆上形态",
+          "天空形态"]);
         if (forest.Form > 2)
           formbox1.SelectedIndex = 0;
         else
@@ -483,8 +483,8 @@ public partial class EntralinkForm : Form {
         break;
       case 550:
         formbox1.Items.AddRange([
-          "Red",
-          "Blue"]);
+          "红条纹的样子",
+          "蓝条纹的样子"]);
         if (forest.Form > 2)
           formbox1.SelectedIndex = 0;
         else
@@ -493,10 +493,10 @@ public partial class EntralinkForm : Form {
       case 585:
       case 586:
         formbox1.Items.AddRange([
-          "Winter",
-          "Spring",
-          "Summer",
-          "Autumn"]);
+          "冬天的样子",
+          "春天的样子",
+          "夏天的样子",
+          "秋天的样子"]);
         if (forest.Form > 4)
           formbox1.SelectedIndex = 0;
         else
@@ -504,8 +504,8 @@ public partial class EntralinkForm : Form {
         break;
       case 648:
         formbox1.Items.AddRange([
-          "Aria",
-          "Pirouette"]);
+          "歌声形态",
+          "舞步形态"]);
         if (forest.Form > 2)
           formbox1.SelectedIndex = 0;
         else
@@ -526,7 +526,7 @@ public partial class EntralinkForm : Form {
     if (DreamPkm != 0) {
       //Arceus warning
       if ((DreamPkm & 0x7FF) == 493 && forest.Area != 1)
-        MessageBox.Show("Warning! PGL Arceus was a special event and is supposed to reside at aea 9 center!\n\nI don't know if any other PGL Pokémon was distributed at special areas, I only know that Mamoswine and Porygon were download alongside other Dream World Pokémon, so Arceus might be the only special case. Any information on the topic is welcome.");
+        MessageBox.Show("警告！PGL阿尔宙斯是特殊事件，应当位于区域 中9！\n\n我不清楚是否有其他宝可梦被配信在特殊区域，我只知道象牙猪和多边兽曾和其它宝梦世界宝可梦被下载，所以阿尔宙斯应该是唯一的特殊情况。关于此主题的任何信息欢迎交流提供。");
       //If slot is empty, add pokemon instead
       if (forest.IsPkmEmpty()) {
         forest.AddPkm(DreamPkm);
@@ -540,54 +540,54 @@ public partial class EntralinkForm : Form {
   }
 
   void Pleasant_butClick(object sender, EventArgs e) {
-    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 0, "Pleasant Forest");
+    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 0, "小小森林");
     dreamworld.ShowDialog();
     AddDWPkm();
   }
 
   void Wind_butClick(object sender, EventArgs e) {
-    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 1, "Windswept Sky");
+    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 1, "广阔天空");
     dreamworld.ShowDialog();
     AddDWPkm();
   }
 
   void Spark_butClick(object sender, EventArgs e) {
-    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 2, "Sparkling Sea");
+    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 2, "闪亮海洋");
     dreamworld.ShowDialog();
     AddDWPkm();
   }
 
   void Spooky_butClick(object sender, EventArgs e) {
-    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 3, "Spooky Manor");
+    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 3, "古老洋馆");
     dreamworld.ShowDialog();
     AddDWPkm();
   }
 
   void Rugged_butClick(object sender, EventArgs e) {
-    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 4, "Rugged Mountain");
+    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 4, "崎岖山脉");
     dreamworld.ShowDialog();
     AddDWPkm();
   }
 
   void Icy_butClick(object sender, EventArgs e) {
-    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 5, "Icy Cave");
+    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 5, "凉爽洞穴");
     dreamworld.ShowDialog();
     AddDWPkm();
   }
 
   void Dream_butClick(object sender, EventArgs e) {
-    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 6, "Dream Park");
+    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 6, "梦境公园");
     dreamworld.ShowDialog();
     AddDWPkm();
   }
 
   void pkmcafe_butClick(object sender, EventArgs e) {
-    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 7, "Pokémon Café Forest");
+    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 7, "宝可梦咖啡馆森林");
     dreamworld.ShowDialog();
     AddDWPkm();
   }
   void Pgl_butClick(object sender, EventArgs e) {
-    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 8, "PGL Promotions");
+    Form dreamworld = new EntralinkDreamWorldForm(SAV, forest, 8, "PGL促销");
     dreamworld.ShowDialog();
     AddDWPkm();
   }

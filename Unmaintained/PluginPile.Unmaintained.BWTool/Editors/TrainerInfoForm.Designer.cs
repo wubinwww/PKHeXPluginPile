@@ -127,7 +127,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label1.Name = "label1";
       label1.Size = new Size(59, 27);
       label1.TabIndex = 0;
-      label1.Text = "Name";
+      label1.Text = "主人公";
       //
       // label2
       //
@@ -154,7 +154,7 @@ namespace PluginPile.Unmaintained.BWTool {
       rival_label.Name = "rival_label";
       rival_label.Size = new Size(59, 27);
       rival_label.TabIndex = 3;
-      rival_label.Text = "Rival";
+      rival_label.Text = "劲敌";
       //
       // label5
       //
@@ -163,7 +163,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label5.Name = "label5";
       label5.Size = new Size(59, 27);
       label5.TabIndex = 4;
-      label5.Text = "Money";
+      label5.Text = "零花钱";
       //
       // label6
       //
@@ -172,7 +172,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label6.Name = "label6";
       label6.Size = new Size(89, 27);
       label6.TabIndex = 5;
-      label6.Text = "Trainer class";
+      label6.Text = "训练家类型";
       //
       // label7
       //
@@ -181,7 +181,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label7.Name = "label7";
       label7.Size = new Size(100, 27);
       label7.TabIndex = 6;
-      label7.Text = "Trainer nature";
+      label7.Text = "训练家性格";
       //
       // label8
       //
@@ -190,7 +190,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label8.Name = "label8";
       label8.Size = new Size(83, 27);
       label8.TabIndex = 7;
-      label8.Text = "Battle Points";
+      label8.Text = "对战点数";
       //
       // groupBox1
       //
@@ -207,7 +207,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox1.Size = new Size(244, 107);
       groupBox1.TabIndex = 8;
       groupBox1.TabStop = false;
-      groupBox1.Text = "Playtime";
+      groupBox1.Text = "游戏时间";
       //
       // seconds
       //
@@ -243,7 +243,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label11.Name = "label11";
       label11.Size = new Size(100, 27);
       label11.TabIndex = 10;
-      label11.Text = "Seconds";
+      label11.Text = "秒";
       //
       // label10
       //
@@ -252,7 +252,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label10.Name = "label10";
       label10.Size = new Size(100, 27);
       label10.TabIndex = 10;
-      label10.Text = "Minutes";
+      label10.Text = "分钟";
       //
       // label9
       //
@@ -261,7 +261,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label9.Name = "label9";
       label9.Size = new Size(100, 27);
       label9.TabIndex = 9;
-      label9.Text = "Hours";
+      label9.Text = "小时";
       //
       // tid
       //
@@ -284,7 +284,15 @@ namespace PluginPile.Unmaintained.BWTool {
       // tnr_class
       //
       tnr_class.FormattingEnabled = true;
-      tnr_class.Items.AddRange(new object[] { "Youngster", "Ace trainer", "PKMN Ranger", "PKMN Breeder", "Scientist", "Hiker", "Roughneck", "Preschooler" });
+      tnr_class.Items.AddRange(new object[] {
+            "短裤小子",
+            "精英训练家",
+            "宝可梦巡护员",
+            "宝可梦培育家",
+            "研究员",
+            "登山男",
+            "光头男",
+            "幼儿园小朋友"});
       tnr_class.Location = new Point(110, 119);
       tnr_class.Margin = new Padding(4, 3, 4, 3);
       tnr_class.Name = "tnr_class";
@@ -294,7 +302,32 @@ namespace PluginPile.Unmaintained.BWTool {
       // tnr_nature
       //
       tnr_nature.FormattingEnabled = true;
-      tnr_nature.Items.AddRange(new object[] { "Hardy", "Lonely", "Brave", "Adamant", "Naughty", "Bold", "Docile", "Relaxed", "Impish", "Lax", "Timid", "Hasty", "Serious", "Jolly", "Naive", "Modest", "Mild", "Quiet", "Bashful", "Rash", "Calm", "Gentle", "Sassy", "Careful", "Quirky" });
+      tnr_nature.Items.AddRange(new object[] {
+            "勤奋",
+            "怕寂寞",
+            "勇勇",
+            "固执",
+            "顽皮",
+            "大胆",
+            "坦率",
+            "悠哉",
+            "淘气",
+            "乐天",
+            "胆小",
+            "急躁",
+            "认真",
+            "爽朗",
+            "天真",
+            "内敛",
+            "慢吞吞",
+            "冷静",
+            "害羞",
+            "马虎",
+            "温和",
+            "温顺",
+            "自大",
+            "慎重",
+            "浮躁"});
       tnr_nature.Location = new Point(110, 150);
       tnr_nature.Margin = new Padding(4, 3, 4, 3);
       tnr_nature.Name = "tnr_nature";
@@ -344,12 +377,12 @@ namespace PluginPile.Unmaintained.BWTool {
       label12.Name = "label12";
       label12.Size = new Size(83, 27);
       label12.TabIndex = 16;
-      label12.Text = "Gender";
+      label12.Text = "性别";
       //
       // gender
       //
       gender.FormattingEnabled = true;
-      gender.Items.AddRange(new object[] { "Male", "Female" });
+      gender.Items.AddRange(new object[] { "男", "女" });
       gender.Location = new Point(385, 90);
       gender.Margin = new Padding(4, 3, 4, 3);
       gender.Name = "gender";
@@ -363,7 +396,7 @@ namespace PluginPile.Unmaintained.BWTool {
       Exit_but.Name = "Exit_but";
       Exit_but.Size = new Size(119, 27);
       Exit_but.TabIndex = 19;
-      Exit_but.Text = "Exit";
+      Exit_but.Text = "退出";
       Exit_but.UseVisualStyleBackColor = true;
       Exit_but.Click += Exit_butClick;
       //
@@ -374,7 +407,7 @@ namespace PluginPile.Unmaintained.BWTool {
       Saveexit_but.Name = "Saveexit_but";
       Saveexit_but.Size = new Size(119, 27);
       Saveexit_but.TabIndex = 18;
-      Saveexit_but.Text = "Save and Exit";
+      Saveexit_but.Text = "保存并退出";
       Saveexit_but.UseVisualStyleBackColor = true;
       Saveexit_but.Click += Saveexit_butClick;
       //
@@ -385,7 +418,7 @@ namespace PluginPile.Unmaintained.BWTool {
       badge1.Name = "badge1";
       badge1.Size = new Size(146, 33);
       badge1.TabIndex = 20;
-      badge1.Text = "Badge 1";
+      badge1.Text = "徽章1";
       badge1.UseVisualStyleBackColor = true;
       //
       // badge1_date
@@ -411,7 +444,7 @@ namespace PluginPile.Unmaintained.BWTool {
       badge2.Name = "badge2";
       badge2.Size = new Size(146, 33);
       badge2.TabIndex = 22;
-      badge2.Text = "Badge 2";
+      badge2.Text = "徽章2";
       badge2.UseVisualStyleBackColor = true;
       //
       // badge3_date
@@ -429,7 +462,7 @@ namespace PluginPile.Unmaintained.BWTool {
       badge3.Name = "badge3";
       badge3.Size = new Size(146, 33);
       badge3.TabIndex = 24;
-      badge3.Text = "Badge 3";
+      badge3.Text = "徽章3";
       badge3.UseVisualStyleBackColor = true;
       //
       // badge4_date
@@ -447,7 +480,7 @@ namespace PluginPile.Unmaintained.BWTool {
       badge4.Name = "badge4";
       badge4.Size = new Size(146, 33);
       badge4.TabIndex = 26;
-      badge4.Text = "Badge 4";
+      badge4.Text = "徽章4";
       badge4.UseVisualStyleBackColor = true;
       //
       // badge5_date
@@ -465,7 +498,7 @@ namespace PluginPile.Unmaintained.BWTool {
       badge5.Name = "badge5";
       badge5.Size = new Size(146, 33);
       badge5.TabIndex = 28;
-      badge5.Text = "Badge 5";
+      badge5.Text = "徽章5";
       badge5.UseVisualStyleBackColor = true;
       //
       // badge6_date
@@ -483,7 +516,7 @@ namespace PluginPile.Unmaintained.BWTool {
       badge6.Name = "badge6";
       badge6.Size = new Size(146, 33);
       badge6.TabIndex = 30;
-      badge6.Text = "Badge 6";
+      badge6.Text = "徽章6";
       badge6.UseVisualStyleBackColor = true;
       //
       // badge7_date
@@ -501,7 +534,7 @@ namespace PluginPile.Unmaintained.BWTool {
       badge7.Name = "badge7";
       badge7.Size = new Size(146, 33);
       badge7.TabIndex = 32;
-      badge7.Text = "Badge 7";
+      badge7.Text = "徽章7";
       badge7.UseVisualStyleBackColor = true;
       //
       // badge8_date
@@ -519,7 +552,7 @@ namespace PluginPile.Unmaintained.BWTool {
       badge8.Name = "badge8";
       badge8.Size = new Size(146, 33);
       badge8.TabIndex = 34;
-      badge8.Text = "Badge 8";
+      badge8.Text = "徽章8";
       badge8.UseVisualStyleBackColor = true;
       //
       // TrainerInfoForm
@@ -568,7 +601,7 @@ namespace PluginPile.Unmaintained.BWTool {
       MaximizeBox = false;
       MinimizeBox = false;
       Name = "TrainerInfoForm";
-      Text = "Trainer Info";
+      Text = "训练家信息";
       groupBox1.ResumeLayout(false);
       ((System.ComponentModel.ISupportInitialize)seconds).EndInit();
       ((System.ComponentModel.ISupportInitialize)minutes).EndInit();

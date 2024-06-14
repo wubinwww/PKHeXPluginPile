@@ -183,7 +183,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check9r.Name = "check9r";
       check9r.Size = new Size(71, 28);
       check9r.TabIndex = 17;
-      check9r.Text = "9 Right";
+      check9r.Text = "右9";
       check9r.TextAlign = ContentAlignment.MiddleCenter;
       check9r.UseVisualStyleBackColor = true;
       check9r.CheckedChanged += AreaChanged;
@@ -197,7 +197,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check9c.Name = "check9c";
       check9c.Size = new Size(71, 28);
       check9c.TabIndex = 16;
-      check9c.Text = "9 Center";
+      check9c.Text = "中9";
       check9c.TextAlign = ContentAlignment.MiddleCenter;
       check9c.UseVisualStyleBackColor = true;
       check9c.CheckedChanged += AreaChanged;
@@ -211,7 +211,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check9l.Name = "check9l";
       check9l.Size = new Size(71, 28);
       check9l.TabIndex = 15;
-      check9l.Text = "9 Left";
+      check9l.Text = "左9";
       check9l.TextAlign = ContentAlignment.MiddleCenter;
       check9l.UseVisualStyleBackColor = true;
       check9l.CheckedChanged += AreaChanged;
@@ -225,7 +225,7 @@ namespace PluginPile.Unmaintained.BWTool {
       checkdeep.Name = "checkdeep";
       checkdeep.Size = new Size(71, 28);
       checkdeep.TabIndex = 27;
-      checkdeep.Text = "Deep";
+      checkdeep.Text = "最深处";
       checkdeep.TextAlign = ContentAlignment.MiddleCenter;
       checkdeep.UseVisualStyleBackColor = true;
       checkdeep.CheckedChanged += AreaChanged;
@@ -239,7 +239,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check8r.Name = "check8r";
       check8r.Size = new Size(71, 28);
       check8r.TabIndex = 30;
-      check8r.Text = "8 Right";
+      check8r.Text = "右8";
       check8r.TextAlign = ContentAlignment.MiddleCenter;
       check8r.UseVisualStyleBackColor = true;
       check8r.CheckedChanged += AreaChanged;
@@ -253,7 +253,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check8c.Name = "check8c";
       check8c.Size = new Size(71, 28);
       check8c.TabIndex = 29;
-      check8c.Text = "8 Center";
+      check8c.Text = "中8";
       check8c.TextAlign = ContentAlignment.MiddleCenter;
       check8c.UseVisualStyleBackColor = true;
       check8c.CheckedChanged += AreaChanged;
@@ -267,7 +267,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check8l.Name = "check8l";
       check8l.Size = new Size(71, 28);
       check8l.TabIndex = 28;
-      check8l.Text = "8 Left";
+      check8l.Text = "左8";
       check8l.TextAlign = ContentAlignment.MiddleCenter;
       check8l.UseVisualStyleBackColor = true;
       check8l.CheckedChanged += AreaChanged;
@@ -281,7 +281,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check7r.Name = "check7r";
       check7r.Size = new Size(71, 28);
       check7r.TabIndex = 33;
-      check7r.Text = "7 Right";
+      check7r.Text = "右7";
       check7r.TextAlign = ContentAlignment.MiddleCenter;
       check7r.UseVisualStyleBackColor = true;
       check7r.CheckedChanged += AreaChanged;
@@ -295,7 +295,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check7c.Name = "check7c";
       check7c.Size = new Size(71, 28);
       check7c.TabIndex = 32;
-      check7c.Text = "7 Center";
+      check7c.Text = "中7";
       check7c.TextAlign = ContentAlignment.MiddleCenter;
       check7c.UseVisualStyleBackColor = true;
       check7c.CheckedChanged += AreaChanged;
@@ -309,7 +309,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check7l.Name = "check7l";
       check7l.Size = new Size(71, 28);
       check7l.TabIndex = 31;
-      check7l.Text = "7 Left";
+      check7l.Text = "左7";
       check7l.TextAlign = ContentAlignment.MiddleCenter;
       check7l.UseVisualStyleBackColor = true;
       check7l.CheckedChanged += AreaChanged;
@@ -323,7 +323,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check6r.Name = "check6r";
       check6r.Size = new Size(71, 28);
       check6r.TabIndex = 36;
-      check6r.Text = "6 Right";
+      check6r.Text = "右6";
       check6r.TextAlign = ContentAlignment.MiddleCenter;
       check6r.UseVisualStyleBackColor = true;
       check6r.CheckedChanged += AreaChanged;
@@ -337,7 +337,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check6c.Name = "check6c";
       check6c.Size = new Size(71, 28);
       check6c.TabIndex = 35;
-      check6c.Text = "6 Center";
+      check6c.Text = "中6";
       check6c.TextAlign = ContentAlignment.MiddleCenter;
       check6c.UseVisualStyleBackColor = true;
       check6c.CheckedChanged += AreaChanged;
@@ -351,7 +351,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check6l.Name = "check6l";
       check6l.Size = new Size(71, 28);
       check6l.TabIndex = 34;
-      check6l.Text = "6 Left";
+      check6l.Text = "左6";
       check6l.TextAlign = ContentAlignment.MiddleCenter;
       check6l.UseVisualStyleBackColor = true;
       check6l.CheckedChanged += AreaChanged;
@@ -365,7 +365,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check5r.Name = "check5r";
       check5r.Size = new Size(71, 28);
       check5r.TabIndex = 39;
-      check5r.Text = "5 Right";
+      check5r.Text = "右5";
       check5r.TextAlign = ContentAlignment.MiddleCenter;
       check5r.UseVisualStyleBackColor = true;
       check5r.CheckedChanged += AreaChanged;
@@ -379,7 +379,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check5c.Name = "check5c";
       check5c.Size = new Size(71, 28);
       check5c.TabIndex = 38;
-      check5c.Text = "5 Center";
+      check5c.Text = "中5";
       check5c.TextAlign = ContentAlignment.MiddleCenter;
       check5c.UseVisualStyleBackColor = true;
       check5c.CheckedChanged += AreaChanged;
@@ -393,7 +393,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check5l.Name = "check5l";
       check5l.Size = new Size(71, 28);
       check5l.TabIndex = 37;
-      check5l.Text = "5 Left";
+      check5l.Text = "左5";
       check5l.TextAlign = ContentAlignment.MiddleCenter;
       check5l.UseVisualStyleBackColor = true;
       check5l.CheckedChanged += AreaChanged;
@@ -407,7 +407,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check4r.Name = "check4r";
       check4r.Size = new Size(71, 28);
       check4r.TabIndex = 42;
-      check4r.Text = "4 Right";
+      check4r.Text = "右4";
       check4r.TextAlign = ContentAlignment.MiddleCenter;
       check4r.UseVisualStyleBackColor = true;
       check4r.CheckedChanged += AreaChanged;
@@ -421,7 +421,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check4c.Name = "check4c";
       check4c.Size = new Size(71, 28);
       check4c.TabIndex = 41;
-      check4c.Text = "4 Center";
+      check4c.Text = "中4";
       check4c.TextAlign = ContentAlignment.MiddleCenter;
       check4c.UseVisualStyleBackColor = true;
       check4c.CheckedChanged += AreaChanged;
@@ -435,7 +435,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check4l.Name = "check4l";
       check4l.Size = new Size(71, 28);
       check4l.TabIndex = 40;
-      check4l.Text = "4 Left";
+      check4l.Text = "左4";
       check4l.TextAlign = ContentAlignment.MiddleCenter;
       check4l.UseVisualStyleBackColor = true;
       check4l.CheckedChanged += AreaChanged;
@@ -449,7 +449,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check3r.Name = "check3r";
       check3r.Size = new Size(71, 28);
       check3r.TabIndex = 45;
-      check3r.Text = "3 Right";
+      check3r.Text = "右3";
       check3r.TextAlign = ContentAlignment.MiddleCenter;
       check3r.UseVisualStyleBackColor = true;
       check3r.CheckedChanged += AreaChanged;
@@ -463,7 +463,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check3c.Name = "check3c";
       check3c.Size = new Size(71, 28);
       check3c.TabIndex = 44;
-      check3c.Text = "3 Center";
+      check3c.Text = "中3";
       check3c.TextAlign = ContentAlignment.MiddleCenter;
       check3c.UseVisualStyleBackColor = true;
       check3c.CheckedChanged += AreaChanged;
@@ -477,7 +477,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check3l.Name = "check3l";
       check3l.Size = new Size(71, 28);
       check3l.TabIndex = 43;
-      check3l.Text = "3 Left";
+      check3l.Text = "左3";
       check3l.TextAlign = ContentAlignment.MiddleCenter;
       check3l.UseVisualStyleBackColor = true;
       check3l.CheckedChanged += AreaChanged;
@@ -491,7 +491,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check2r.Name = "check2r";
       check2r.Size = new Size(71, 28);
       check2r.TabIndex = 48;
-      check2r.Text = "2 Right";
+      check2r.Text = "右2";
       check2r.TextAlign = ContentAlignment.MiddleCenter;
       check2r.UseVisualStyleBackColor = true;
       check2r.CheckedChanged += AreaChanged;
@@ -505,7 +505,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check2c.Name = "check2c";
       check2c.Size = new Size(71, 28);
       check2c.TabIndex = 47;
-      check2c.Text = "2 Center";
+      check2c.Text = "中2";
       check2c.TextAlign = ContentAlignment.MiddleCenter;
       check2c.UseVisualStyleBackColor = true;
       check2c.CheckedChanged += AreaChanged;
@@ -519,7 +519,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check2l.Name = "check2l";
       check2l.Size = new Size(71, 28);
       check2l.TabIndex = 46;
-      check2l.Text = "2 Left";
+      check2l.Text = "左2";
       check2l.TextAlign = ContentAlignment.MiddleCenter;
       check2l.UseVisualStyleBackColor = true;
       check2l.CheckedChanged += AreaChanged;
@@ -533,7 +533,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check1r.Name = "check1r";
       check1r.Size = new Size(71, 28);
       check1r.TabIndex = 51;
-      check1r.Text = "1 Right";
+      check1r.Text = "右1";
       check1r.TextAlign = ContentAlignment.MiddleCenter;
       check1r.UseVisualStyleBackColor = true;
       check1r.CheckedChanged += AreaChanged;
@@ -547,7 +547,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check1c.Name = "check1c";
       check1c.Size = new Size(71, 28);
       check1c.TabIndex = 50;
-      check1c.Text = "1 Center";
+      check1c.Text = "中1";
       check1c.TextAlign = ContentAlignment.MiddleCenter;
       check1c.UseVisualStyleBackColor = true;
       check1c.CheckedChanged += AreaChanged;
@@ -561,7 +561,7 @@ namespace PluginPile.Unmaintained.BWTool {
       check1l.Name = "check1l";
       check1l.Size = new Size(71, 28);
       check1l.TabIndex = 49;
-      check1l.Text = "1 Left";
+      check1l.Text = "左1";
       check1l.TextAlign = ContentAlignment.MiddleCenter;
       check1l.UseVisualStyleBackColor = true;
       check1l.CheckedChanged += AreaChanged;
@@ -569,7 +569,657 @@ namespace PluginPile.Unmaintained.BWTool {
       // spbox1
       //
       spbox1.FormattingEnabled = true;
-      spbox1.Items.AddRange(new object[] { "---------------------------", "001 - Bulbasaur", "002 - Ivysaur", "003 - Venusaur", "004 - Charmander", "005 - Charmeleon", "006 - Charizard", "007 - Squirtle", "008 - Wartortle", "009 - Blastoise", "010 - Caterpie", "011 - Metapod", "012 - Butterfree", "013 - Weedle", "014 - Kakuna", "015 - Beedrill", "016 - Pidgey", "017 - Pidgeotto", "018 - Pidgeot", "019 - Rattata", "020 - Raticate", "021 - Spearow", "022 - Fearow", "023 - Ekans", "024 - Arbok", "025 - Pikachu", "026 - Raichu", "027 - Sandshrew", "028 - Sandslash", "029 - Nidoran (F)", "030 - Nidorina", "031 - Nidoqueen", "032 - Nidoran(M)", "033 - Nidorino", "034 - Nidoking", "035 - Clefairy", "036 - Clefable", "037 - Vulpix", "038 - Ninetales", "039 - Jigglypuff", "040 - Wigglytuff", "041 - Zubat", "042 - Golbat", "043 - Oddish", "044 - Gloom", "045 - Vileplume", "046 - Paras", "047 - Parasect", "048 - Venonat", "049 - Venomoth", "050 - Diglett", "051 - Dugtrio", "052 - Meowth", "053 - Persian", "054 - Psyduck", "055 - Golduck", "056 - Mankey", "057 - Primeape", "058 - Growlithe", "059 - Arcanine", "060 - Poliwag", "061 - Poliwhirl", "062 - Poliwrath", "063 - Abra", "064 - Kadabra", "065 - Alakazam", "066 - Machop", "067 - Machoke", "068 - Machamp", "069 - Bellsprout", "070 - Weepinbell", "071 - Victreebel", "072 - Tentacool", "073 - Tentacruel", "074 - Geodude", "075 - Graveler", "076 - Golem", "077 - Ponyta", "078 - Rapidash", "079 - Slowpoke", "080 - Slowbro", "081 - Magnemite", "082 - Magneton", "083 - Farfetch'd", "084 - Doduo", "085 - Dodrio", "086 - Seel", "087 - Dewgong", "088 - Grimer", "089 - Muk", "090 - Shellder", "091 - Cloyster", "092 - Gastly", "093 - Haunter", "094 - Gengar", "095 - Onix", "096 - Drowzee", "097 - Hypno", "098 - Krabby", "099 - Kingler", "100 - Voltorb", "101 - Electrode", "102 - Exeggcute", "103 - Exeggutor", "104 - Cubone", "105 - Marowak", "106 - Hitmonlee", "107 - Hitmonchan", "108 - Lickitung", "109 - Koffing", "110 - Weezing", "111 - Rhyhorn", "112 - Rhydon", "113 - Chansey", "114 - Tangela", "115 - Kangaskhan", "116 - Horsea", "117 - Seadra", "118 - Goldeen", "119 - Seaking", "120 - Staryu", "121 - Starmie", "122 - Mr. Mime", "123 - Scyther", "124 - Jynx", "125 - Electabuzz", "126 - Magmar", "127 - Pinsir", "128 - Tauros", "129 - Magikarp", "130 - Gyarados", "131 - Lapras", "132 - Ditto", "133 - Eevee", "134 - Vaporeon", "135 - Jolteon", "136 - Flareon", "137 - Porygon", "138 - Omanyte", "139 - Omastar", "140 - Kabuto", "141 - Kabutops", "142 - Aerodactyl", "143 - Snorlax", "144 - Articuno", "145 - Zapdos", "146 - Moltres", "147 - Dratini", "148 - Dragonair", "149 - Dragonite", "150 - Mewtwo", "151 - Mew", "152 - Chikorita", "153 - Bayleef", "154 - Meganium", "155 - Cyndaquil", "156 - Quilava", "157 - Typhlosion", "158 - Totodile", "159 - Croconaw", "160 - Feraligatr", "161 - Sentret", "162 - Furret", "163 - Hoothoot", "164 - Noctowl", "165 - Ledyba", "166 - Ledian", "167 - Spinarak", "168 - Ariados", "169 - Crobat", "170 - Chinchou", "171 - Lanturn", "172 - Pichu", "173 - Cleffa", "174 - Igglybuff", "175 - Togepi", "176 - Togetic", "177 - Natu", "178 - Xatu", "179 - Mareep", "180 - Flaaffy", "181 - Ampharos", "182 - Bellossom", "183 - Marill", "184 - Azumarill", "185 - Sudowoodo", "186 - Politoed", "187 - Hoppip", "188 - Skiploom", "189 - Jumpluff", "190 - Aipom", "191 - Sunkern", "192 - Sunflora", "193 - Yanma", "194 - Wooper", "195 - Quagsire", "196 - Espeon", "197 - Umbreon", "198 - Murkrow", "199 - Slowking", "200 - Misdreavus", "201 - Unown", "202 - Wobbuffet", "203 - Girafarig", "204 - Pineco", "205 - Forretress", "206 - Dunsparce", "207 - Gligar", "208 - Steelix", "209 - Snubbull", "210 - Granbull", "211 - Qwilfish", "212 - Scizor", "213 - Shuckle", "214 - Heracross", "215 - Sneasel", "216 - Teddiursa", "217 - Ursaring", "218 - Slugma", "219 - Magcargo", "220 - Swinub", "221 - Piloswine", "222 - Corsola", "223 - Remoraid", "224 - Octillery", "225 - Delibird", "226 - Mantine", "227 - Skarmory", "228 - Houndour", "229 - Houndoom", "230 - Kingdra", "231 - Phanpy", "232 - Donphan", "233 - Porygon2", "234 - Stantler", "235 - Smeargle", "236 - Tyrogue", "237 - Hitmontop", "238 - Smoochum", "239 - Elekid", "240 - Magby", "241 - Miltank", "242 - Blissey", "243 - Raikou", "244 - Entei", "245 - Suicune", "246 - Larvitar", "247 - Pupitar", "248 - Tyranitar", "249 - Lugia", "250 - Ho-oh", "251 - Celebi", "252 - Treecko", "253 - Grovyle", "254 - Sceptile", "255 - Torchic", "256 - Combusken", "257 - Blaziken", "258 - Mudkip", "259 - Marshtomp", "260 - Swampert", "261 - Poochyena", "262 - Mightyena", "263 - Zigzagoon", "264 - Linoone", "265 - Wurmple", "266 - Silcoon", "267 - Beautifly", "268 - Cascoon", "269 - Dustox", "270 - Lotad", "271 - Lombre", "272 - Ludicolo", "273 - Seedot", "274 - Nuzleaf", "275 - Shiftry", "276 - Taillow", "277 - Swellow", "278 - Wingull", "279 - Pelipper", "280 - Ralts", "281 - Kirlia", "282 - Gardevoir", "283 - Surskit", "284 - Masquerain", "285 - Shroomish", "286 - Breloom", "287 - Slakoth", "288 - Vigoroth", "289 - Slaking", "290 - Nincada", "291 - Ninjask", "292 - Shedinja", "293 - Whismur", "294 - Loudred", "295 - Exploud", "296 - Makuhita", "297 - Hariyama", "298 - Azurill", "299 - Nosepass", "300 - Skitty", "301 - Delcatty", "302 - Sableye", "303 - Mawile", "304 - Aron", "305 - Lairon", "306 - Aggron", "307 - Meditite", "308 - Medicham", "309 - Electrike", "310 - Manectric", "311 - Plusle", "312 - Minun", "313 - Volbeat", "314 - Illumise", "315 - Roselia", "316 - Gulpin", "317 - Swalot", "318 - Carvanha", "319 - Sharpedo", "320 - Wailmer", "321 - Wailord", "322 - Numel", "323 - Camerupt", "324 - Torkoal", "325 - Spoink", "326 - Grumpig", "327 - Spinda", "328 - Trapinch", "329 - Vibrava", "330 - Flygon", "331 - Cacnea", "332 - Cacturne", "333 - Swablu", "334 - Altaria", "335 - Zangoose", "336 - Seviper", "337 - Lunatone", "338 - Solrock", "339 - Barboach", "340 - Whiscash", "341 - Corphish", "342 - Crawdaunt", "343 - Baltoy", "344 - Claydol", "345 - Lileep", "346 - Cradily", "347 - Anorith", "348 - Armaldo", "349 - Feebas", "350 - Milotic", "351 - Castform", "352 - Kecleon", "353 - Shuppet", "354 - Banette", "355 - Duskull", "356 - Dusclops", "357 - Tropius", "358 - Chimecho", "359 - Absol", "360 - Wynaut", "361 - Snorunt", "362 - Glalie", "363 - Spheal", "364 - Sealeo", "365 - Walrein", "366 - Clamperl", "367 - Huntail", "368 - Gorebyss", "369 - Relicanth", "370 - Luvdisc", "371 - Bagon", "372 - Shelgon", "373 - Salamence", "374 - Beldum", "375 - Metang", "376 - Metagross", "377 - Regirock", "378 - Regice", "379 - Registeel", "380 - Latias", "381 - Latios", "382 - Kyogre", "383 - Groudon", "384 - Rayquaza", "385 - Jirachi", "386 - Deoxys", "387 - Turtwig", "388 - Grotle", "389 - Torterra", "390 - Chimchar", "391 - Monferno", "392 - Infernape", "393 - Piplup", "394 - Prinplup", "395 - Empoleon", "396 - Starly", "397 - Staravia", "398 - Staraptor", "399 - Bidoof", "400 - Bibarel", "401 - Kricketot", "402 - Kricketune", "403 - Shinx", "404 - Luxio", "405 - Luxray", "406 - Budew", "407 - Roserade", "408 - Cranidos", "409 - Rampardos", "410 - Shieldon", "411 - Bastiodon", "412 - Burmy", "413 - Wormadam", "414 - Mothim", "415 - Combee", "416 - Vespiquen", "417 - Pachirisu", "418 - Buizel", "419 - Floatzel", "420 - Cherubi", "421 - Cherrim", "422 - Shellos", "423 - Gastrodon", "424 - Ambipom", "425 - Drifloon", "426 - Drifblim", "427 - Buneary", "428 - Lopunny", "429 - Mismagius", "430 - Honchkrow", "431 - Glameow", "432 - Purugly", "433 - Chingling", "434 - Stunky", "435 - Skuntank", "436 - Bronzor", "437 - Bronzong", "438 - Bonsly", "439 - Mime Jr.", "440 - Happiny", "441 - Chatot", "442 - Spiritomb", "443 - Gible", "444 - Gabite", "445 - Garchomp", "446 - Munchlax", "447 - Riolu", "448 - Lucario", "449 - Hippopotas", "450 - Hippowdon", "451 - Skorupi", "452 - Drapion", "453 - Croagunk", "454 - Toxicroak", "455 - Carnivine", "456 - Finneon", "457 - Lumineon", "458 - Mantyke", "459 - Snover", "460 - Abomasnow", "461 - Weavile", "462 - Magnezone", "463 - Lickilicky", "464 - Rhyperior", "465 - Tangrowth", "466 - Electivire", "467 - Magmortar", "468 - Togekiss", "469 - Yanmega", "470 - Leafeon", "471 - Glaceon", "472 - Gliscor", "473 - Mamoswine", "474 - Porygon-Z", "475 - Gallade", "476 - Probopass", "477 - Dusknoir", "478 - Froslass", "479 - Rotom", "480 - Uxie", "481 - Mesprit", "482 - Azelf", "483 - Dialga", "484 - Palkia", "485 - Heatran", "486 - Regigigas", "487 - Giratina", "488 - Cresselia", "489 - Phione", "490 - Manaphy", "491 - Darkrai", "492 - Shaymin", "493 - Arceus", "494 - Victini", "495 - Snivy", "496 - Servine", "497 - Serperior", "498 - Tepig", "499 - Pignite", "500 - Emboar", "501 - Oshawott", "502 - Dewott", "503 - Samurott", "504 - Patrat", "505 - Watchog", "506 - Lillipup", "507 - Herdier", "508 - Stoutland", "509 - Purrloin", "510 - Liepard", "511 - Pansage", "512 - Simisage", "513 - Pansear", "514 - Simisear", "515 - Panpour", "516 - Simipour", "517 - Munna", "518 - Musharna", "519 - Pidove", "520 - Tranquill", "521 - Unfezant", "522 - Blitzle", "523 - Zebstrika", "524 - Roggenrola", "525 - Boldore", "526 - Gigalith", "527 - Woobat", "528 - Swoobat", "529 - Drilbur", "530 - Excadrill", "531 - Audino", "532 - Timburr", "533 - Gurdurr", "534 - Conkeldurr", "535 - Tympole", "536 - Palpitoad", "537 - Seismitoad", "538 - Throh", "539 - Sawk", "540 - Sewaddle", "541 - Swadloon", "542 - Leavanny", "543 - Venipede", "544 - Whirlipede", "545 - Scolipede", "546 - Cottonee", "547 - Whimsicott", "548 - Petilil", "549 - Lilligant", "550 - Basculin", "551 - Sandile", "552 - Krokorok", "553 - Krookodile", "554 - Darumaka", "555 - Darmanitan", "556 - Maractus", "557 - Dwebble", "558 - Crustle", "559 - Scraggy", "560 - Scrafty", "561 - Sigilyph", "562 - Yamask", "563 - Cofagrigus", "564 - Tirtouga", "565 - Carracosta", "566 - Archen", "567 - Archeops", "568 - Trubbish", "569 - Garbodor", "570 - Zorua", "571 - Zoroark", "572 - Minccino", "573 - Cinccino", "574 - Gothita", "575 - Gothorita", "576 - Gothitelle", "577 - Solosis", "578 - Duosion", "579 - Reuniclus", "580 - Ducklett", "581 - Swanna", "582 - Vanillite", "583 - Vanillish", "584 - Vanilluxe", "585 - Deerling", "586 - Sawsbuck", "587 - Emolga", "588 - Karrablast", "589 - Escavalier", "590 - Foongus", "591 - Amoonguss", "592 - Frillish", "593 - Jellicent", "594 - Alomomola", "595 - Joltik", "596 - Galvantula", "597 - Ferroseed", "598 - Ferrothorn", "599 - Klink", "600 - Klang", "601 - Klinklang", "602 - Tynamo", "603 - Eelektrik", "604 - Eelektross", "605 - Elgyem", "606 - Beheeyem", "607 - Litwick", "608 - Lampent", "609 - Chandelure", "610 - Axew", "611 - Fraxure", "612 - Haxorus", "613 - Cubchoo", "614 - Beartic", "615 - Cryogonal", "616 - Shelmet", "617 - Accelgor", "618 - Stunfisk", "619 - Mienfoo", "620 - Mienshao", "621 - Druddigon", "622 - Golett", "623 - Golurk", "624 - Pawniard", "625 - Bisharp", "626 - Bouffalant", "627 - Rufflet", "628 - Braviary", "629 - Vullaby", "630 - Mandibuzz", "631 - Heatmor", "632 - Durant", "633 - Deino", "634 - Zweilous", "635 - Hydreigon", "636 - Larvesta", "637 - Volcarona", "638 - Cobalion", "639 - Terrakion", "640 - Virizion", "641 - Tornadus", "642 - Thundurus", "643 - Reshiram", "644 - Zekrom", "645 - Landorus", "646 - Kyurem", "647 - Keldeo", "648 - Meloetta", "649 - Genesect" });
+      spbox1.Items.AddRange(new object[] {
+            "---------------------------",
+            "001 -妙蛙种子",
+            "002 -妙蛙草",
+            "003 -妙蛙花",
+            "004 -小火龙",
+            "005 -火恐龙",
+            "006 -喷火龙",
+            "007 -杰尼龟",
+            "008 -卡咪龟",
+            "009 -水箭龟",
+            "010 -绿毛虫",
+            "011 -铁甲蛹",
+            "012 -巴大蝶",
+            "013 -独角虫",
+            "014 -铁壳蛹",
+            "015 -大针蜂",
+            "016 -波波",
+            "017 -比比鸟",
+            "018 -大比鸟",
+            "019 -小拉达",
+            "020 -拉达",
+            "021 -烈雀",
+            "022 -大嘴雀",
+            "023 -阿柏蛇",
+            "024 -阿柏怪",
+            "025 -皮卡丘",
+            "026 -雷丘",
+            "027 -穿山鼠",
+            "028 -穿山王",
+            "029 -尼多兰",
+            "030 -尼多娜",
+            "031 -尼多后",
+            "032 -尼多朗",
+            "033 -尼多力诺",
+            "034 -尼多王",
+            "035 -皮皮",
+            "036 -皮可西",
+            "037 -六尾",
+            "038 -九尾",
+            "039 -胖丁",
+            "040 -胖可丁",
+            "041 -超音蝠",
+            "042 -大嘴蝠",
+            "043 -走路草",
+            "044 -臭臭花",
+            "045 -霸王花",
+            "046 -派拉斯",
+            "047 -派拉斯特",
+            "048 -毛球",
+            "049 -摩鲁蛾",
+            "050 -地鼠",
+            "051 -三地鼠",
+            "052 -喵喵",
+            "053 -猫老大",
+            "054 -可达鸭",
+            "055 -哥达鸭",
+            "056 -猴怪",
+            "057 -火暴猴",
+            "058 -卡蒂狗",
+            "059 -风速狗",
+            "060 -蚊香蝌蚪",
+            "061 -蚊香君",
+            "062 -蚊香泳士",
+            "063 -凯西",
+            "064 -勇基拉",
+            "065 -胡地",
+            "066 -腕力",
+            "067 -豪力",
+            "068 -怪力",
+            "069 -喇叭芽",
+            "070 -口呆花",
+            "071 -大食花",
+            "072 -玛瑙水母",
+            "073 -毒刺水母",
+            "074 -小拳石",
+            "075 -隆隆石",
+            "076 -隆隆岩",
+            "077 -小火马",
+            "078 -烈焰马",
+            "079 -呆呆兽",
+            "080 -呆壳兽",
+            "081 -小磁怪",
+            "082 -三合一磁怪",
+            "083 -大葱鸭",
+            "084 -嘟嘟",
+            "085 -嘟嘟利",
+            "086 -小海狮",
+            "087 -白海狮",
+            "088 -臭泥",
+            "089 -臭臭泥",
+            "090 -大舌贝",
+            "091 -刺甲贝",
+            "092 -鬼斯",
+            "093 -鬼斯通",
+            "094 -耿鬼",
+            "095 -大岩蛇",
+            "096 -催眠貘",
+            "097 -引梦貘人",
+            "098 -大钳蟹",
+            "099 -巨钳蟹",
+            "100 -霹雳电球",
+            "101 -顽皮雷弹",
+            "102 -蛋蛋",
+            "103 -椰蛋树",
+            "104 -卡拉卡拉",
+            "105 -嘎啦嘎啦",
+            "106 -飞腿郎",
+            "107 -快拳郎",
+            "108 -大舌头",
+            "109 -瓦斯弹",
+            "110 -双弹瓦斯",
+            "111 -独角犀牛",
+            "112 -钻角犀兽",
+            "113 -吉利蛋",
+            "114 -蔓藤怪",
+            "115 -袋兽",
+            "116 -墨海马",
+            "117 -海刺龙",
+            "118 -角金鱼",
+            "119 -金鱼王",
+            "120 -海星星",
+            "121 -宝石海星",
+            "122 -魔墙人偶",
+            "123 -飞天螳螂",
+            "124 -迷唇姐",
+            "125 -电击兽",
+            "126 -鸭嘴火兽",
+            "127 -凯罗斯",
+            "128 -肯泰罗",
+            "129 -鲤鱼王",
+            "130 -暴鲤龙",
+            "131 -拉普拉斯",
+            "132 -百变怪",
+            "133 -伊布",
+            "134 -水伊布",
+            "135 -雷伊布",
+            "136 -火伊布",
+            "137 -多边兽",
+            "138 -菊石兽",
+            "139 -多刺菊石兽",
+            "140 -化石盔",
+            "141 -镰刀盔",
+            "142 -化石翼龙",
+            "143 -卡比兽",
+            "144 -急冻鸟",
+            "145 -闪电鸟",
+            "146 -火焰鸟",
+            "147 -迷你龙",
+            "148 -哈克龙",
+            "149 -快龙",
+            "150 -超梦",
+            "151 -梦幻",
+            "152 -菊草叶",
+            "153 -月桂叶",
+            "154 -大竺葵",
+            "155 -火球鼠",
+            "156 -火岩鼠",
+            "157 -火暴兽",
+            "158 -小锯鳄",
+            "159 -蓝鳄",
+            "160 -大力鳄",
+            "161 -尾立",
+            "162 -大尾立",
+            "163 -咕咕",
+            "164 -猫头夜鹰",
+            "165 -芭瓢虫",
+            "166 -安瓢虫",
+            "167 -圆丝蛛",
+            "168 -阿利多斯",
+            "169 -叉字蝠",
+            "170 -灯笼鱼",
+            "171 -电灯怪",
+            "172 -皮丘",
+            "173 -皮宝宝",
+            "174 -宝宝丁",
+            "175 -波克比",
+            "176 -波克基古",
+            "177 -天然雀",
+            "178 -天然鸟",
+            "179 -咩利羊",
+            "180 -茸茸羊",
+            "181 -电龙",
+            "182 -美丽花",
+            "183 -玛力露",
+            "184 -玛力露丽",
+            "185 -树才怪",
+            "186 -蚊香蛙皇",
+            "187 -毽子草",
+            "188 -毽子花",
+            "189 -毽子棉",
+            "190 -长尾怪手",
+            "191 -向日种子",
+            "192 -向日花怪",
+            "193 -蜻蜻蜓",
+            "194 -乌波",
+            "195 -沼王",
+            "196 -太阳伊布",
+            "197 -月亮伊布",
+            "198 -黑暗鸦",
+            "199 -呆呆王",
+            "200 -梦妖",
+            "201 -未知图腾",
+            "202 -果然翁",
+            "203 -麒麟奇",
+            "204 -榛果球",
+            "205 -佛烈托斯",
+            "206 -土龙弟弟",
+            "207 -天蝎",
+            "208 -大钢蛇",
+            "209 -布鲁",
+            "210 -布鲁皇",
+            "211 -千针鱼",
+            "212 -巨钳螳螂",
+            "213 -壶壶",
+            "214 -赫拉克罗斯",
+            "215 -狃拉",
+            "216 -熊宝宝",
+            "217 -圈圈熊",
+            "218 -熔岩虫",
+            "219 -熔岩蜗牛",
+            "220 -小山猪",
+            "221 -长毛猪",
+            "222 -太阳珊瑚",
+            "223 -铁炮鱼",
+            "224 -章鱼桶",
+            "225 -信使鸟",
+            "226 -巨翅飞鱼",
+            "227 -盔甲鸟",
+            "228 -戴鲁比",
+            "229 -黑鲁加",
+            "230 -刺龙王",
+            "231 -小小象",
+            "232 -顿甲",
+            "233 -多边兽Ⅱ",
+            "234 -惊角鹿",
+            "235 -图图犬",
+            "236 -无畏小子",
+            "237 -战舞郎",
+            "238 -迷唇娃",
+            "239 -电击怪",
+            "240 -鸭嘴宝宝",
+            "241 -大奶罐",
+            "242 -幸福蛋",
+            "243 -雷公",
+            "244 -炎帝",
+            "245 -水君",
+            "246 -幼基拉斯",
+            "247 -沙基拉斯",
+            "248 -班基拉斯",
+            "249 -洛奇亚",
+            "250 -凤王",
+            "251 -时拉比",
+            "252 -木守宫",
+            "253 -森林蜥蜴",
+            "254 -蜥蜴王",
+            "255 -火稚鸡",
+            "256 -力壮鸡",
+            "257 -火焰鸡",
+            "258 -水跃鱼",
+            "259 -沼跃鱼",
+            "260 -巨沼怪",
+            "261 -土狼犬",
+            "262 -大狼犬",
+            "263 -蛇纹熊",
+            "264 -直冲熊",
+            "265 -刺尾虫",
+            "266 -甲壳茧",
+            "267 -狩猎凤蝶",
+            "268 -盾甲茧",
+            "269 -毒粉蛾",
+            "270 -莲叶童子",
+            "271 -莲帽小童",
+            "272 -乐天河童",
+            "273 -橡实果",
+            "274 -长鼻叶",
+            "275 -狡猾天狗",
+            "276 -傲骨燕",
+            "277 -大王燕",
+            "278 -长翅鸥",
+            "279 -大嘴鸥",
+            "280 -拉鲁拉丝",
+            "281 -奇鲁莉安",
+            "282 -沙奈朵",
+            "283 -溜溜糖球",
+            "284 -雨翅蛾",
+            "285 -蘑蘑菇",
+            "286 -斗笠菇",
+            "287 -懒人獭",
+            "288 -过动猿",
+            "289 -请假王",
+            "290 -土居忍士",
+            "291 -铁面忍者",
+            "292 -脱壳忍者",
+            "293 -咕妞妞",
+            "294 -吼爆弹",
+            "295 -爆音怪",
+            "296 -幕下力士",
+            "297 -铁掌力士",
+            "298 -露力丽",
+            "299 -朝北鼻",
+            "300 -向尾喵",
+            "301 -优雅猫",
+            "302 -勾魂眼",
+            "303 -大嘴娃",
+            "304 -可可多拉",
+            "305 -可多拉",
+            "306 -波士可多拉",
+            "307 -玛沙那",
+            "308 -恰雷姆",
+            "309 -落雷兽",
+            "310 -雷电兽",
+            "311 -正电拍拍",
+            "312 -负电拍拍",
+            "313 -电萤虫",
+            "314 -甜甜萤",
+            "315 -毒蔷薇",
+            "316 -溶食兽",
+            "317 -吞食兽",
+            "318 -利牙鱼",
+            "319 -巨牙鲨",
+            "320 -吼吼鲸",
+            "321 -吼鲸王",
+            "322 -呆火驼",
+            "323 -喷火驼",
+            "324 -煤炭龟",
+            "325 -跳跳猪",
+            "326 -噗噗猪",
+            "327 -晃晃斑",
+            "328 -大颚蚁",
+            "329 -超音波幼虫",
+            "330 -沙漠蜻蜓",
+            "331 -刺球仙人掌",
+            "332 -梦歌仙人掌",
+            "333 -青绵鸟",
+            "334 -七夕青鸟",
+            "335 -猫鼬斩",
+            "336 -饭匙蛇",
+            "337 -月石",
+            "338 -太阳岩",
+            "339 -泥泥鳅",
+            "340 -鲶鱼王",
+            "341 -龙虾小兵",
+            "342 -铁螯龙虾",
+            "343 -天秤偶",
+            "344 -念力土偶",
+            "345 -触手百合",
+            "346 -摇篮百合",
+            "347 -太古羽虫",
+            "348 -太古盔甲",
+            "349 -丑丑鱼",
+            "350 -美纳斯",
+            "351 -飘浮泡泡",
+            "352 -变隐龙",
+            "353 -怨影娃娃",
+            "354 -诅咒娃娃",
+            "355 -夜巡灵",
+            "356 -彷徨夜灵",
+            "357 -热带龙",
+            "358 -风铃铃",
+            "359 -阿勃梭鲁",
+            "360 -小果然",
+            "361 -雪童子",
+            "362 -冰鬼护",
+            "363 -海豹球",
+            "364 -海魔狮",
+            "365 -帝牙海狮",
+            "366 -珍珠贝",
+            "367 -猎斑鱼",
+            "368 -樱花鱼",
+            "369 -古空棘鱼",
+            "370 -爱心鱼",
+            "371 -宝贝龙",
+            "372 -甲壳龙",
+            "373 -暴飞龙",
+            "374 -铁哑铃",
+            "375 -金属怪",
+            "376 -巨金怪",
+            "377 -雷吉洛克",
+            "378 -雷吉艾斯",
+            "379 -雷吉斯奇鲁",
+            "380 -拉帝亚斯",
+            "381 -拉帝欧斯",
+            "382 -盖欧卡",
+            "383 -固拉多",
+            "384 -烈空坐",
+            "385 -基拉祈",
+            "386 -代欧奇希斯",
+            "387 -草苗龟",
+            "388 -树林龟",
+            "389 -土台龟",
+            "390 -小火焰猴",
+            "391 -猛火猴",
+            "392 -烈焰猴",
+            "393 -波加曼",
+            "394 -波皇子",
+            "395 -帝王拿波",
+            "396 -姆克儿",
+            "397 -姆克鸟",
+            "398 -姆克鹰",
+            "399 -大牙狸",
+            "400 -大尾狸",
+            "401 -圆法师",
+            "402 -音箱蟀",
+            "403 -小猫怪",
+            "404 -勒克猫",
+            "405 -伦琴猫",
+            "406 -含羞苞",
+            "407 -罗丝雷朵",
+            "408 -头盖龙",
+            "409 -战槌龙",
+            "410 -盾甲龙",
+            "411 -护城龙",
+            "412 -结草儿",
+            "413 -结草贵妇",
+            "414 -绅士蛾",
+            "415 -三蜜蜂",
+            "416 -蜂女王",
+            "417 -帕奇利兹",
+            "418 -泳圈鼬",
+            "419 -浮潜鼬",
+            "420 -樱花宝",
+            "421 -樱花儿",
+            "422 -无壳海兔",
+            "423 -海兔兽",
+            "424 -双尾怪手",
+            "425 -飘飘球",
+            "426 -随风球",
+            "427 -卷卷耳",
+            "428 -长耳兔",
+            "429 -梦妖魔",
+            "430 -乌鸦头头",
+            "431 -魅力喵",
+            "432 -东施喵",
+            "433 -铃铛响",
+            "434 -臭鼬噗",
+            "435 -坦克臭鼬",
+            "436 -铜镜怪",
+            "437 -青铜钟",
+            "438 -盆才怪",
+            "439 -魔尼尼",
+            "440 -小福蛋",
+            "441 -聒噪鸟",
+            "442 -花岩怪",
+            "443 -圆陆鲨",
+            "444 -尖牙陆鲨",
+            "445 -烈咬陆鲨",
+            "446 -小卡比兽",
+            "447 -利欧路",
+            "448 -路卡利欧",
+            "449 -沙河马",
+            "450 -河马兽",
+            "451 -钳尾蝎",
+            "452 -龙王蝎",
+            "453 -不良蛙",
+            "454 -毒骷蛙",
+            "455 -尖牙笼",
+            "456 -荧光鱼",
+            "457 -霓虹鱼",
+            "458 -小球飞鱼",
+            "459 -雪笠怪",
+            "460 -暴雪王",
+            "461 -玛狃拉",
+            "462 -自爆磁怪",
+            "463 -大舌舔",
+            "464 -超甲狂犀",
+            "465 -巨蔓藤",
+            "466 -电击魔兽",
+            "467 -鸭嘴炎兽",
+            "468 -波克基斯",
+            "469 -远古巨蜓",
+            "470 -叶伊布",
+            "471 -冰伊布",
+            "472 -天蝎王",
+            "473 -象牙猪",
+            "474 -多边兽Ｚ",
+            "475 -艾路雷朵",
+            "476 -大朝北鼻",
+            "477 -黑夜魔灵",
+            "478 -雪妖女",
+            "479 -洛托姆",
+            "480 -由克希",
+            "481 -艾姆利多",
+            "482 -亚克诺姆",
+            "483 -帝牙卢卡",
+            "484 -帕路奇亚",
+            "485 -席多蓝恩",
+            "486 -雷吉奇卡斯",
+            "487 -骑拉帝纳",
+            "488 -克雷色利亚",
+            "489 -霏欧纳",
+            "490 -玛纳霏",
+            "491 -达克莱伊",
+            "492 -谢米",
+            "493 -阿尔宙斯",
+            "494 -比克提尼",
+            "495 -藤藤蛇",
+            "496 -青藤蛇",
+            "497 -君主蛇",
+            "498 -暖暖猪",
+            "499 -炒炒猪",
+            "500 -炎武王",
+            "501 -水水獭",
+            "502 -双刃丸",
+            "503 -大剑鬼",
+            "504 -探探鼠",
+            "505 -步哨鼠",
+            "506 -小约克",
+            "507 -哈约克",
+            "508 -长毛狗",
+            "509 -扒手猫",
+            "510 -酷豹",
+            "511 -花椰猴",
+            "512 -花椰猿",
+            "513 -爆香猴",
+            "514 -爆香猿",
+            "515 -冷水猴",
+            "516 -冷水猿",
+            "517 -食梦梦",
+            "518 -梦梦蚀",
+            "519 -豆豆鸽",
+            "520 -咕咕鸽",
+            "521 -高傲雉鸡",
+            "522 -斑斑马",
+            "523 -雷电斑马",
+            "524 -石丸子",
+            "525 -地幔岩",
+            "526 -庞岩怪",
+            "527 -滚滚蝙蝠",
+            "528 -心蝙蝠",
+            "529 -螺钉地鼠",
+            "530 -龙头地鼠",
+            "531 -差不多娃娃",
+            "532 -搬运小匠",
+            "533 -铁骨土人",
+            "534 -修建老匠",
+            "535 -圆蝌蚪",
+            "536 -蓝蟾蜍",
+            "537 -蟾蜍王",
+            "538 -投摔鬼",
+            "539 -打击鬼",
+            "540 -虫宝包",
+            "541 -宝包茧",
+            "542 -保姆虫",
+            "543 -百足蜈蚣",
+            "544 -车轮球",
+            "545 -蜈蚣王",
+            "546 -木棉球",
+            "547 -风妖精",
+            "548 -百合根娃娃",
+            "549 -裙儿小姐",
+            "550 -野蛮鲈鱼",
+            "551 -黑眼鳄",
+            "552 -混混鳄",
+            "553 -流氓鳄",
+            "554 -火红不倒翁",
+            "555 -达摩狒狒",
+            "556 -沙铃仙人掌",
+            "557 -石居蟹",
+            "558 -岩殿居蟹",
+            "559 -滑滑小子",
+            "560 -头巾混混",
+            "561 -象征鸟",
+            "562 -哭哭面具",
+            "563 -死神棺",
+            "564 -原盖海龟",
+            "565 -肋骨海龟",
+            "566 -始祖小鸟",
+            "567 -始祖大鸟",
+            "568 -破破袋",
+            "569 -灰尘山",
+            "570 -索罗亚",
+            "571 -索罗亚克",
+            "572 -泡沫栗鼠",
+            "573 -奇诺栗鼠",
+            "574 -哥德宝宝",
+            "575 -哥德小童",
+            "576 -哥德小姐",
+            "577 -单卵细胞球",
+            "578 -双卵细胞球",
+            "579 -人造细胞卵",
+            "580 -鸭宝宝",
+            "581 -舞天鹅",
+            "582 -迷你冰",
+            "583 -多多冰",
+            "584 -双倍多多冰",
+            "585 -四季鹿",
+            "586 -萌芽鹿",
+            "587 -电飞鼠",
+            "588 -盖盖虫",
+            "589 -骑士蜗牛",
+            "590 -哎呀球菇",
+            "591 -败露球菇",
+            "592 -轻飘飘",
+            "593 -胖嘟嘟",
+            "594 -保姆曼波",
+            "595 -电电虫",
+            "596 -电蜘蛛",
+            "597 -种子铁球",
+            "598 -坚果哑铃",
+            "599 -齿轮儿",
+            "600 -齿轮组",
+            "601 -齿轮怪",
+            "602 -麻麻小鱼",
+            "603 -麻麻鳗",
+            "604 -麻麻鳗鱼王",
+            "605 -小灰怪",
+            "606 -大宇怪",
+            "607 -烛光灵",
+            "608 -灯火幽灵",
+            "609 -水晶灯火灵",
+            "610 -牙牙",
+            "611 -斧牙龙",
+            "612 -双斧战龙",
+            "613 -喷嚏熊",
+            "614 -冻原熊",
+            "615 -几何雪花",
+            "616 -小嘴蜗",
+            "617 -敏捷虫",
+            "618 -泥巴鱼",
+            "619 -功夫鼬",
+            "620 -师父鼬",
+            "621 -赤面龙",
+            "622 -泥偶小人",
+            "623 -泥偶巨人",
+            "624 -驹刀小兵",
+            "625 -劈斩司令",
+            "626 -爆炸头水牛",
+            "627 -毛头小鹰",
+            "628 -勇士雄鹰",
+            "629 -秃鹰丫头",
+            "630 -秃鹰娜",
+            "631 -熔蚁兽",
+            "632 -铁蚁",
+            "633 -单首龙",
+            "634 -双首暴龙",
+            "635 -三首恶龙",
+            "636 -燃烧虫",
+            "637 -火神蛾",
+            "638 -勾帕路翁",
+            "639 -代拉基翁",
+            "640 -毕力吉翁",
+            "641 -龙卷云",
+            "642 -雷电云",
+            "643 -莱希拉姆",
+            "644 -捷克罗姆",
+            "645 -土地云",
+            "646 -酋雷姆",
+            "647 -凯路迪欧",
+            "648 -美洛耶塔",
+            "649 -盖诺赛克特"});
       spbox1.Location = new Point(310, 50);
       spbox1.Margin = new Padding(4, 3, 4, 3);
       spbox1.Name = "spbox1";
@@ -579,7 +1229,567 @@ namespace PluginPile.Unmaintained.BWTool {
       //
       // move1box
       //
-      move1box.Items.AddRange(new object[] { "----------------------", "Pound", "Karate Chop", "Double Slap", "Comet Punch", "Mega Punch", "Pay Day", "Fire Punch", "Ice Punch", "Thunder Punch", "Scratch", "Vice Grip", "Guillotine", "Razor Wind", "Swords Dance", "Cut", "Gust", "Wing Attack", "Whirlwind", "Fly", "Bind", "Slam", "Vine Whip", "Stomp", "Double Kick", "Mega Kick", "Jump Kick", "Rolling Kick", "Sand Attack", "Headbutt", "Horn Attack", "Fury Attack", "Horn Drill", "Tackle", "Body Slam", "Wrap", "Take Down", "Thrash", "Double-Edge", "Tail Whip", "Poison Sting", "Twineedle", "Pin Missile", "Leer", "Bite", "Growl", "Roar", "Sing", "Supersonic", "Sonic Boom", "Disable", "Acid", "Ember", "Flamethrower", "Mist", "Water Gun", "Hydro Pump", "Surf", "Ice Beam", "Blizzard", "Psybeam", "Bubble Beam", "Aurora Beam", "Hyper Beam", "Peck", "Drill Peck", "Submission", "Low Kick", "Counter", "Seismic Toss", "Strength", "Absorb", "Mega Drain", "Leech Seed", "Growth", "Razor Leaf", "Solar Beam", "Poison Powder", "Stun Spore", "Sleep Powder", "Petal Dance", "String Shot", "Dragon Rage", "Fire Spin", "Thunder Shock", "Thunderbolt", "Thunder Wave", "Thunder", "Rock Throw", "Earthquake", "Fissure", "Dig", "Toxic", "Confusion", "Psychic", "Hypnosis", "Meditate", "Agility", "Quick Attack", "Rage", "Teleport", "Night Shade", "Mimic", "Screech", "Double Team", "Recover", "Harden", "Minimize", "Smokescreen", "Confuse Ray", "Withdraw", "Defense Curl", "Barrier", "Light Screen", "Haze", "Reflect", "Focus Energy", "Bide", "Metronome", "Mirror Move", "Self-Destruct", "Egg Bomb", "Lick", "Smog", "Sludge", "Bone Club", "Fire Blast", "Waterfall", "Clamp", "Swift", "Skull Bash", "Spike Cannon", "Constrict", "Amnesia", "Kinesis", "Soft-Boiled", "High Jump Kick", "Glare", "Dream Eater", "Poison Gas", "Barrage", "Leech Life", "Lovely Kiss", "Sky Attack", "Transform", "Bubble", "Dizzy Punch", "Spore", "Flash", "Psywave", "Splash", "Acid Armor", "Crabhammer", "Explosion", "Fury Swipes", "Bonemerang", "Rest", "Rock Slide", "Hyper Fang", "Sharpen", "Conversion", "Tri Attack", "Super Fang", "Slash", "Substitute", "Struggle", "Sketch", "Triple Kick", "Thief", "Spider Web", "Mind Reader", "Nightmare", "Flame Wheel", "Snore", "Curse", "Flail", "Conversion 2", "Aeroblast", "Cotton Spore", "Reversal", "Spite", "Powder Snow", "Protect", "Mach Punch", "Scary Face", "Feint Attack", "Sweet Kiss", "Belly Drum", "Sludge Bomb", "Mud-Slap", "Octazooka", "Spikes", "Zap Cannon", "Foresight", "Destiny Bond", "Perish Song", "Icy Wind", "Detect", "Bone Rush", "Lock-On", "Outrage", "Sandstorm", "Giga Drain", "Endure", "Charm", "Rollout", "False Swipe", "Swagger", "Milk Drink", "Spark", "Fury Cutter", "Steel Wing", "Mean Look", "Attract", "Sleep Talk", "Heal Bell", "Return", "Present", "Frustration", "Safeguard", "Pain Split", "Sacred Fire", "Magnitude", "Dynamic Punch", "Megahorn", "Dragon Breath", "Baton Pass", "Encore", "Pursuit", "Rapid Spin", "Sweet Scent", "Iron Tail", "Metal Claw", "Vital Throw", "Morning Sun", "Synthesis", "Moonlight", "Hidden Power", "Cross Chop", "Twister", "Rain Dance", "Sunny Day", "Crunch", "Mirror Coat", "Psych Up", "Extreme Speed", "Ancient Power", "Shadow Ball", "Future Sight", "Rock Smash", "Whirlpool", "Beat Up", "Fake Out", "Uproar", "Stockpile", "Spit Up", "Swallow", "Heat Wave", "Hail", "Torment", "Flatter", "Will-O-Wisp", "Memento", "Facade", "Focus Punch", "Smelling Salts", "Follow Me", "Nature Power", "Charge", "Taunt", "Helping Hand", "Trick", "Role Play", "Wish", "Assist", "Ingrain", "Superpower", "Magic Coat", "Recycle", "Revenge", "Brick Break", "Yawn", "Knock Off", "Endeavor", "Eruption", "Skill Swap", "Imprison", "Refresh", "Grudge", "Snatch", "Secret Power", "Dive", "Arm Thrust", "Camouflage", "Tail Glow", "Luster Purge", "Mist Ball", "Feather Dance", "Teeter Dance", "Blaze Kick", "Mud Sport", "Ice Ball", "Needle Arm", "Slack Off", "Hyper Voice", "Poison Fang", "Crush Claw", "Blast Burn", "Hydro Cannon", "Meteor Mash", "Astonish", "Weather Ball", "Aromatherapy", "Fake Tears", "Air Cutter", "Overheat", "Odor Sleuth", "Rock Tomb", "Silver Wind", "Metal Sound", "Grass Whistle", "Tickle", "Cosmic Power", "Water Spout", "Signal Beam", "Shadow Punch", "Extrasensory", "Sky Uppercut", "Sand Tomb", "Sheer Cold", "Muddy Water", "Bullet Seed", "Aerial Ace", "Icicle Spear", "Iron Defense", "Block", "Howl", "Dragon Claw", "Frenzy Plant", "Bulk Up", "Bounce", "Mud Shot", "Poison Tail", "Covet", "Volt Tackle", "Magical Leaf", "Water Sport", "Calm Mind", "Leaf Blade", "Dragon Dance", "Rock Blast", "Shock Wave", "Water Pulse", "Doom Desire", "Psycho Boost", "Roost", "Gravity", "Miracle Eye", "Wake-Up Slap", "Hammer Arm", "Gyro Ball", "Healing Wish", "Brine", "Natural Gift", "Feint", "Pluck", "Tailwind", "Acupressure", "Metal Burst", "U-turn", "Close Combat", "Payback", "Assurance", "Embargo", "Fling", "Psycho Shift", "Trump Card", "Heal Block", "Wring Out", "Power Trick", "Gastro Acid", "Lucky Chant", "Me First", "Copycat", "Power Swap", "Guard Swap", "Punishment", "Last Resort", "Worry Seed", "Sucker Punch", "Toxic Spikes", "Heart Swap", "Aqua Ring", "Magnet Rise", "Flare Blitz", "Force Palm", "Aura Sphere", "Rock Polish", "Poison Jab", "Dark Pulse", "Night Slash", "Aqua Tail", "Seed Bomb", "Air Slash", "X-Scissor", "Bug Buzz", "Dragon Pulse", "Dragon Rush", "Power Gem", "Drain Punch", "Vacuum Wave", "Focus Blast", "Energy Ball", "Brave Bird", "Earth Power", "Switcheroo", "Giga Impact", "Nasty Plot", "Bullet Punch", "Avalanche", "Ice Shard", "Shadow Claw", "Thunder Fang", "Ice Fang", "Fire Fang", "Shadow Sneak", "Mud Bomb", "Psycho Cut", "Zen Headbutt", "Mirror Shot", "Flash Cannon", "Rock Climb", "Defog", "Trick Room", "Draco Meteor", "Discharge", "Lava Plume", "Leaf Storm", "Power Whip", "Rock Wrecker", "Cross Poison", "Gunk Shot", "Iron Head", "Magnet Bomb", "Stone Edge", "Captivate", "Stealth Rock", "Grass Knot", "Chatter", "Judgment", "Bug Bite", "Charge Beam", "Wood Hammer", "Aqua Jet", "Attack Order", "Defend Order", "Heal Order", "Head Smash", "Double Hit", "Roar of Time", "Spacial Rend", "Lunar Dance", "Crush Grip", "Magma Storm", "Dark Void", "Seed Flare", "Ominous Wind", "Shadow Force", "Hone Claws", "Wide Guard", "Guard Split", "Power Split", "Wonder Room", "Psyshock", "Venoshock", "Autotomize", "Rage Powder", "Telekinesis", "Magic Room", "Smack Down", "Storm Throw", "Flame Burst", "Sludge Wave", "Quiver Dance", "Heavy Slam", "Synchronoise", "Electro Ball", "Soak", "Flame Charge", "Coil", "Low Sweep", "Acid Spray", "Foul Play", "Simple Beam", "Entrainment", "After You", "Round", "Echoed Voice", "Chip Away", "Clear Smog", "Stored Power", "Quick Guard", "Ally Switch", "Scald", "Shell Smash", "Heal Pulse", "Hex", "Sky Drop", "Shift Gear", "Circle Throw", "Incinerate", "Quash", "Acrobatics", "Reflect Type", "Retaliate", "Final Gambit", "Bestow", "Inferno", "Water Pledge", "Fire Pledge", "Grass Pledge", "Volt Switch", "Struggle Bug", "Bulldoze", "Frost Breath", "Dragon Tail", "Work Up", "Electroweb", "Wild Charge", "Drill Run", "Dual Chop", "Heart Stamp", "Horn Leech", "Sacred Sword", "Razor Shell", "Heat Crash", "Leaf Tornado", "Steamroller", "Cotton Guard", "Night Daze", "Psystrike", "Tail Slap", "Hurricane", "Head Charge", "Gear Grind", "Searing Shot", "Techno Blast", "Relic Song", "Secret Sword", "Glaciate", "Bolt Strike", "Blue Flare", "Fiery Dance", "Freeze Shock", "Ice Burn", "Snarl", "Icicle Crash", "V-create", "Fusion Flare", "Fusion Bolt" });
+      move1box.Items.AddRange(new object[] {
+            "----------------------",
+            "拍击",
+            "空手劈",
+            "连环巴掌",
+            "连续拳",
+            "百万吨重拳",
+            "聚宝功",
+            "火焰拳",
+            "冰冻拳",
+            "雷电拳",
+            "抓",
+            "夹住",
+            "断头钳",
+            "旋风刀",
+            "剑舞",
+            "居合斩",
+            "起风",
+            "翅膀攻击",
+            "吹飞",
+            "飞翔",
+            "绑紧",
+            "摔打",
+            "藤鞭",
+            "踩踏",
+            "二连踢",
+            "百万吨重踢",
+            "飞踢",
+            "回旋踢",
+            "泼沙",
+            "头锤",
+            "角撞",
+            "乱击",
+            "角钻",
+            "撞击",
+            "泰山压顶",
+            "紧束",
+            "猛撞",
+            "大闹一番",
+            "舍身冲撞",
+            "摇尾巴",
+            "毒针",
+            "双针",
+            "飞弹针",
+            "瞪眼",
+            "咬住",
+            "叫声",
+            "吼叫",
+            "唱歌",
+            "超音波",
+            "音爆",
+            "定身法",
+            "溶解液",
+            "火花",
+            "喷射火焰",
+            "白雾",
+            "水枪",
+            "水炮",
+            "冲浪",
+            "冰冻光束",
+            "暴风雪",
+            "幻象光线",
+            "泡沫光线",
+            "极光束",
+            "破坏光线",
+            "啄",
+            "啄钻",
+            "地狱翻滚",
+            "踢倒",
+            "双倍奉还",
+            "地球上投",
+            "怪力",
+            "吸取",
+            "超级吸取",
+            "寄生种子",
+            "生长",
+            "飞叶快刀",
+            "日光束",
+            "毒粉",
+            "麻痹粉",
+            "催眠粉",
+            "花瓣舞",
+            "吐丝",
+            "龙之怒",
+            "火焰旋涡",
+            "电击",
+            "十万伏特",
+            "电磁波",
+            "打雷",
+            "落石",
+            "地震",
+            "地裂",
+            "挖洞",
+            "剧毒",
+            "混乱",
+            "超能力",
+            "催眠术",
+            "瑜伽姿势",
+            "高速移动",
+            "电光一闪",
+            "愤怒",
+            "瞬间移动",
+            "黑夜魔影",
+            "模仿",
+            "刺耳声",
+            "影子分身",
+            "自我再生",
+            "变硬",
+            "变小",
+            "烟幕",
+            "奇异之光",
+            "不参加",
+            "变圆",
+            "屏障",
+            "光墙",
+            "黑雾",
+            "反射壁",
+            "聚气",
+            "忍耐",
+            "节拍器",
+            "鹦鹉学舌",
+            "自爆",
+            "炸蛋",
+            "舌舔",
+            "浊雾",
+            "污泥攻击",
+            "骨棒",
+            "大字爆炎",
+            "攀瀑",
+            "贝壳夹击",
+            "高速星星",
+            "火箭头锤",
+            "尖刺加农炮",
+            "缠绕",
+            "瞬间失忆",
+            "折弯汤匙",
+            "生蛋",
+            "飞膝踢",
+            "大蛇瞪眼",
+            "食梦",
+            "毒瓦斯",
+            "投球",
+            "吸血",
+            "恶魔之吻",
+            "神鸟猛击",
+            "变身",
+            "泡沫",
+            "迷昏拳",
+            "蘑菇孢子",
+            "闪光",
+            "精神波",
+            "跃起",
+            "溶化",
+            "蟹钳锤",
+            "大爆炸",
+            "乱抓",
+            "骨头回力镖",
+            "睡觉",
+            "岩崩",
+            "必杀门牙",
+            "棱角化",
+            "纹理",
+            "三重攻击",
+            "愤怒门牙",
+            "劈开",
+            "替身",
+            "挣扎",
+            "写生",
+            "三连踢",
+            "小偷",
+            "蛛网",
+            "心之眼",
+            "恶梦",
+            "火焰轮",
+            "打鼾",
+            "诅咒",
+            "抓狂",
+            "纹理２",
+            "气旋攻击",
+            "棉孢子",
+            "起死回生",
+            "怨恨",
+            "细雪",
+            "守住",
+            "音速拳",
+            "鬼面",
+            "出奇一击",
+            "天使之吻",
+            "腹鼓",
+            "污泥炸弹",
+            "掷泥",
+            "章鱼桶炮",
+            "撒菱",
+            "电磁炮",
+            "识破",
+            "同命",
+            "灭亡之歌",
+            "冰冻之风",
+            "看穿",
+            "骨棒乱打",
+            "锁定",
+            "逆鳞",
+            "沙暴",
+            "终极吸取",
+            "挺住",
+            "撒娇",
+            "滚动",
+            "点到为止",
+            "虚张声势",
+            "喝牛奶",
+            "电光",
+            "连斩",
+            "钢翼",
+            "黑色目光",
+            "迷人",
+            "梦话",
+            "治愈铃声",
+            "返还",
+            "礼物",
+            "迁怒",
+            "神秘守护",
+            "分担痛楚",
+            "神圣之火",
+            "震级",
+            "爆裂拳",
+            "超级角击",
+            "龙息",
+            "接棒",
+            "再来一次",
+            "追打",
+            "高速旋转",
+            "甜甜香气",
+            "铁尾",
+            "金属爪",
+            "借力摔",
+            "晨光",
+            "光合作用",
+            "月光",
+            "觉醒力量",
+            "十字劈",
+            "龙卷风",
+            "求雨",
+            "大晴天",
+            "咬碎",
+            "镜面反射",
+            "自我暗示",
+            "神速",
+            "原始之力",
+            "暗影球",
+            "预知未来",
+            "碎岩",
+            "潮旋",
+            "围攻",
+            "击掌奇袭",
+            "吵闹",
+            "蓄力",
+            "喷出",
+            "吞下",
+            "热风",
+            "冰雹",
+            "无理取闹",
+            "吹捧",
+            "鬼火",
+            "临别礼物",
+            "硬撑",
+            "真气拳",
+            "清醒",
+            "看我嘛",
+            "自然之力",
+            "充电",
+            "挑衅",
+            "帮助",
+            "戏法",
+            "扮演",
+            "祈愿",
+            "借助",
+            "扎根",
+            "蛮力",
+            "魔法反射",
+            "回收利用",
+            "报复",
+            "劈瓦",
+            "哈欠",
+            "拍落",
+            "蛮干",
+            "喷火",
+            "特性互换",
+            "封印",
+            "焕然一新",
+            "怨念",
+            "抢夺",
+            "秘密之力",
+            "潜水",
+            "猛推",
+            "保护色",
+            "萤火",
+            "洁净光芒",
+            "薄雾球",
+            "羽毛舞",
+            "摇晃舞",
+            "火焰踢",
+            "玩泥巴",
+            "冰球",
+            "尖刺臂",
+            "偷懒",
+            "巨声",
+            "剧毒牙",
+            "撕裂爪",
+            "爆炸烈焰",
+            "加农水炮",
+            "彗星拳",
+            "惊吓",
+            "气象球",
+            "芳香治疗",
+            "假哭",
+            "空气利刃",
+            "过热",
+            "气味侦测",
+            "岩石封锁",
+            "银色旋风",
+            "金属音",
+            "草笛",
+            "挠痒",
+            "宇宙力量",
+            "喷水",
+            "信号光束",
+            "暗影拳",
+            "神通力",
+            "冲天拳",
+            "流沙地狱",
+            "绝对零度",
+            "浊流",
+            "种子机关枪",
+            "燕返",
+            "冰锥",
+            "铁壁",
+            "挡路",
+            "长嚎",
+            "龙爪",
+            "疯狂植物",
+            "健美",
+            "弹跳",
+            "泥巴射击",
+            "毒尾",
+            "渴望",
+            "伏特攻击",
+            "魔法叶",
+            "玩水",
+            "冥想",
+            "叶刃",
+            "龙之舞",
+            "岩石爆击",
+            "电击波",
+            "水之波动",
+            "破灭之愿",
+            "精神突进",
+            "羽栖",
+            "重力",
+            "奇迹之眼",
+            "唤醒巴掌",
+            "臂锤",
+            "陀螺球",
+            "治愈之愿",
+            "盐水",
+            "自然之恩",
+            "佯攻",
+            "啄食",
+            "顺风",
+            "点穴",
+            "金属爆炸",
+            "急速折返",
+            "近身战",
+            "以牙还牙",
+            "恶意追击",
+            "查封",
+            "投掷",
+            "精神转移",
+            "王牌",
+            "回复封锁",
+            "绞紧",
+            "力量戏法",
+            "胃液",
+            "幸运咒语",
+            "抢先一步",
+            "仿效",
+            "力量互换",
+            "防守互换",
+            "惩罚",
+            "珍藏",
+            "烦恼种子",
+            "突袭",
+            "毒菱",
+            "心灵互换",
+            "水流环",
+            "电磁飘浮",
+            "闪焰冲锋",
+            "发劲",
+            "波导弹",
+            "岩石打磨",
+            "毒击",
+            "恶之波动",
+            "暗袭要害",
+            "水流尾",
+            "种子炸弹",
+            "空气斩",
+            "十字剪",
+            "虫鸣",
+            "龙之波动",
+            "龙之俯冲",
+            "力量宝石",
+            "吸取拳",
+            "真空波",
+            "真气弹",
+            "能量球",
+            "勇鸟猛攻",
+            "大地之力",
+            "掉包",
+            "终极冲击",
+            "诡计",
+            "子弹拳",
+            "雪崩",
+            "冰砾",
+            "暗影爪",
+            "雷电牙",
+            "冰冻牙",
+            "火焰牙",
+            "影子偷袭",
+            "泥巴炸弹",
+            "精神利刃",
+            "意念头锤",
+            "镜光射击",
+            "加农光炮",
+            "攀岩",
+            "名镜",
+            "戏法空间",
+            "流星群",
+            "放电",
+            "喷烟",
+            "飞叶风暴",
+            "强力鞭打",
+            "岩石炮",
+            "十字毒刃",
+            "垃圾射击",
+            "铁头",
+            "磁铁炸弹",
+            "尖石攻击",
+            "诱惑",
+            "隐形岩",
+            "打草结",
+            "日常",
+            "制裁光砾",
+            "虫咬",
+            "充电光束",
+            "木槌",
+            "水流喷射",
+            "攻击指令",
+            "防御指令",
+            "回复指令",
+            "双刃头锤",
+            "二连击",
+            "时光咆哮",
+            "亚空裂斩",
+            "新月舞",
+            "捏碎",
+            "熔岩风暴",
+            "暗黑洞",
+            "种子闪光",
+            "奇异之风",
+            "暗影潜袭",
+            "磨爪",
+            "广域防守",
+            "防守平分",
+            "力量平分",
+            "奇妙空间",
+            "精神冲击",
+            "毒液冲击",
+            "身体轻量化",
+            "愤怒粉",
+            "意念移物",
+            "魔法空间",
+            "击落",
+            "山岚摔",
+            "烈焰溅射",
+            "污泥波",
+            "蝶舞",
+            "重磅冲撞",
+            "同步干扰",
+            "电球",
+            "浸水",
+            "蓄能焰袭",
+            "盘蜷",
+            "下盘踢",
+            "酸液炸弹",
+            "欺诈",
+            "单纯光束",
+            "找伙伴",
+            "您先请",
+            "轮唱",
+            "回声",
+            "逐步击破",
+            "清除之烟",
+            "辅助力量",
+            "快速防守",
+            "交换场地",
+            "热水",
+            "破壳",
+            "治愈波动",
+            "祸不单行",
+            "自由落体",
+            "换档",
+            "巴投",
+            "烧尽",
+            "延后",
+            "杂技",
+            "镜面属性",
+            "报仇",
+            "搏命",
+            "传递礼物",
+            "炼狱",
+            "水之誓约",
+            "火之誓约",
+            "草之誓约",
+            "伏特替换",
+            "虫之抵抗",
+            "重踏",
+            "冰息",
+            "龙尾",
+            "自我激励",
+            "电网",
+            "疯狂伏特",
+            "直冲钻",
+            "二连劈",
+            "爱心印章",
+            "木角",
+            "圣剑",
+            "贝壳刃",
+            "高温重压",
+            "青草搅拌器",
+            "疯狂滚压",
+            "棉花防守",
+            "暗黑爆破",
+            "精神击破",
+            "扫尾拍打",
+            "暴风",
+            "爆炸头突击",
+            "齿轮飞盘",
+            "火焰弹",
+            "高科技光炮",
+            "古老之歌",
+            "神秘之剑",
+            "冰封世界",
+            "雷击",
+            "青焰",
+            "火之舞",
+            "冰冻伏特",
+            "极寒冷焰",
+            "大声咆哮",
+            "冰柱坠击",
+            "Ｖ热焰",
+            "交错火焰",
+            "交错闪电"});
       move1box.Location = new Point(482, 50);
       move1box.Margin = new Padding(4, 3, 4, 3);
       move1box.Name = "move1box";
@@ -589,7 +1799,7 @@ namespace PluginPile.Unmaintained.BWTool {
       // genderbox1
       //
       genderbox1.FormattingEnabled = true;
-      genderbox1.Items.AddRange(new object[] { "Male", "Female", "Genderless" });
+      genderbox1.Items.AddRange(new object[] { "公", "母", "无性别" });
       genderbox1.Location = new Point(651, 50);
       genderbox1.Margin = new Padding(4, 3, 4, 3);
       genderbox1.Name = "genderbox1";
@@ -603,12 +1813,12 @@ namespace PluginPile.Unmaintained.BWTool {
       label1.Name = "label1";
       label1.Size = new Size(114, 17);
       label1.TabIndex = 63;
-      label1.Text = "Area 9:";
+      label1.Text = "区域 9:";
       //
       // unlock8box
       //
       unlock8box.FormattingEnabled = true;
-      unlock8box.Items.AddRange(new object[] { "Areas 1 & 2", "Area 3", "Area 4", "Area 5", "Area 6", "Area 7", "Area 8" });
+      unlock8box.Items.AddRange(new object[] { "区域 1 & 2", "区域 3", "区域 4", "区域 5", "区域 6", "区域 7", "区域 8" });
       unlock8box.Location = new Point(14, 453);
       unlock8box.Margin = new Padding(4, 3, 4, 3);
       unlock8box.Name = "unlock8box";
@@ -623,7 +1833,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label3.Name = "label3";
       label3.Size = new Size(141, 14);
       label3.TabIndex = 67;
-      label3.Text = "Species";
+      label3.Text = "种类";
       label3.TextAlign = ContentAlignment.MiddleCenter;
       //
       // label4
@@ -633,7 +1843,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label4.Name = "label4";
       label4.Size = new Size(141, 14);
       label4.TabIndex = 68;
-      label4.Text = "Move";
+      label4.Text = "招式";
       label4.TextAlign = ContentAlignment.MiddleCenter;
       //
       // label5
@@ -643,7 +1853,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label5.Name = "label5";
       label5.Size = new Size(77, 14);
       label5.TabIndex = 69;
-      label5.Text = "Gender";
+      label5.Text = "性别";
       label5.TextAlign = ContentAlignment.MiddleCenter;
       //
       // label6
@@ -653,7 +1863,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label6.Name = "label6";
       label6.Size = new Size(48, 14);
       label6.TabIndex = 70;
-      label6.Text = "Form";
+      label6.Text = "形态";
       label6.TextAlign = ContentAlignment.MiddleCenter;
       //
       // label7
@@ -663,7 +1873,7 @@ namespace PluginPile.Unmaintained.BWTool {
       label7.Name = "label7";
       label7.Size = new Size(64, 15);
       label7.TabIndex = 71;
-      label7.Text = "Animation";
+      label7.Text = "动画";
       label7.TextAlign = ContentAlignment.MiddleCenter;
       //
       // slot
@@ -671,7 +1881,7 @@ namespace PluginPile.Unmaintained.BWTool {
       slot.Location = new Point(252, 50);
       slot.Margin = new Padding(4, 3, 4, 3);
       slot.Maximum = new decimal(new int[] { 19, 0, 0, 0 });
-      slot.Name = "slot";
+      slot.Name = "箱子";
       slot.Size = new Size(51, 23);
       slot.TabIndex = 72;
       slot.ValueChanged += SlotValueChanged;
@@ -713,7 +1923,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox1.Size = new Size(241, 361);
       groupBox1.TabIndex = 189;
       groupBox1.TabStop = false;
-      groupBox1.Text = "Areas";
+      groupBox1.Text = "区域";
       //
       // label2
       //
@@ -722,12 +1932,12 @@ namespace PluginPile.Unmaintained.BWTool {
       label2.Name = "label2";
       label2.Size = new Size(114, 17);
       label2.TabIndex = 64;
-      label2.Text = "Unlocked Areas:";
+      label2.Text = "解锁区域:";
       //
       // unlock9
       //
       unlock9.FormattingEnabled = true;
-      unlock9.Items.AddRange(new object[] { "Locked", "Unlocked" });
+      unlock9.Items.AddRange(new object[] { "未解锁", "已解锁" });
       unlock9.Location = new Point(14, 405);
       unlock9.Margin = new Padding(4, 3, 4, 3);
       unlock9.Name = "unlock9";
@@ -754,32 +1964,32 @@ namespace PluginPile.Unmaintained.BWTool {
       //
       // Species
       //
-      Species.Name = "Species";
+      Species.Name = "种族";
       Species.ReadOnly = true;
       Species.Width = 150;
       //
       // Move
       //
-      Move.HeaderText = "Move";
+      Move.HeaderText = "招式";
       Move.Name = "Move";
       Move.ReadOnly = true;
       Move.Width = 150;
       //
       // Gender
       //
-      Gender.HeaderText = "Gender";
+      Gender.HeaderText = "性别";
       Gender.Name = "Gender";
       Gender.ReadOnly = true;
       //
       // Form
       //
-      Form.HeaderText = "Form";
+      Form.HeaderText = "形态";
       Form.Name = "Form";
       Form.ReadOnly = true;
       //
       // Anim
       //
-      Anim.HeaderText = "Anim";
+      Anim.HeaderText = "动画";
       Anim.Name = "Anim";
       Anim.ReadOnly = true;
       //
@@ -790,7 +2000,7 @@ namespace PluginPile.Unmaintained.BWTool {
       del_pkm.Name = "del_pkm";
       del_pkm.Size = new Size(70, 27);
       del_pkm.TabIndex = 193;
-      del_pkm.Text = "Remove";
+      del_pkm.Text = "移除";
       del_pkm.UseVisualStyleBackColor = true;
       del_pkm.Click += Del_pkmClick;
       //
@@ -801,7 +2011,7 @@ namespace PluginPile.Unmaintained.BWTool {
       add_pkm.Name = "add_pkm";
       add_pkm.Size = new Size(70, 27);
       add_pkm.TabIndex = 194;
-      add_pkm.Text = "Add";
+      add_pkm.Text = "添加";
       add_pkm.UseVisualStyleBackColor = true;
       add_pkm.Click += Add_pkmClick;
       //
@@ -812,7 +2022,7 @@ namespace PluginPile.Unmaintained.BWTool {
       edit_pkm.Name = "edit_pkm";
       edit_pkm.Size = new Size(70, 27);
       edit_pkm.TabIndex = 195;
-      edit_pkm.Text = "Edit";
+      edit_pkm.Text = "编辑";
       edit_pkm.UseVisualStyleBackColor = true;
       edit_pkm.Click += Edit_pkmClick;
       //
@@ -831,12 +2041,12 @@ namespace PluginPile.Unmaintained.BWTool {
       label8.Name = "label8";
       label8.Size = new Size(51, 14);
       label8.TabIndex = 197;
-      label8.Text = "   Slot";
+      label8.Text = "   槽位";
       //
       // animbox1
       //
       animbox1.FormattingEnabled = true;
-      animbox1.Items.AddRange(new object[] { "00 - Randomly turning around", "02 - Randomly walking", "04 - Randomly walking", "06 - Walking up/down", "08 - Walking left/right", "10 - Walking left/right and randomly looking up/down", "12 - Turning around clockwise", "14 - Turning around counterclockwise", "--- Randomize ---" });
+      animbox1.Items.AddRange(new object[] { "00- 随机转动", "02- 随机走动", "04- 随机走动", "06- 上下走动", "08- 左右走动", "10- 左右走动并随机上下观察", "12- 顺时针转动", "14- 逆时针转动", "--- 随机 ---" });
       animbox1.Location = new Point(889, 51);
       animbox1.Margin = new Padding(4, 3, 4, 3);
       animbox1.Name = "animbox1";
@@ -850,7 +2060,7 @@ namespace PluginPile.Unmaintained.BWTool {
       saveexit_but.Name = "saveexit_but";
       saveexit_but.Size = new Size(115, 33);
       saveexit_but.TabIndex = 200;
-      saveexit_but.Text = "Save and Exit";
+      saveexit_but.Text = "保存并退出";
       saveexit_but.UseVisualStyleBackColor = true;
       saveexit_but.Click += Saveexit_butClick;
       //
@@ -861,7 +2071,7 @@ namespace PluginPile.Unmaintained.BWTool {
       exit_but.Name = "exit_but";
       exit_but.Size = new Size(113, 31);
       exit_but.TabIndex = 199;
-      exit_but.Text = "Exit";
+      exit_but.Text = "退出";
       exit_but.UseVisualStyleBackColor = true;
       exit_but.Click += Exit_butClick;
       //
@@ -872,7 +2082,7 @@ namespace PluginPile.Unmaintained.BWTool {
       export_area.Name = "export_area";
       export_area.Size = new Size(98, 27);
       export_area.TabIndex = 201;
-      export_area.Text = "Export Area";
+      export_area.Text = "导出区域";
       export_area.UseVisualStyleBackColor = true;
       export_area.Click += Export_areaClick;
       //
@@ -883,7 +2093,7 @@ namespace PluginPile.Unmaintained.BWTool {
       import_area.Name = "import_area";
       import_area.Size = new Size(102, 27);
       import_area.TabIndex = 202;
-      import_area.Text = "Import Area";
+      import_area.Text = "导入区域";
       import_area.UseVisualStyleBackColor = true;
       import_area.Click += Import_areaClick;
       //
@@ -894,7 +2104,7 @@ namespace PluginPile.Unmaintained.BWTool {
       export_forest.Name = "export_forest";
       export_forest.Size = new Size(102, 27);
       export_forest.TabIndex = 203;
-      export_forest.Text = "Export Forest";
+      export_forest.Text = "导出森林";
       export_forest.UseVisualStyleBackColor = true;
       export_forest.Click += Export_forestClick;
       //
@@ -905,7 +2115,7 @@ namespace PluginPile.Unmaintained.BWTool {
       import_forest.Name = "import_forest";
       import_forest.Size = new Size(102, 27);
       import_forest.TabIndex = 204;
-      import_forest.Text = "Import Forest";
+      import_forest.Text = "导入森林";
       import_forest.UseVisualStyleBackColor = true;
       import_forest.Click += Import_forestClick;
       //
@@ -917,7 +2127,7 @@ namespace PluginPile.Unmaintained.BWTool {
       sprite_warning.Name = "sprite_warning";
       sprite_warning.Size = new Size(285, 27);
       sprite_warning.TabIndex = 205;
-      sprite_warning.Text = "Selected species does not have a sprite for BW2";
+      sprite_warning.Text = "选中的宝可梦不存在供黑白2的图像";
       //
       // formbox1
       //
@@ -946,7 +2156,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox2.Size = new Size(164, 288);
       groupBox2.TabIndex = 207;
       groupBox2.TabStop = false;
-      groupBox2.Text = "Dream World";
+      groupBox2.Text = "梦世界";
       //
       // pkmcafe_but
       //
@@ -955,7 +2165,7 @@ namespace PluginPile.Unmaintained.BWTool {
       pkmcafe_but.Name = "pkmcafe_but";
       pkmcafe_but.Size = new Size(150, 27);
       pkmcafe_but.TabIndex = 7;
-      pkmcafe_but.Text = "Pokémon Café Forest";
+      pkmcafe_but.Text = "宝可梦咖啡馆森林";
       pkmcafe_but.UseVisualStyleBackColor = true;
       pkmcafe_but.Click += pkmcafe_butClick;
       //
@@ -966,7 +2176,7 @@ namespace PluginPile.Unmaintained.BWTool {
       dream_but.Name = "dream_but";
       dream_but.Size = new Size(150, 27);
       dream_but.TabIndex = 6;
-      dream_but.Text = "Dream Park";
+      dream_but.Text = "梦境公园";
       dream_but.UseVisualStyleBackColor = true;
       dream_but.Click += Dream_butClick;
       //
@@ -977,7 +2187,7 @@ namespace PluginPile.Unmaintained.BWTool {
       icy_but.Name = "icy_but";
       icy_but.Size = new Size(150, 27);
       icy_but.TabIndex = 5;
-      icy_but.Text = "Icy Cave";
+      icy_but.Text = "凉爽洞穴";
       icy_but.UseVisualStyleBackColor = true;
       icy_but.Click += Icy_butClick;
       //
@@ -988,7 +2198,7 @@ namespace PluginPile.Unmaintained.BWTool {
       rugged_but.Name = "rugged_but";
       rugged_but.Size = new Size(150, 27);
       rugged_but.TabIndex = 4;
-      rugged_but.Text = "Rugged Mountain";
+      rugged_but.Text = "崎岖山脉";
       rugged_but.UseVisualStyleBackColor = true;
       rugged_but.Click += Rugged_butClick;
       //
@@ -999,7 +2209,7 @@ namespace PluginPile.Unmaintained.BWTool {
       spooky_but.Name = "spooky_but";
       spooky_but.Size = new Size(150, 27);
       spooky_but.TabIndex = 3;
-      spooky_but.Text = "Spooky Manor";
+      spooky_but.Text = "古老洋馆";
       spooky_but.UseVisualStyleBackColor = true;
       spooky_but.Click += Spooky_butClick;
       //
@@ -1010,7 +2220,7 @@ namespace PluginPile.Unmaintained.BWTool {
       spark_but.Name = "spark_but";
       spark_but.Size = new Size(150, 27);
       spark_but.TabIndex = 2;
-      spark_but.Text = "Sparkling Sea";
+      spark_but.Text = "闪亮海洋";
       spark_but.UseVisualStyleBackColor = true;
       spark_but.Click += Spark_butClick;
       //
@@ -1021,7 +2231,7 @@ namespace PluginPile.Unmaintained.BWTool {
       wind_but.Name = "wind_but";
       wind_but.Size = new Size(150, 27);
       wind_but.TabIndex = 1;
-      wind_but.Text = "Windswept Sky";
+      wind_but.Text = "广阔天空";
       wind_but.UseVisualStyleBackColor = true;
       wind_but.Click += Wind_butClick;
       //
@@ -1032,7 +2242,7 @@ namespace PluginPile.Unmaintained.BWTool {
       pleasant_but.Name = "pleasant_but";
       pleasant_but.Size = new Size(150, 27);
       pleasant_but.TabIndex = 0;
-      pleasant_but.Text = "Pleasant Forest";
+      pleasant_but.Text = "小小森林";
       pleasant_but.UseVisualStyleBackColor = true;
       pleasant_but.Click += Pleasant_butClick;
       //
@@ -1043,7 +2253,7 @@ namespace PluginPile.Unmaintained.BWTool {
       pgl_but.Name = "pgl_but";
       pgl_but.Size = new Size(150, 27);
       pgl_but.TabIndex = 208;
-      pgl_but.Text = "PGL Promotions";
+      pgl_but.Text = "PGL促销";
       pgl_but.UseVisualStyleBackColor = true;
       pgl_but.Click += Pgl_butClick;
       //
@@ -1087,7 +2297,7 @@ namespace PluginPile.Unmaintained.BWTool {
       MaximizeBox = false;
       MinimizeBox = false;
       Name = "EntralinkForm";
-      Text = "Entralink Forest";
+      Text = "连入之森";
       ((System.ComponentModel.ISupportInitialize)slot).EndInit();
       groupBox1.ResumeLayout(false);
       ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

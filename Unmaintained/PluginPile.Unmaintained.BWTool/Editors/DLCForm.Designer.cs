@@ -65,7 +65,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button1.Name = "button1";
       button1.Size = new Size(155, 27);
       button1.TabIndex = 0;
-      button1.Text = "Export";
+      button1.Text = "导出";
       button1.UseVisualStyleBackColor = true;
       //
       // groupBox1
@@ -79,7 +79,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox1.Size = new Size(178, 95);
       groupBox1.TabIndex = 1;
       groupBox1.TabStop = false;
-      groupBox1.Text = "C-Gear Skin";
+      groupBox1.Text = "C装置皮肤";
       //
       // button2
       //
@@ -88,7 +88,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button2.Name = "button2";
       button2.Size = new Size(155, 27);
       button2.TabIndex = 1;
-      button2.Text = "Import";
+      button2.Text = "导入";
       button2.UseVisualStyleBackColor = true;
       //
       // groupBox2
@@ -102,7 +102,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox2.Size = new Size(178, 95);
       groupBox2.TabIndex = 2;
       groupBox2.TabStop = false;
-      groupBox2.Text = "Pokédex Skin";
+      groupBox2.Text = "宝可梦图鉴皮肤";
       //
       // button3
       //
@@ -111,7 +111,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button3.Name = "button3";
       button3.Size = new Size(155, 27);
       button3.TabIndex = 1;
-      button3.Text = "Import";
+      button3.Text = "导入";
       button3.UseVisualStyleBackColor = true;
       //
       // button4
@@ -121,7 +121,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button4.Name = "button4";
       button4.Size = new Size(155, 27);
       button4.TabIndex = 0;
-      button4.Text = "Export";
+      button4.Text = "导出";
       button4.UseVisualStyleBackColor = true;
       //
       // groupBox3
@@ -135,7 +135,7 @@ namespace PluginPile.Unmaintained.BWTool {
       groupBox3.Size = new Size(178, 95);
       groupBox3.TabIndex = 3;
       groupBox3.TabStop = false;
-      groupBox3.Text = "Pokémon Musical";
+      groupBox3.Text = "宝可梦音乐剧";
       //
       // button5
       //
@@ -144,7 +144,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button5.Name = "button5";
       button5.Size = new Size(155, 27);
       button5.TabIndex = 1;
-      button5.Text = "Import";
+      button5.Text = "导入";
       button5.UseVisualStyleBackColor = true;
       //
       // button6
@@ -154,7 +154,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button6.Name = "button6";
       button6.Size = new Size(155, 27);
       button6.TabIndex = 0;
-      button6.Text = "Export";
+      button6.Text = "导出";
       button6.UseVisualStyleBackColor = true;
       //
       // groupBox4
@@ -177,7 +177,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button7.Name = "button7";
       button7.Size = new Size(155, 27);
       button7.TabIndex = 1;
-      button7.Text = "Import";
+      button7.Text = "导入";
       button7.UseVisualStyleBackColor = true;
       //
       // button8
@@ -187,7 +187,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button8.Name = "button8";
       button8.Size = new Size(155, 27);
       button8.TabIndex = 0;
-      button8.Text = "Export";
+      button8.Text = "导出";
       button8.UseVisualStyleBackColor = true;
       //
       // groupBox5
@@ -210,7 +210,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button9.Name = "button9";
       button9.Size = new Size(155, 27);
       button9.TabIndex = 1;
-      button9.Text = "Import";
+      button9.Text = "导入";
       button9.UseVisualStyleBackColor = true;
       //
       // button10
@@ -220,7 +220,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button10.Name = "button10";
       button10.Size = new Size(155, 27);
       button10.TabIndex = 0;
-      button10.Text = "Export";
+      button10.Text = "导出";
       button10.UseVisualStyleBackColor = true;
       //
       // groupBox6
@@ -243,7 +243,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button11.Name = "button11";
       button11.Size = new Size(155, 27);
       button11.TabIndex = 1;
-      button11.Text = "Import";
+      button11.Text = "导入";
       button11.UseVisualStyleBackColor = true;
       //
       // button12
@@ -253,7 +253,7 @@ namespace PluginPile.Unmaintained.BWTool {
       button12.Name = "button12";
       button12.Size = new Size(155, 27);
       button12.TabIndex = 0;
-      button12.Text = "Export";
+      button12.Text = "导出";
       button12.UseVisualStyleBackColor = true;
       //
       // saveexit_but
@@ -263,7 +263,7 @@ namespace PluginPile.Unmaintained.BWTool {
       saveexit_but.Name = "saveexit_but";
       saveexit_but.Size = new Size(115, 31);
       saveexit_but.TabIndex = 11;
-      saveexit_but.Text = "Save and Exit";
+      saveexit_but.Text = "保存并退出";
       saveexit_but.UseVisualStyleBackColor = true;
       //
       // exit_but
@@ -273,7 +273,7 @@ namespace PluginPile.Unmaintained.BWTool {
       exit_but.Name = "exit_but";
       exit_but.Size = new Size(113, 31);
       exit_but.TabIndex = 10;
-      exit_but.Text = "Exit";
+      exit_but.Text = "退出";
       exit_but.UseVisualStyleBackColor = true;
       //
       // DLCForm
