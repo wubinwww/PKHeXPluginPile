@@ -1,61 +1,152 @@
 using PKHeX.Core;
-using PluginPile.Common;
+using System.Buffers.Binary;
 using System.Drawing.Imaging;
+using System.Runtime.InteropServices;
 
-namespace PluginPile.SVProfilePictureViewer;
-public partial class PictureViewerForm : Form {
+namespace PluginPile.SVProfilePictureViewer {
+  public partial class PictureViewerForm : Form {
 
-  private readonly SAV9SV SAV;
+    private readonly SAV9SV sav;
 
-  public PictureViewerForm(SAV9SV sav9sv) {
-    InitializeComponent();
-    HandleLanguageChange();
-    SAV = sav9sv;
-    ExtractImageTo(Constants.CurrentProfilePictureImage, Constants.CurrentProfilePictureWidth, Constants.CurrentProfilePictureHeight, CrrentProfilePicture);
-    ExtractImageTo(Constants.CurrentProfileIconImage, Constants.CurrentProfileIconWidth, Constants.CurrentProfileIconHeight, CurrentProfileIcon);
-    ExtractImageTo(Constants.InitialProfilePictureImage, Constants.InitialProfilePictureWidth, Constants.InitialProfilePictureHeight, InitialProfilePicture);
-    ExtractImageTo(Constants.InitialProfileIconImage, Constants.InitialProfileIconWidth, Constants.InitialProfileIconHeight, InitialProfileIcon);
-  }
+    public PictureViewerForm(SAV9SV sav9sv) {
+      InitializeComponent();
+      HandleLanguageChange();
+      sav = sav9sv;
+      ExtractImageTo(Constants.CurrentProfilePictureImage, Constants.CurrentProfilePictureHeight, Constants.CurrentProfilePictureWidth, currentProfilePicture);
+      ExtractImageTo(Constants.CurrentProfileIconImage, Constants.CurrentProfileIconHeight, Constants.CurrentProfileIconWidth, currentProfileIcon);
+      ExtractImageTo(Constants.InitialProfilePictureImage, Constants.InitialProfilePictureHeight, Constants.InitialProfilePictureWidth, initialProfilePicture);
+      ExtractImageTo(Constants.InitialProfileIconImage, Constants.InitialProfileIconHeight, Constants.InitialProfileIconWidth, initialProfileIcon);
+    }
 
-  private void HandleLanguageChange() {
-    Text = Language.PluginName;
-    ExportButton.Text = Language.Export;
-    CurrentProfilePicturePage.Text = Language.CurrentProfilePicture;
-    CurrentProfileIconPage.Text = Language.CurrentProfileIcon;
-    InitialProfilePicturePage.Text = Language.InitialProfilePicture;
-    InitialProfileIconPage.Text = Language.InitialProfileIcon;
-  }
+    private void HandleLanguageChange() {
+      Text = Language.PluginName;
+      exportButton.Text = Language.Export;
+      currentProfilePicturePage.Text = Language.CurrentProfilePicture;
+      currentProfileIconPage.Text = Language.CurrentProfileIcon;
+      initialProfilePicturePage.Text = Language.InitialProfilePicture;
+      initialProfileIconPage.Text = Language.InitialProfileIcon;
+      importCurrentProfilePictureButton.Text = Language.ImportCurrentPicture;
+      importCurrentProfileIconButton.Text = Language.ImportCurrentIcon;
+      importInitialProfilePictureButton.Text = Language.ImportInitialPicture;
+      importInitialProfileIconButton.Text = Language.ImportInitialIcon;
+    }
 
-  private void ExportButton_Click(object sender, EventArgs e) {
-    (Image? image, string name) = Tabs.SelectedIndex switch {
-      0 => (CrrentProfilePicture.Image, "current_profile.png"),
-      1 => (CurrentProfileIcon.Image, "current_icon.png"),
-      2 => (InitialProfilePicture.Image, "initial_profile.png"),
-      3 => (InitialProfileIcon.Image, "initial_icon.png"),
-      _ => (null, string.Empty)
-    };
-    if (image == null) return;
-
-    SaveFileDialog saveFileDialog = new SaveFileDialog();
-    saveFileDialog.FileName = name;
-    saveFileDialog.Filter = "Images|*.png;*.bmp;*.jpg";
-    if (saveFileDialog.ShowDialog() == DialogResult.OK) {
-      ImageFormat format = Path.GetExtension(saveFileDialog.FileName) switch {
-        ".jpg" or ".jpeg" => ImageFormat.Jpeg,
-        ".bmp" => ImageFormat.Bmp,
-        ".png" or _ => ImageFormat.Png,
+    private void saveButton_Click(object sender, EventArgs e) {
+      (Image? image, string name) = tabs.SelectedIndex switch {
+        0 => (currentProfilePicture.Image, "current_profile.png"),
+        1 => (currentProfileIcon.Image, "current_icon.png"),
+        2 => (initialProfilePicture.Image, "initial_profile.png"),
+        3 => (initialProfileIcon.Image, "initial_icon.png"),
+        _ => (null, string.Empty)
       };
-      image.Save(saveFileDialog.FileName, format);
+      if (image == null) return;
+
+      SaveFileDialog saveFileDialog = new SaveFileDialog();
+      saveFileDialog.FileName = name;
+      saveFileDialog.Filter = "Images|*.png;*.bmp;*.jpg";
+      if (saveFileDialog.ShowDialog() == DialogResult.OK) {
+        ImageFormat format = Path.GetExtension(saveFileDialog.FileName) switch {
+          ".jpg" or ".jpeg" => ImageFormat.Jpeg,
+          ".bmp" => ImageFormat.Bmp,
+          ".png" or _ => ImageFormat.Png,
+        };
+        image.Save(saveFileDialog.FileName, format);
+      }
+    }
+
+    private void ExtractImageTo(uint imageBlock, uint heightBlock, uint widthBlock, PictureBox pictureBox) {
+      SCBlock image = sav.Blocks.GetBlock(imageBlock);
+      int height = (int)sav.Blocks.GetBlockValue<uint>(heightBlock);
+      int width = (int)sav.Blocks.GetBlockValue<uint>(widthBlock);
+
+      Bitmap result = new Bitmap(width, height, PixelFormat.Format32bppArgb);
+      Rectangle resultSizeRect = new Rectangle(0, 0, width, height);
+      BitmapData resultData = result.LockBits(resultSizeRect, ImageLockMode.WriteOnly, PixelFormat.Format32bppArgb);
+      IntPtr resultPtr = resultData.Scan0;
+      byte[] rgbaBytes = DXT1.Decompress(image.Data, width, height);
+      Marshal.Copy(rgbaBytes, 0, resultPtr, rgbaBytes.Length);
+      result.UnlockBits(resultData);
+
+      pictureBox.Image = result;
+      pictureBox.Size = pictureBox.Image.Size / 4;
+    }
+
+    private Bitmap? SelectImage(int id) {
+      OpenFileDialog openFileDialog = new OpenFileDialog();
+      openFileDialog.Title = Language.ImportTitle;
+      openFileDialog.Filter = "Images|*.png;*.bmp;*.jpg";
+      if (openFileDialog.ShowDialog() == DialogResult.OK) {
+        using Image image = Image.FromFile(openFileDialog.FileName);
+        if (id == 1)
+          return new Bitmap(image, 360, 208);
+        else
+          return new Bitmap(image, 56, 56);
+      }
+      return null;
+    }
+
+    private byte[] BitmapToBlockData(Bitmap bitmap, int size) {
+      byte[] data = new byte[size];
+      for (int y = 0, byteIndex = 0; y < bitmap.Height; y++) {
+        for (int x = 0; x < bitmap.Width; x++, byteIndex += 8) {
+          Color color = bitmap.GetPixel(x, y);
+          int r = color.R;
+          int g = color.G;
+          int b = color.B;
+          int color_int = ((r >> 3) << 11) | ((g >> 2) << 5) | (b >> 3);
+          BinaryPrimitives.WriteUInt16LittleEndian(data.AsSpan(byteIndex..(byteIndex + 2)), (ushort)color_int);
+        }
+      }
+      return data;
+    }
+
+    private void importCurrentProfilePictureButton_Click(object sender, EventArgs e) {
+      MessageBox.Show(Language.ImportWarning, Language.PluginName, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+      Bitmap? bitmap = SelectImage(1);
+      if (bitmap == null) return;
+      sav.Blocks.SetBlockValue(Constants.CurrentProfilePictureWidth, (uint)1440);
+      sav.Blocks.SetBlockValue(Constants.CurrentProfilePictureHeight, (uint)832);
+      sav.Blocks.SetBlockValue(Constants.CurrentProfilePictureSize, (uint)599040);
+      byte[] data = BitmapToBlockData(bitmap, 622080);
+      sav.Blocks.GetBlock(Constants.CurrentProfilePictureImage).ChangeData(data);
+      ExtractImageTo(Constants.CurrentProfilePictureImage, Constants.CurrentProfilePictureHeight, Constants.CurrentProfilePictureWidth, currentProfilePicture);
+      sav.State.Edited = true;
+    }
+    private void importCurrentProfileIconButton_Click(object sender, EventArgs e) {
+      MessageBox.Show(Language.ImportWarning, Language.PluginName, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+      Bitmap? bitmap = SelectImage(2);
+      if (bitmap == null) return;
+      sav.Blocks.SetBlockValue(Constants.CurrentProfileIconWidth, (uint)224);
+      sav.Blocks.SetBlockValue(Constants.CurrentProfileIconHeight, (uint)224);
+      sav.Blocks.SetBlockValue(Constants.CurrentProfileIconSize, (uint)25088);
+      byte[] data = BitmapToBlockData(bitmap, 61952);
+      sav.Blocks.GetBlock(Constants.CurrentProfileIconImage).ChangeData(data);
+      ExtractImageTo(Constants.CurrentProfileIconImage, Constants.CurrentProfileIconHeight, Constants.CurrentProfileIconWidth, currentProfileIcon);
+      sav.State.Edited = true;
+    }
+    private void importInitialProfilePictureButton_Click(object sender, EventArgs e) {
+      MessageBox.Show(Language.ImportWarning, Language.PluginName, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+      Bitmap? bitmap = SelectImage(1);
+      if (bitmap == null) return;
+      sav.Blocks.SetBlockValue(Constants.InitialProfilePictureWidth, (uint)1440);
+      sav.Blocks.SetBlockValue(Constants.InitialProfilePictureHeight, (uint)832);
+      sav.Blocks.SetBlockValue(Constants.InitialProfilePictureSize, (uint)599040);
+      byte[] data = BitmapToBlockData(bitmap, 622080);
+      sav.Blocks.GetBlock(Constants.InitialProfilePictureImage).ChangeData(data);
+      ExtractImageTo(Constants.InitialProfilePictureImage, Constants.CurrentProfilePictureHeight, Constants.InitialProfilePictureWidth, initialProfilePicture);
+      sav.State.Edited = true;
+    }
+    private void importInitialProfileIconButton_Click(object sender, EventArgs e) {
+      MessageBox.Show(Language.ImportWarning, Language.PluginName, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+      Bitmap? bitmap = SelectImage(2);
+      if (bitmap == null) return;
+      sav.Blocks.SetBlockValue(Constants.InitialProfileIconWidth, (uint)224);
+      sav.Blocks.SetBlockValue(Constants.InitialProfileIconHeight, (uint)224);
+      sav.Blocks.SetBlockValue(Constants.InitialProfileIconSize, (uint)25088);
+      byte[] data = BitmapToBlockData(bitmap, 61952);
+      sav.Blocks.GetBlock(Constants.InitialProfileIconImage).ChangeData(data);
+      ExtractImageTo(Constants.InitialProfileIconImage, Constants.InitialProfileIconHeight, Constants.InitialProfileIconWidth, initialProfileIcon);
+      sav.State.Edited = true;
     }
   }
-
-  private void ExtractImageTo(uint imageBlock, uint widthBlock, uint heightBlock, PictureBox pictureBox) {
-    SCBlock image = SAV.Blocks.GetBlock(imageBlock);
-    int height = (int)SAV.Blocks.GetBlockValue<uint>(heightBlock);
-    int width = (int)SAV.Blocks.GetBlockValue<uint>(widthBlock);
-    byte[] rgbaBytes = DXT1.Decompress(image.Data, width, height);
-    pictureBox.Image = DrawingUtil.GetBitmap(rgbaBytes, width, height);
-    pictureBox.Size = pictureBox.Image.Size / 4;
-  }
-
 }
