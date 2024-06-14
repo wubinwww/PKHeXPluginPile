@@ -7,13 +7,13 @@ public partial class DenIVs : Form {
   private static readonly int[] min_stars = [0, 0, 0, 0, 1, 1, 2, 2, 2, 0];
   private static readonly int[] max_stars = [0, 1, 1, 2, 2, 2, 3, 3, 4, 4];
 
-  private static readonly ComboboxItem genderless = new ComboboxItem("Genderless", 2);
-  private static readonly ComboboxItem female = new ComboboxItem("Female", 1);
-  private static readonly ComboboxItem male = new ComboboxItem("Male", 0);
-  private static readonly ComboboxItem any = new ComboboxItem("Any", -1);
+  private static readonly ComboboxItem genderless = new ComboboxItem("无性别", 2);
+  private static readonly ComboboxItem female = new ComboboxItem("母", 1);
+  private static readonly ComboboxItem male = new ComboboxItem("公", 0);
+  private static readonly ComboboxItem any = new ComboboxItem("任意", -1);
 
-  private static readonly string[] genders = ["Male", "Female", "Genderless"];
-  private static readonly string[] shinytype = ["No", "Star", "Square"];
+  private static readonly string[] genders = ["公", "母", "无性别"];
+  private static readonly string[] shinytype = ["否", "星闪", "方闪"];
   private static readonly Dictionary<string, int> natureIdx = [];
 
   private CancellationTokenSource cts = new CancellationTokenSource();
@@ -26,13 +26,13 @@ public partial class DenIVs : Form {
     seedBox.Text = $"{param.Seed:X16}";
     denBox.SelectedIndex = idx;
     natureBox.Items.Clear();
-    natureBox.Items.Add("Any");
+    natureBox.Items.Add("无");
     natureBox.Items.AddRange(gameStrings.natures);
     for (int i = 0; i < gameStrings.natures.Length; i++) {
       natureIdx[gameStrings.natures[i]] = i + 1;
     }
     natureBox.MaxDropDownItems = gameStrings.natures.Length;
-    natureBox.DefaultValue = "Any";
+    natureBox.DefaultValue = "任意";
     natureBox.DisplayMember = "Value";
     natureBox.SetItemChecked(0, true);
     natureBox.DropDownClosed += (sender, e) => Focus();
@@ -163,7 +163,7 @@ public partial class DenIVs : Form {
       return false;
 
     string shiny = (string)row.Cells[10].Value;
-    return (shinyBox.SelectedIndex == 1 && shiny != "No") || shinyBox.Text == shiny || shinyBox.SelectedIndex == 0;
+    return (shinyBox.SelectedIndex == 1 && shiny != "否") || shinyBox.Text == shiny || shinyBox.SelectedIndex == 0;
   }
 
   private void SpeciesList_SelectedIndexChanged(object sender, EventArgs e) {
@@ -180,7 +180,7 @@ public partial class DenIVs : Form {
 
   private void PopulateAbilityList(PersonalInfo8SWSH abilities, int a) {
     abilityBox.Items.Clear();
-    abilityBox.Items.Add("Any");
+    abilityBox.Items.Add("任意");
     GameStrings s = GameInfo.Strings;
     for (int i = 0; i < abilities.AbilityCount; i++) {
       int ability = abilities.GetAbilityAtIndex(i);
@@ -226,12 +226,12 @@ public partial class DenIVs : Form {
   }
 
   private async void SearchButton_Click(object sender, EventArgs e) {
-    if (searchButton.Text == "Stop") {
+    if (searchButton.Text == "停止") {
       cts.Cancel();
-      searchButton.Text = "Search";
+      searchButton.Text = "搜索";
       return;
     }
-    DialogResult result = WinFormsUtil.Prompt(MessageBoxButtons.YesNo, "This might take a long time. Are you sure you want to start the search?");
+    DialogResult result = WinFormsUtil.Prompt(MessageBoxButtons.YesNo, "这可能需要很长时间。您确定要开始搜索吗?");
     if (result != DialogResult.Yes)
       return;
 
@@ -242,16 +242,16 @@ public partial class DenIVs : Form {
     startFrame.Text = start_frame.ToString();
     // uint end_frame = uint.Parse(endFrame.Text);
     raidContent.Rows.Clear();
-    searchButton.Text = "Stop";
+    searchButton.Text = "停止";
     cts = new CancellationTokenSource();
     try {
       var row = await SearchTask(start_seed, start_frame, cts.Token);
       //((ISupportInitialize)raidContent).BeginInit();
       raidContent.Rows.Add(row);
-      searchButton.Text = "Search";
+      searchButton.Text = "搜索";
       //((ISupportInitialize)raidContent).EndInit();
     } catch (OperationCanceledException) {
-      WinFormsUtil.Alert("Stop Search!");
+      WinFormsUtil.Alert("停止搜索!");
     }
   }
 

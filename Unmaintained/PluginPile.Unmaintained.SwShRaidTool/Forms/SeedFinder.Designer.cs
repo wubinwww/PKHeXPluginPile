@@ -67,7 +67,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(21, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "EC";
+            this.label1.Text = "加密常数";
             //
             // label2
             //
@@ -171,7 +171,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(28, 13);
             this.label13.TabIndex = 20;
-            this.label13.Text = "SPE";
+            this.label13.Text = "速度";
             //
             // label12
             //
@@ -181,7 +181,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(29, 13);
             this.label12.TabIndex = 19;
-            this.label12.Text = "SPD";
+            this.label12.Text = "特防";
             //
             // label11
             //
@@ -191,7 +191,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(28, 13);
             this.label11.TabIndex = 18;
-            this.label11.Text = "SPA";
+            this.label11.Text = "特攻";
             //
             // label10
             //
@@ -201,7 +201,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(28, 13);
             this.label10.TabIndex = 17;
-            this.label10.Text = "DEF";
+            this.label10.Text = "防御";
             //
             // label9
             //
@@ -211,7 +211,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(28, 13);
             this.label9.TabIndex = 16;
-            this.label9.Text = "ATK";
+            this.label9.Text = "攻击";
             //
             // label8
             //
@@ -250,7 +250,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.groupBox1.Size = new System.Drawing.Size(150, 249);
             this.groupBox1.TabIndex = 27;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "PKMN Information";
+            this.groupBox1.Text = "宝可梦信息";
             //
             // seedSlow
             //
@@ -259,7 +259,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.seedSlow.Name = "seedSlow";
             this.seedSlow.Size = new System.Drawing.Size(125, 23);
             this.seedSlow.TabIndex = 30;
-            this.seedSlow.Text = "Calculate Seed (Slow)";
+            this.seedSlow.Text = "计算Seed (慢)";
             this.seedSlow.UseVisualStyleBackColor = true;
             this.seedSlow.Click += new System.EventHandler(this.SeedSlow_Click);
             //
@@ -270,7 +270,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.seedFast.Name = "seedFast";
             this.seedFast.Size = new System.Drawing.Size(125, 23);
             this.seedFast.TabIndex = 29;
-            this.seedFast.Text = "Calculate Seed (Fast)";
+            this.seedFast.Text = "计算Seed (快)";
             this.seedFast.UseVisualStyleBackColor = true;
             this.seedFast.Click += new System.EventHandler(this.SeedFast_Click);
             //
@@ -308,7 +308,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.groupBox2.Size = new System.Drawing.Size(150, 62);
             this.groupBox2.TabIndex = 28;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Calculated Seed";
+            this.groupBox2.Text = "计算Seed";
             //
             // SeedResult
             //
@@ -336,7 +336,7 @@ namespace PluginPile.Unmaintained.SwShRaidTool
             this.Name = "SeedFinder";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "SeedFinder";
+            this.Text = "极巨巢穴Seed计算器";
             ((System.ComponentModel.ISupportInitialize)(this.MinSpe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.minSpd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.minSpa)).EndInit();

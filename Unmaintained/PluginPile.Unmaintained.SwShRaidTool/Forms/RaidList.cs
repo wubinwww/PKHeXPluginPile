@@ -31,11 +31,11 @@ public partial class RaidList : Form {
 
     RaidPKM pkm = _raids.GenerateFromIndex(raidParameters);
     GameStrings s = GameInfo.Strings;;
-    L_Ability.Text = $"Ability: {s.Ability[pkm.Ability]}";
-    L_Nature.Text = $"Nature: {s.natures[pkm.Nature]}";
-    L_ShinyInFrames.Text = $"Next Shiny Frame: {RandUtil.GetNextShinyFrame(raidParameters.Seed)}";
+    L_Ability.Text = $"特性: {s.Ability[pkm.Ability]}";
+    L_Nature.Text = $"性格: {s.natures[pkm.Nature]}";
+    L_ShinyInFrames.Text = $"下一个异色巢穴: {RandUtil.GetNextShinyFrame(raidParameters.Seed)}帧";
     L_Shiny.Visible = pkm.ShinyType != 0;
-    L_Shiny.Text = pkm.ShinyType == 1 ? "Shiny: Star" : pkm.ShinyType == 2 ? (pkm.ForcedShinyType == 2 ? "Shiny: Forced Square" : "Shiny: Square!!!") : "Shiny locked";
+    L_Shiny.Text = pkm.ShinyType == 1 ? "异色: 星闪" : pkm.ShinyType == 2 ? (pkm.ForcedShinyType == 2 ? "异色: 强制方块闪" : "异色: 方块闪!!!") : "异色: 锁定";
 
     for (int i = 0; i < 6; i++) {
       IVs[i].Text = $"{pkm.IVs[i]:00}";
